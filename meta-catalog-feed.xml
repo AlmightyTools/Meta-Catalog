@@ -164,38 +164,6 @@
     <g:inventory>0</g:inventory>
   </item>
   <item>
-    <g:id>48877018218792</g:id>
-    <g:item_group_id>9346605482280</g:item_group_id>
-    <title>Priority Processing</title>
-    <description>get ahead of the queue</description>
-    <link>https://almighty.tools/products/priority-processing?variant=48877018218792</link>
-    <g:condition>new</g:condition>
-    <g:availability>in stock</g:availability>
-    <g:price>5.95 USD</g:price>
-    <g:image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/PriorityProcessing.webp?v=1762847956</g:image_link>
-    <g:brand>Almighty Tools Inc.</g:brand>
-    <g:mpn>priority-processing</g:mpn>
-    <g:custom_label_0></g:custom_label_0>
-    <g:custom_label_1>regular</g:custom_label_1>
-    <g:inventory>0</g:inventory>
-  </item>
-  <item>
-    <g:id>48877022445864</g:id>
-    <g:item_group_id>9346606006568</g:item_group_id>
-    <title>Priority Processing &amp; Shipping Insurance</title>
-    <description>get ahead of the queue, and ensure your parcel is safe &amp; secure</description>
-    <link>https://almighty.tools/products/priority-processing-shipping-insurance?variant=48877022445864</link>
-    <g:condition>new</g:condition>
-    <g:availability>in stock</g:availability>
-    <g:price>9.95 USD</g:price>
-    <g:image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/Priority_Processing_Shipping_Insurance.webp?v=1762847957</g:image_link>
-    <g:brand>Almighty Tools Inc.</g:brand>
-    <g:mpn>priority-processing-shipping-insurance</g:mpn>
-    <g:custom_label_0></g:custom_label_0>
-    <g:custom_label_1>regular</g:custom_label_1>
-    <g:inventory>0</g:inventory>
-  </item>
-  <item>
     <g:id>48877026640168</g:id>
     <g:item_group_id>9346606301480</g:item_group_id>
     <title>The Almighty Screwdriver Cordless™</title>
@@ -716,25 +684,6 @@
     <g:inventory>0</g:inventory>
   </item>
   <item>
-    <g:id>48920424349992</g:id>
-    <g:item_group_id>9361506828584</g:item_group_id>
-    <title>Replacement Screw Kit for The Almighty Ruler®</title>
-    <description>Perfect for those who have misplaced or lost the original screws, this kit provides an easy and cost-effective solution to keep your ruler in optimal working condition. Each kit includes high-quality screws that fit perfectly, ensuring the battery cover stays securely in place. This kit contains 1x Screw for The Almighty Ruler®</description>
-    <link>https://almighty.tools/products/replacement-screw-kit-for-the-almighty-ruler?variant=48920424349992</link>
-    <g:condition>new</g:condition>
-    <g:availability>in stock</g:availability>
-    <g:price>1.99 USD</g:price>
-    <g:sale_price>0.99 USD</g:sale_price>
-    <g:image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/Replacement_Screw_Kit_for_The_Almighty_Ruler.jpg?v=1721073946</g:image_link>
-    <g:brand>The Almighty Tools</g:brand>
-    <g:mpn>almighty-ruler-replacement-screw</g:mpn>
-    <g:product_type>Screws Kit</g:product_type>
-    <g:custom_label_0>Screws Kit</g:custom_label_0>
-    <g:custom_label_1>sale</g:custom_label_1>
-    <g:shipping_weight>0.01 kg</g:shipping_weight>
-    <g:inventory>0</g:inventory>
-  </item>
-  <item>
     <g:id>49937880252712</g:id>
     <g:item_group_id>9482682532136</g:item_group_id>
     <title>The Almighty DIYers Essentials Bundle™</title>
@@ -1231,24 +1180,6 @@
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>0.4 kg</g:shipping_weight>
     <g:inventory>9983</g:inventory>
-  </item>
-  <item>
-    <g:id>50910847041832</g:id>
-    <g:item_group_id>9629683024168</g:item_group_id>
-    <title>Mystery Box</title>
-    <description>A surprise treat, just for you — no hints, no spoilers. Add a little magic to your order!</description>
-    <link>https://almighty.tools/products/mystery-box?variant=50910847041832</link>
-    <g:condition>new</g:condition>
-    <g:availability>in stock</g:availability>
-    <g:price>33.39 USD</g:price>
-    <g:sale_price>19.99 USD</g:sale_price>
-    <g:image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_Mystery_Gift.webp?v=1747066959</g:image_link>
-    <g:brand>The Almighty Tools</g:brand>
-    <g:mpn>mystery-box-1</g:mpn>
-    <g:custom_label_0></g:custom_label_0>
-    <g:custom_label_1>sale</g:custom_label_1>
-    <g:shipping_weight>300 g</g:shipping_weight>
-    <g:inventory>3678</g:inventory>
   </item>
   <item>
     <g:id>50080391495976</g:id>
@@ -3194,24 +3125,6 @@
     <g:inventory>97</g:inventory>
   </item>
   <item>
-    <g:id>50910870438184</g:id>
-    <g:item_group_id>9879628022056</g:item_group_id>
-    <title>Premier Mystery Box</title>
-    <description>A surprise treat, just for you — no hints, no spoilers. Add a little magic to your order!</description>
-    <link>https://almighty.tools/products/mystery-box-variant-2?variant=50910870438184</link>
-    <g:condition>new</g:condition>
-    <g:availability>in stock</g:availability>
-    <g:price>66.69 USD</g:price>
-    <g:sale_price>39.99 USD</g:sale_price>
-    <g:image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_Mystery_Gift.webp?v=1747066959</g:image_link>
-    <g:brand>The Almighty Tools</g:brand>
-    <g:mpn>mystery-box-2</g:mpn>
-    <g:custom_label_0></g:custom_label_0>
-    <g:custom_label_1>sale</g:custom_label_1>
-    <g:shipping_weight>300 g</g:shipping_weight>
-    <g:inventory>3671</g:inventory>
-  </item>
-  <item>
     <g:id>51349921693992</g:id>
     <g:item_group_id>10128903110952</g:item_group_id>
     <title>The Almighty Smartwatch™ - Black</title>
@@ -3416,24 +3329,6 @@
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>0.18 kg</g:shipping_weight>
     <g:inventory>9977</g:inventory>
-  </item>
-  <item>
-    <g:id>51779483566376</g:id>
-    <g:item_group_id>10267993047336</g:item_group_id>
-    <title>Fast Shipping Only US</title>
-    <description>Get your order in 2-3 business days. Available for US deliveries only.</description>
-    <link>https://almighty.tools/products/fast-shipping?variant=51779483566376</link>
-    <g:condition>new</g:condition>
-    <g:availability>in stock</g:availability>
-    <g:price>12.99 USD</g:price>
-    <g:image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/Fast_Shipping_Only_US.webp?v=1778684828</g:image_link>
-    <g:brand>The Almighty Tools</g:brand>
-    <g:mpn>FAST-SHIP-USA</g:mpn>
-    <g:product_type>Shipping Upgrade</g:product_type>
-    <g:custom_label_0>Shipping Upgrade</g:custom_label_0>
-    <g:custom_label_1>regular</g:custom_label_1>
-    <g:shipping_weight>300 g</g:shipping_weight>
-    <g:inventory>9797</g:inventory>
   </item>
   <item>
     <g:id>51892278165800</g:id>
