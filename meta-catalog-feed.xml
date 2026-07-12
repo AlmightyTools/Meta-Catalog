@@ -675,7 +675,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>15543</g:inventory>
+    <g:inventory>15542</g:inventory>
   </item>
   <item>
     <g:id>48877287276840</g:id>
@@ -1474,6 +1474,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>726084530348</g:gtin>
     <g:product_type>Contour Gauge</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Marking Tools</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -1513,6 +1514,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>765573826814</g:gtin>
     <g:product_type>Cutters</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Cutters</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -1552,6 +1554,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>765573826807</g:gtin>
     <g:product_type>Cutters</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Cutters</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -1591,6 +1594,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>765573826791</g:gtin>
     <g:product_type>Cutters</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Cutters</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -1630,6 +1634,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>765573827736</g:gtin>
     <g:product_type>Cutters</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Cutters</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -1669,6 +1674,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>765573826791</g:gtin>
     <g:product_type>Cutters</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Cutters</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -1708,6 +1714,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>765573826999</g:gtin>
     <g:product_type>Cutters</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Cutters</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -1796,6 +1803,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>313103710708</g:gtin>
     <g:product_type>Flashlight</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Flashlights &amp; Headlamps &gt; Flashlights</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -1840,6 +1848,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>860013301552</g:gtin>
     <g:product_type>Caulking Tools</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Caulking Tools</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -1920,6 +1929,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>195893946495</g:gtin>
     <g:product_type>Air Compressor</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Compressors</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -1961,6 +1971,7 @@
     <g:gtin>06974955834093</g:gtin>
     <g:color>Blue</g:color>
     <g:product_type>Paint Sprayer</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Paint Tools &gt; Paint Sprayers</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -2002,6 +2013,7 @@
     <g:gtin>06974955832259</g:gtin>
     <g:color>Yellow</g:color>
     <g:product_type>Paint Sprayer</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Paint Tools &gt; Paint Sprayers</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -2170,6 +2182,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:mpn>The_Almighty_Flashlight_Pro</g:mpn>
     <g:product_type>Flashlight</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Flashlights &amp; Headlamps &gt; Flashlights</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -2210,6 +2223,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>0701851290564</g:gtin>
     <g:product_type>Flashlight</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Flashlights &amp; Headlamps &gt; Flashlights</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -2250,6 +2264,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>0701851290564</g:gtin>
     <g:product_type>Flashlight</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Flashlights &amp; Headlamps &gt; Flashlights</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -2290,6 +2305,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>0701851290564</g:gtin>
     <g:product_type>Flashlight</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Flashlights &amp; Headlamps &gt; Flashlights</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -2330,6 +2346,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>0701851290564</g:gtin>
     <g:product_type>Flashlight</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Flashlights &amp; Headlamps &gt; Flashlights</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -2370,6 +2387,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>0748661298618</g:gtin>
     <g:product_type>Flashlight</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Flashlights &amp; Headlamps &gt; Flashlights</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -2411,6 +2429,7 @@
     <g:gtin>737300196507</g:gtin>
     <g:color>Black</g:color>
     <g:product_type>Flashlight</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Flashlights &amp; Headlamps &gt; Flashlights</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -2452,6 +2471,7 @@
     <g:gtin>753448432956</g:gtin>
     <g:color>Green</g:color>
     <g:product_type>Flashlight</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Flashlights &amp; Headlamps &gt; Flashlights</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -2492,6 +2512,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>726312679986</g:gtin>
     <g:product_type>Flashlight</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Flashlights &amp; Headlamps &gt; Flashlights</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -2536,6 +2557,7 @@
     <g:gtin>00198715251296</g:gtin>
     <g:color>Yellow</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -2581,6 +2603,7 @@
     <g:gtin>00198715582543</g:gtin>
     <g:color>Yellow</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -2626,6 +2649,7 @@
     <g:gtin>00198715366341</g:gtin>
     <g:color>Blue</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -2671,6 +2695,7 @@
     <g:gtin>00198715094169</g:gtin>
     <g:color>Blue</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -2716,6 +2741,7 @@
     <g:gtin>00860014675805</g:gtin>
     <g:color>Pink</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -2761,6 +2787,7 @@
     <g:gtin>00860014675812</g:gtin>
     <g:color>Pink</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -2881,6 +2908,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>029082859146</g:gtin>
     <g:product_type>Backpack</g:product_type>
+    <g:google_product_category>Luggage &amp; Bags &gt; Backpacks</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -3332,6 +3360,7 @@
     <g:gtin>768657156500</g:gtin>
     <g:color>Orange</g:color>
     <g:product_type>Concrete Nail Gun</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Nailers &amp; Staplers</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -3380,6 +3409,7 @@
     <g:gtin>768657157316</g:gtin>
     <g:color>Green</g:color>
     <g:product_type>Concrete Nail Gun</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Nailers &amp; Staplers</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -3420,6 +3450,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>06976297860631</g:gtin>
     <g:product_type>Air Compressor</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Compressors</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -3587,6 +3618,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>05051294184322</g:gtin>
     <g:product_type>Air Compressor</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Compressors</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -3717,6 +3749,7 @@
     <g:gtin>126000000007</g:gtin>
     <g:color>Yellow</g:color>
     <g:product_type>Tool Sets</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Tool Sets</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -3759,6 +3792,7 @@
     <g:gtin>744110545234</g:gtin>
     <g:color>Pink</g:color>
     <g:product_type>Tool Sets</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Tool Sets</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -4039,6 +4073,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>782943677807</g:gtin>
     <g:product_type>Clamping Squares</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Tool Clamps &amp; Vises</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -4073,6 +4108,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>313096319339</g:gtin>
     <g:product_type>Clamping Squares</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Tool Clamps &amp; Vises</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -4107,6 +4143,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>313111138136</g:gtin>
     <g:product_type>Clamping Squares</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Tool Clamps &amp; Vises</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -4249,6 +4286,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>715727698699</g:gtin>
     <g:product_type>Carabiner</g:product_type>
+    <g:google_product_category>Sporting Goods &gt; Outdoor Recreation &gt; Climbing &gt; Carabiners</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -4283,6 +4321,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>715727698330</g:gtin>
     <g:product_type>Carabiner</g:product_type>
+    <g:google_product_category>Sporting Goods &gt; Outdoor Recreation &gt; Climbing &gt; Carabiners</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -4518,6 +4557,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>705353176081</g:gtin>
     <g:product_type>Protective Mask</g:product_type>
+    <g:google_product_category>Business &amp; Industrial &gt; Work Safety Protective Gear &gt; Protective Masks</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -4638,6 +4678,7 @@
     <g:gtin>00198715251296</g:gtin>
     <g:color>Yellow</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -4687,6 +4728,7 @@
     <g:gtin>00198715582543</g:gtin>
     <g:color>Yellow</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -4736,6 +4778,7 @@
     <g:gtin>00198715366341</g:gtin>
     <g:color>Blue</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -4785,6 +4828,7 @@
     <g:gtin>00198715094169</g:gtin>
     <g:color>Blue</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -4834,6 +4878,7 @@
     <g:gtin>00860014675805</g:gtin>
     <g:color>Pink</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -4883,6 +4928,7 @@
     <g:gtin>00860014675812</g:gtin>
     <g:color>Pink</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -4961,6 +5007,7 @@
     <g:gtin>00198715251296</g:gtin>
     <g:color>Yellow</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -5005,6 +5052,7 @@
     <g:gtin>00198715582543</g:gtin>
     <g:color>Yellow</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -5049,6 +5097,7 @@
     <g:gtin>00198715366341</g:gtin>
     <g:color>Blue</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -5093,6 +5142,7 @@
     <g:gtin>00198715094169</g:gtin>
     <g:color>Blue</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -5137,6 +5187,7 @@
     <g:gtin>00860014675805</g:gtin>
     <g:color>Pink</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -5181,6 +5232,7 @@
     <g:gtin>00860014675812</g:gtin>
     <g:color>Pink</g:color>
     <g:product_type>Laser Tape Measure Ruler</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Measuring Tools &amp; Sensors &gt; Tape Measures</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -5334,6 +5386,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>093337559013</g:gtin>
     <g:product_type>Steam Cleaner</g:product_type>
+    <g:google_product_category>Home &amp; Garden &gt; Household Appliances &gt; Floor &amp; Steam Cleaners</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -5368,6 +5421,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:mpn>Four_Piece_Set</g:mpn>
     <g:product_type>Pressure Washers</g:product_type>
+    <g:google_product_category>Home &amp; Garden &gt; Lawn &amp; Garden &gt; Outdoor Power Equipment &gt; Pressure Washers</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -5402,6 +5456,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:mpn>Dual_Purpose_Spray_Gun</g:mpn>
     <g:product_type>Pressure Washers</g:product_type>
+    <g:google_product_category>Home &amp; Garden &gt; Lawn &amp; Garden &gt; Outdoor Power Equipment &gt; Pressure Washers</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -5433,6 +5488,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>635401815269</g:gtin>
     <g:product_type>Camping Light</g:product_type>
+    <g:google_product_category>Sporting Goods &gt; Outdoor Recreation &gt; Camping &amp; Hiking &gt; Camping Lights &amp; Lanterns</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
@@ -5467,6 +5523,7 @@
     <g:brand>The Almighty Tools</g:brand>
     <g:gtin>764461700687</g:gtin>
     <g:product_type>Protective Mask</g:product_type>
+    <g:google_product_category>Business &amp; Industrial &gt; Work Safety Protective Gear &gt; Protective Masks</g:google_product_category>
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
