@@ -496,7 +496,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Screwdrivers</g:custom_label_4>
     <g:shipping_weight>200 g</g:shipping_weight>
-    <g:inventory>135</g:inventory>
+    <g:inventory>134</g:inventory>
   </item>
   <item>
     <g:id>48877044957480</g:id>
@@ -728,7 +728,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>4989</g:inventory>
+    <g:inventory>4988</g:inventory>
   </item>
   <item>
     <g:id>48877287080232</g:id>
@@ -1789,7 +1789,7 @@
     <g:custom_label_3>bundle</g:custom_label_3>
     <g:custom_label_4>Cat-All-Tools,Cat-Bundles</g:custom_label_4>
     <g:shipping_weight>2.1 kg</g:shipping_weight>
-    <g:inventory>135</g:inventory>
+    <g:inventory>134</g:inventory>
   </item>
   <item>
     <g:id>49964524994856</g:id>
@@ -4011,7 +4011,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Screwdrivers</g:custom_label_4>
     <g:shipping_weight>0.7 g</g:shipping_weight>
-    <g:inventory>9688</g:inventory>
+    <g:inventory>9687</g:inventory>
   </item>
   <item>
     <g:id>51411044204840</g:id>
@@ -4531,7 +4531,7 @@
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Screwdrivers</g:custom_label_4>
     <g:shipping_weight>0.73 g</g:shipping_weight>
-    <g:inventory>9373</g:inventory>
+    <g:inventory>9372</g:inventory>
   </item>
   <item>
     <g:id>50742764798248</g:id>
