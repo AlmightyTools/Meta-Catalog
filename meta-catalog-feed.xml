@@ -777,7 +777,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>0.37 kg</g:shipping_weight>
-    <g:inventory>4393</g:inventory>
+    <g:inventory>4392</g:inventory>
   </item>
   <item>
     <g:id>48877287309608</g:id>
@@ -2419,7 +2419,7 @@
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Flashlight</g:custom_label_4>
     <g:shipping_weight>0.35 kg</g:shipping_weight>
-    <g:inventory>9957</g:inventory>
+    <g:inventory>9956</g:inventory>
   </item>
   <item>
     <g:id>50120712028456</g:id>
@@ -2862,6 +2862,8 @@
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
+    <g:rating>4.8</g:rating>
+    <g:rating_count>692</g:rating_count>
     <g:custom_label_0>Power Bank</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Power-Bank</g:custom_label_4>
@@ -2902,6 +2904,8 @@
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
+    <g:rating>4.8</g:rating>
+    <g:rating_count>692</g:rating_count>
     <g:custom_label_0>Power Bank</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Power-Bank</g:custom_label_4>
@@ -3934,7 +3938,7 @@
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>0.2 kg</g:shipping_weight>
-    <g:inventory>9465</g:inventory>
+    <g:inventory>9464</g:inventory>
   </item>
   <item>
     <g:id>50503554728232</g:id>
@@ -4011,7 +4015,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Screwdrivers</g:custom_label_4>
     <g:shipping_weight>0.7 g</g:shipping_weight>
-    <g:inventory>9679</g:inventory>
+    <g:inventory>9678</g:inventory>
   </item>
   <item>
     <g:id>51411044204840</g:id>
