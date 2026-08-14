@@ -1167,6 +1167,8 @@
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
+    <g:rating>4.9</g:rating>
+    <g:rating_count>101</g:rating_count>
     <g:custom_label_0>Tool Rool</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_2>bestseller</g:custom_label_2>
@@ -1215,6 +1217,8 @@
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
+    <g:rating>4.9</g:rating>
+    <g:rating_count>101</g:rating_count>
     <g:custom_label_0>Tool Rool</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_2>bestseller</g:custom_label_2>
@@ -1263,6 +1267,8 @@
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
+    <g:rating>4.9</g:rating>
+    <g:rating_count>101</g:rating_count>
     <g:custom_label_0>Tool Rool</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_2>bestseller</g:custom_label_2>
@@ -1311,6 +1317,8 @@
     <g:age_group>adult</g:age_group>
     <g:gender>unisex</g:gender>
     <g:return_policy_days>30</g:return_policy_days>
+    <g:rating>4.9</g:rating>
+    <g:rating_count>101</g:rating_count>
     <g:custom_label_0>Tool Rool</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_2>bestseller</g:custom_label_2>
