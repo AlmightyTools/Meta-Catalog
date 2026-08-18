@@ -4627,7 +4627,7 @@
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Other-Tools</g:custom_label_4>
     <g:shipping_weight>0.2 kg</g:shipping_weight>
-    <g:inventory>8986</g:inventory>
+    <g:inventory>8985</g:inventory>
   </item>
   <item>
     <g:id>50821979144488</g:id>
@@ -6032,7 +6032,7 @@
     <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_Cut_004.webp?v=1786021760</g:additional_image_link>
     <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_Cut_005.webp?v=1786021760</g:additional_image_link>
     <g:brand>The Almighty Tools</g:brand>
-    <g:mpn>the_almighty_cut-yellow</g:mpn>
+    <g:gtin>740953801100</g:gtin>
     <g:color>Yellow</g:color>
     <g:product_type>Cutters</g:product_type>
     <g:google_product_category>Hardware &gt; Tools &gt; Cutters</g:google_product_category>
@@ -6068,7 +6068,7 @@
     <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_Cut_004.webp?v=1786021760</g:additional_image_link>
     <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_Cut_005.webp?v=1786021760</g:additional_image_link>
     <g:brand>The Almighty Tools</g:brand>
-    <g:mpn>the_almighty_cut-pink</g:mpn>
+    <g:gtin>795958980565</g:gtin>
     <g:color>Pink</g:color>
     <g:product_type>Cutters</g:product_type>
     <g:google_product_category>Hardware &gt; Tools &gt; Cutters</g:google_product_category>
