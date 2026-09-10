@@ -361,7 +361,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>14466</g:inventory>
+    <g:inventory>14465</g:inventory>
   </item>
   <item>
     <g:id>48877287276840</g:id>
@@ -4499,6 +4499,90 @@
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Other-Tools</g:custom_label_4>
     <g:inventory>9991</g:inventory>
+  </item>
+  <item>
+    <g:id>52365153141032</g:id>
+    <g:item_group_id>10436201054504</g:item_group_id>
+    <title>The Almighty Tools® Gift Card</title>
+    <description>Give them the freedom to choose the perfect tool. The Almighty Tools® Gift Card is delivered digitally and can be used toward any product in our store. A practical gift for DIY enthusiasts, professionals, homeowners, and everyone who loves quality tools.</description>
+    <link>https://almighty.tools/products/the-almighty-tools%C2%AE-gift-card?variant=52365153141032</link>
+    <g:condition>new</g:condition>
+    <g:availability>in stock</g:availability>
+    <g:price>25.00 USD</g:price>
+    <g:image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The-Almighty-Tools-Gift-Card-1000x1000.webp?v=1789040461</g:image_link>
+    <g:brand>The Almighty Tools</g:brand>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:size>$25.00</g:size>
+    <g:product_type>Gift Card</g:product_type>
+    <g:age_group>adult</g:age_group>
+    <g:gender>unisex</g:gender>
+    <g:return_policy_days>30</g:return_policy_days>
+    <g:custom_label_0>Gift Card</g:custom_label_0>
+    <g:custom_label_1>regular</g:custom_label_1>
+    <g:inventory>0</g:inventory>
+  </item>
+  <item>
+    <g:id>52365153173800</g:id>
+    <g:item_group_id>10436201054504</g:item_group_id>
+    <title>The Almighty Tools® Gift Card</title>
+    <description>Give them the freedom to choose the perfect tool. The Almighty Tools® Gift Card is delivered digitally and can be used toward any product in our store. A practical gift for DIY enthusiasts, professionals, homeowners, and everyone who loves quality tools.</description>
+    <link>https://almighty.tools/products/the-almighty-tools%C2%AE-gift-card?variant=52365153173800</link>
+    <g:condition>new</g:condition>
+    <g:availability>in stock</g:availability>
+    <g:price>50.00 USD</g:price>
+    <g:image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The-Almighty-Tools-Gift-Card-1000x1000.webp?v=1789040461</g:image_link>
+    <g:brand>The Almighty Tools</g:brand>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:size>$50.00</g:size>
+    <g:product_type>Gift Card</g:product_type>
+    <g:age_group>adult</g:age_group>
+    <g:gender>unisex</g:gender>
+    <g:return_policy_days>30</g:return_policy_days>
+    <g:custom_label_0>Gift Card</g:custom_label_0>
+    <g:custom_label_1>regular</g:custom_label_1>
+    <g:inventory>0</g:inventory>
+  </item>
+  <item>
+    <g:id>52365153206568</g:id>
+    <g:item_group_id>10436201054504</g:item_group_id>
+    <title>The Almighty Tools® Gift Card</title>
+    <description>Give them the freedom to choose the perfect tool. The Almighty Tools® Gift Card is delivered digitally and can be used toward any product in our store. A practical gift for DIY enthusiasts, professionals, homeowners, and everyone who loves quality tools.</description>
+    <link>https://almighty.tools/products/the-almighty-tools%C2%AE-gift-card?variant=52365153206568</link>
+    <g:condition>new</g:condition>
+    <g:availability>in stock</g:availability>
+    <g:price>100.00 USD</g:price>
+    <g:image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The-Almighty-Tools-Gift-Card-1000x1000.webp?v=1789040461</g:image_link>
+    <g:brand>The Almighty Tools</g:brand>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:size>$100.00</g:size>
+    <g:product_type>Gift Card</g:product_type>
+    <g:age_group>adult</g:age_group>
+    <g:gender>unisex</g:gender>
+    <g:return_policy_days>30</g:return_policy_days>
+    <g:custom_label_0>Gift Card</g:custom_label_0>
+    <g:custom_label_1>regular</g:custom_label_1>
+    <g:inventory>0</g:inventory>
+  </item>
+  <item>
+    <g:id>52365153239336</g:id>
+    <g:item_group_id>10436201054504</g:item_group_id>
+    <title>The Almighty Tools® Gift Card</title>
+    <description>Give them the freedom to choose the perfect tool. The Almighty Tools® Gift Card is delivered digitally and can be used toward any product in our store. A practical gift for DIY enthusiasts, professionals, homeowners, and everyone who loves quality tools.</description>
+    <link>https://almighty.tools/products/the-almighty-tools%C2%AE-gift-card?variant=52365153239336</link>
+    <g:condition>new</g:condition>
+    <g:availability>in stock</g:availability>
+    <g:price>150.00 USD</g:price>
+    <g:image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The-Almighty-Tools-Gift-Card-1000x1000.webp?v=1789040461</g:image_link>
+    <g:brand>The Almighty Tools</g:brand>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:size>$150.00</g:size>
+    <g:product_type>Gift Card</g:product_type>
+    <g:age_group>adult</g:age_group>
+    <g:gender>unisex</g:gender>
+    <g:return_policy_days>30</g:return_policy_days>
+    <g:custom_label_0>Gift Card</g:custom_label_0>
+    <g:custom_label_1>regular</g:custom_label_1>
+    <g:inventory>0</g:inventory>
   </item>
 </channel>
 </rss>
