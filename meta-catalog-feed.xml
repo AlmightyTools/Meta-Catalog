@@ -324,7 +324,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Screwdrivers</g:custom_label_4>
     <g:shipping_weight>455 g</g:shipping_weight>
-    <g:inventory>9323</g:inventory>
+    <g:inventory>9322</g:inventory>
   </item>
   <item>
     <g:id>48877287047464</g:id>
@@ -3346,7 +3346,7 @@
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Other-Tools</g:custom_label_4>
     <g:shipping_weight>0.2 kg</g:shipping_weight>
-    <g:inventory>8939</g:inventory>
+    <g:inventory>8938</g:inventory>
   </item>
   <item>
     <g:id>50821979144488</g:id>
@@ -4473,7 +4473,7 @@
     <g:custom_label_0>Cutters</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Other-Tools</g:custom_label_4>
-    <g:inventory>9899</g:inventory>
+    <g:inventory>9895</g:inventory>
   </item>
   <item>
     <g:id>52197493801256</g:id>
