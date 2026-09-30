@@ -235,7 +235,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Screwdrivers</g:custom_label_4>
     <g:shipping_weight>200 g</g:shipping_weight>
-    <g:inventory>104</g:inventory>
+    <g:inventory>863</g:inventory>
   </item>
   <item>
     <g:id>48877044957480</g:id>
@@ -334,7 +334,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Screwdrivers</g:custom_label_4>
     <g:shipping_weight>455 g</g:shipping_weight>
-    <g:inventory>9193</g:inventory>
+    <g:inventory>71</g:inventory>
   </item>
   <item>
     <g:id>48877287047464</g:id>
@@ -371,7 +371,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>14107</g:inventory>
+    <g:inventory>20125</g:inventory>
   </item>
   <item>
     <g:id>48877287276840</g:id>
@@ -408,7 +408,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>4716</g:inventory>
+    <g:inventory>9234</g:inventory>
   </item>
   <item>
     <g:id>48877287080232</g:id>
@@ -445,7 +445,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>0.37 kg</g:shipping_weight>
-    <g:inventory>3849</g:inventory>
+    <g:inventory>4602</g:inventory>
   </item>
   <item>
     <g:id>48877287309608</g:id>
@@ -482,7 +482,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>3633</g:inventory>
+    <g:inventory>4606</g:inventory>
   </item>
   <item>
     <g:id>50796295553320</g:id>
@@ -519,7 +519,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>0.37 kg</g:shipping_weight>
-    <g:inventory>0</g:inventory>
+    <g:inventory>1939</g:inventory>
   </item>
   <item>
     <g:id>50796295586088</g:id>
@@ -556,7 +556,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>17</g:inventory>
+    <g:inventory>1481</g:inventory>
   </item>
   <item>
     <g:id>48877316210984</g:id>
@@ -724,7 +724,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Tool-Box</g:custom_label_4>
     <g:shipping_weight>0.9 lb</g:shipping_weight>
-    <g:inventory>732</g:inventory>
+    <g:inventory>1060</g:inventory>
   </item>
   <item>
     <g:id>48898607251752</g:id>
@@ -760,7 +760,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Tool-Box</g:custom_label_4>
     <g:shipping_weight>0.9 lb</g:shipping_weight>
-    <g:inventory>169</g:inventory>
+    <g:inventory>590</g:inventory>
   </item>
   <item>
     <g:id>48898607284520</g:id>
@@ -863,7 +863,7 @@
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Vacuum</g:custom_label_4>
     <g:shipping_weight>1.36 lb</g:shipping_weight>
-    <g:inventory>0</g:inventory>
+    <g:inventory>729</g:inventory>
   </item>
   <item>
     <g:id>49937880252712</g:id>
@@ -897,7 +897,7 @@
     <g:custom_label_3>bundle</g:custom_label_3>
     <g:custom_label_4>Cat-All-Tools,Cat-Bundles</g:custom_label_4>
     <g:shipping_weight>1.6 kg</g:shipping_weight>
-    <g:inventory>169</g:inventory>
+    <g:inventory>729</g:inventory>
   </item>
   <item>
     <g:id>49865190965544</g:id>
@@ -1186,7 +1186,7 @@
     <g:custom_label_3>bundle</g:custom_label_3>
     <g:custom_label_4>Cat-All-Tools,Cat-Bundles</g:custom_label_4>
     <g:shipping_weight>2.1 kg</g:shipping_weight>
-    <g:inventory>104</g:inventory>
+    <g:inventory>729</g:inventory>
   </item>
   <item>
     <g:id>49964524994856</g:id>
@@ -1408,7 +1408,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>0.5 kg</g:shipping_weight>
-    <g:inventory>9822</g:inventory>
+    <g:inventory>9919</g:inventory>
   </item>
   <item>
     <g:id>50058124722472</g:id>
@@ -1757,7 +1757,7 @@
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Flashlight</g:custom_label_4>
     <g:shipping_weight>50 g</g:shipping_weight>
-    <g:inventory>8918</g:inventory>
+    <g:inventory>9413</g:inventory>
   </item>
   <item>
     <g:id>50128660988200</g:id>
@@ -1792,7 +1792,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>4793</g:inventory>
+    <g:inventory>20019</g:inventory>
   </item>
   <item>
     <g:id>50128661020968</g:id>
@@ -1827,7 +1827,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>9625</g:inventory>
+    <g:inventory>9190</g:inventory>
   </item>
   <item>
     <g:id>50128661053736</g:id>
@@ -1862,7 +1862,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>8914</g:inventory>
+    <g:inventory>4571</g:inventory>
   </item>
   <item>
     <g:id>50128661086504</g:id>
@@ -1897,7 +1897,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>9793</g:inventory>
+    <g:inventory>4597</g:inventory>
   </item>
   <item>
     <g:id>50808691917096</g:id>
@@ -1932,7 +1932,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>9669</g:inventory>
+    <g:inventory>1936</g:inventory>
   </item>
   <item>
     <g:id>50808691949864</g:id>
@@ -1967,7 +1967,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>9946</g:inventory>
+    <g:inventory>1481</g:inventory>
   </item>
   <item>
     <g:id>50147771220264</g:id>
@@ -2001,7 +2001,7 @@
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Power-Bank</g:custom_label_4>
     <g:shipping_weight>0.25 kg</g:shipping_weight>
-    <g:inventory>1365</g:inventory>
+    <g:inventory>1744</g:inventory>
   </item>
   <item>
     <g:id>50147771253032</g:id>
@@ -2035,7 +2035,7 @@
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Power-Bank</g:custom_label_4>
     <g:shipping_weight>0.25 kg</g:shipping_weight>
-    <g:inventory>674</g:inventory>
+    <g:inventory>585</g:inventory>
   </item>
   <item>
     <g:id>50143662866728</g:id>
@@ -2132,7 +2132,7 @@
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Other-Tools</g:custom_label_4>
     <g:shipping_weight>0.1 g</g:shipping_weight>
-    <g:inventory>9041</g:inventory>
+    <g:inventory>9428</g:inventory>
   </item>
   <item>
     <g:id>50292856193320</g:id>
@@ -2771,7 +2771,7 @@
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>0.45 g</g:shipping_weight>
-    <g:inventory>0</g:inventory>
+    <g:inventory>806</g:inventory>
   </item>
   <item>
     <g:id>50487335551272</g:id>
@@ -2870,7 +2870,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Screwdrivers</g:custom_label_4>
     <g:shipping_weight>0.7 g</g:shipping_weight>
-    <g:inventory>9604</g:inventory>
+    <g:inventory>565</g:inventory>
   </item>
   <item>
     <g:id>51411044204840</g:id>
@@ -2905,7 +2905,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Screwdrivers</g:custom_label_4>
     <g:shipping_weight>1 kg</g:shipping_weight>
-    <g:inventory>9489</g:inventory>
+    <g:inventory>536</g:inventory>
   </item>
   <item>
     <g:id>50585409945896</g:id>
@@ -3221,7 +3221,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>0.37 kg</g:shipping_weight>
-    <g:inventory>0</g:inventory>
+    <g:inventory>1935</g:inventory>
   </item>
   <item>
     <g:id>50626779382056</g:id>
@@ -3257,7 +3257,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>360 g</g:shipping_weight>
-    <g:inventory>86</g:inventory>
+    <g:inventory>1481</g:inventory>
   </item>
   <item>
     <g:id>50742764765480</g:id>
@@ -3356,7 +3356,7 @@
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Other-Tools</g:custom_label_4>
     <g:shipping_weight>0.2 kg</g:shipping_weight>
-    <g:inventory>8911</g:inventory>
+    <g:inventory>9322</g:inventory>
   </item>
   <item>
     <g:id>50821979144488</g:id>
@@ -3390,7 +3390,7 @@
     <g:custom_label_3>bundle</g:custom_label_3>
     <g:custom_label_4>Cat-Bundles</g:custom_label_4>
     <g:shipping_weight>1 g</g:shipping_weight>
-    <g:inventory>9964</g:inventory>
+    <g:inventory>23</g:inventory>
   </item>
   <item>
     <g:id>50821979177256</g:id>
@@ -3424,7 +3424,7 @@
     <g:custom_label_3>bundle</g:custom_label_3>
     <g:custom_label_4>Cat-Bundles</g:custom_label_4>
     <g:shipping_weight>1 g</g:shipping_weight>
-    <g:inventory>9883</g:inventory>
+    <g:inventory>22</g:inventory>
   </item>
   <item>
     <g:id>50827949277480</g:id>
@@ -3458,7 +3458,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>19094</g:inventory>
+    <g:inventory>20026</g:inventory>
   </item>
   <item>
     <g:id>50827949310248</g:id>
@@ -3492,7 +3492,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>5772</g:inventory>
+    <g:inventory>9192</g:inventory>
   </item>
   <item>
     <g:id>50827949343016</g:id>
@@ -3526,7 +3526,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>6112</g:inventory>
+    <g:inventory>4571</g:inventory>
   </item>
   <item>
     <g:id>50827949375784</g:id>
@@ -3560,7 +3560,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>4416</g:inventory>
+    <g:inventory>4597</g:inventory>
   </item>
   <item>
     <g:id>50883506110760</g:id>
@@ -3594,7 +3594,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>93</g:inventory>
+    <g:inventory>1937</g:inventory>
   </item>
   <item>
     <g:id>50883506143528</g:id>
@@ -3628,7 +3628,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>91</g:inventory>
+    <g:inventory>1483</g:inventory>
   </item>
   <item>
     <g:id>50855793230120</g:id>
@@ -3907,7 +3907,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>19218</g:inventory>
+    <g:inventory>20029</g:inventory>
   </item>
   <item>
     <g:id>50883507781928</g:id>
@@ -3941,7 +3941,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>5775</g:inventory>
+    <g:inventory>9191</g:inventory>
   </item>
   <item>
     <g:id>50883507814696</g:id>
@@ -3975,7 +3975,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>6082</g:inventory>
+    <g:inventory>4574</g:inventory>
   </item>
   <item>
     <g:id>50883507847464</g:id>
@@ -4009,7 +4009,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>4385</g:inventory>
+    <g:inventory>4598</g:inventory>
   </item>
   <item>
     <g:id>50883507880232</g:id>
@@ -4043,7 +4043,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>10014</g:inventory>
+    <g:inventory>1936</g:inventory>
   </item>
   <item>
     <g:id>50883507913000</g:id>
@@ -4077,7 +4077,7 @@
     <g:custom_label_0>Laser Tape Measure Ruler</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>97</g:inventory>
+    <g:inventory>1481</g:inventory>
   </item>
   <item>
     <g:id>51349921693992</g:id>
@@ -4516,7 +4516,7 @@
     <g:custom_label_0>Cutters</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Other-Tools</g:custom_label_4>
-    <g:inventory>9921</g:inventory>
+    <g:inventory>9920</g:inventory>
   </item>
   <item>
     <g:id>52365153141032</g:id>
