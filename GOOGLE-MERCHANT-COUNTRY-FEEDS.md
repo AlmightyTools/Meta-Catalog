@@ -7,8 +7,9 @@ These are owned Google Merchant XML files. Meta catalog feeds are unchanged. Sho
 ## Readiness
 
 - US English: existing daily workflow `YpAkJgKt9UmShjiL`, 05:10 UTC.
-- International files: initial Shopify MCP snapshots generated and validated for 29 country/language pairs.
-- International daily workflow: `y4JecM16QSlVln38`, planned 05:25 UTC. Currently unpublished: the existing Shopify credential requires `read_publications` before safe automatic execution.
+- International files: all 29 country/language pairs generated and independently verified at live Raw GitHub URLs.
+- International daily workflow: [`y4JecM16QSlVln38`](https://api.romanov.kim/workflow/y4JecM16QSlVln38), active daily at 05:25 UTC. `read_publications` is enabled on the existing Shopify credential. Full run `1318795` succeeded 2026-10-08 23:42:12–23:45:13 UTC and updated all 29 files.
+- Large successful n8n execution payloads are not retained; failed execution diagnostics are retained; run timeout is 15 minutes.
 - Files are not a confirmation of approval or serving in Merchant Center. Register/validate replacement sources and check shipping/campaign feed labels before cutting over.
 
 ## Content rules
