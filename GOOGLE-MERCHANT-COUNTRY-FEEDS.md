@@ -56,3 +56,43 @@ No Local Inventory file is generated: no physical store was linked. Attributes a
 | Sweden (SE) | en | EUR | 76 | 142 | [almighty-tools-gmc-se.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-se.xml) |
 | Singapore (SG) | en | SGD | 76 | 142 | [almighty-tools-gmc-sg.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-sg.xml) |
 | United States (US) | en | USD | 76 | 142 | [almighty-tools-gmc-us.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-us.xml) |
+
+## Registered source inventory
+
+All 29 owned primary sources were registered and fetched. Final Merchant Center grid: 4,008 offers ingested; every country count matched the XML. Account total: 48 primary sources, including 19 unchanged older sources. The US source was refreshed after the storefront release.
+
+Canada shipping policy `Almighty Tools CA — USD tracked delivery`: 9.99 USD, free from 35 USD; handling 1–3 and transit 4–10 weekdays, total 5–13 business days, as confirmed by Kim. Shopify has different Canada shipping profiles and the public policy says free above 50 USD, so policy reconciliation remains a separate task before cutover.
+
+Approval remains pending: last full owned-source diagnostics showed US Back Support and Clamping Tool 2 Sets image-overlay warnings, with the new Clamping image marked In progress. Google must reprocess images. No claim of complete product approval. Existing Ads campaign feed-label audit and Shopify/agency cutover remain open; no Ads settings were changed.
+
+| Country | Source ID | Feed label | Ingested offers |
+|---|---|---|---:|
+| AE | 10765101244 | AE_OWNED_TEST | 142 |
+| AR | 10763756699 | AR_OWNED_TEST | 120 |
+| AT | 10763757869 | AT_OWNED_TEST | 142 |
+| AU | 10765091083 | AU_OWNED_TEST | 142 |
+| BE | 10763758574 | BE_OWNED_TEST | 142 |
+| BR | 10765101772 | BR_OWNED_TEST | 142 |
+| CA | 10763930295 | CA_OWNED_TEST | 142 |
+| CH | 10763934744 | CH_OWNED_TEST | 142 |
+| CL | 10763932398 | CL_OWNED_TEST | 120 |
+| CO | 10763933082 | CO_OWNED_TEST | 120 |
+| DE | 10763757761 | DE_OWNED_TEST | 142 |
+| DK | 10763935023 | DK_OWNED_TEST | 142 |
+| ES | 10763935851 | ES_OWNED_TEST | 142 |
+| FI | 10765096144 | FI_OWNED_TEST | 142 |
+| FR | 10765085755 | FR_OWNED_TEST | 120 |
+| GB | 10763926098 | GB_OWNED_TEST | 142 |
+| GR | 10763937198 | GR_OWNED_TEST | 142 |
+| IE | 10763762795 | IE_OWNED_TEST | 142 |
+| IL | 10763771882 | IL_OWNED_TEST | 142 |
+| IT | 10763938845 | IT_OWNED_TEST | 142 |
+| JP | 10765103926 | JP_OWNED_TEST | 142 |
+| MX | 10763927874 | MX_OWNED_TEST | 120 |
+| NL | 10763939532 | NL_OWNED_TEST | 142 |
+| NO | 10763940147 | NO_OWNED_TEST | 142 |
+| NZ | 10763943699 | NZ_OWNED_TEST | 142 |
+| PT | 10763764844 | PT_OWNED_TEST | 142 |
+| SE | 10763768606 | SE_OWNED_TEST | 142 |
+| SG | 10763944917 | SG_OWNED_TEST | 142 |
+| US | 10763849973 | US_OWNED_TEST | 142 |
