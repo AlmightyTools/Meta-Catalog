@@ -19,3 +19,5 @@ Retired workflow bp0yDn0lrh69OoOy is stopped and archived. Four unused full-coun
 Country completeness guard: current query allows 90 active products, 10 variants per product. Audit found 82 products, maximum 7 variants. Truncation rejects publication; implement pagination before limits are reached.
 
 Landing checks: GB GBP, AU USD and CA USD matched. MX automated page checks returned 503/403 and remain unverified. Import success does not mean all products are eligible for advertising.
+
+Final Meta verification: all three sources show All good. Main US source imported 142 variants on Oct 9 at 11:56 AM EDT; country source imported 3976 overrides (4.0K in UI), with zero failed and zero issues.
