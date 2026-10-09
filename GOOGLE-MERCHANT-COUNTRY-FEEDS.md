@@ -1,58 +1,58 @@
 # Almighty Tools Google Merchant country feeds
 
-Updated: 2026-10-08 UTC.
+Updated: 2026-10-09 UTC.
 
-These are owned Google Merchant XML files. Meta catalog feeds are unchanged. Shopify/agency integrations have not been disabled.
+29 country files, all in English. France and Latin America will receive separate localized feeds after complete frontend translations. Meta feed files remain independent.
 
-## Readiness
+## Generation and landing pages
 
-- US English: existing daily workflow `YpAkJgKt9UmShjiL`, 05:10 UTC.
-- International files: all 29 country/language pairs generated and independently verified at live Raw GitHub URLs.
-- International daily workflow: [`y4JecM16QSlVln38`](https://api.romanov.kim/workflow/y4JecM16QSlVln38), active daily at 05:25 UTC. `read_publications` is enabled on the existing Shopify credential. Full run `1318795` succeeded 2026-10-08 23:42:12–23:45:13 UTC and updated all 29 files.
-- Large successful n8n execution payloads are not retained; failed execution diagnostics are retained; run timeout is 15 minutes.
-- Files are not a confirmation of approval or serving in Merchant Center. Register/validate replacement sources and check shipping/campaign feed labels before cutting over.
+- US workflow: [Google Merchant US owned feed](https://api.romanov.kim/workflow/YpAkJgKt9UmShjiL), daily 05:10 UTC.
+- Other countries: [Google Merchant owned country feeds](https://api.romanov.kim/workflow/y4JecM16QSlVln38), daily 05:25 UTC.
+- Shopify active and country-published products only. Service add-ons, screws, priority processing, shipping insurance and mystery gifts excluded. Regional French/Spanish duplicate cards excluded from English feeds.
+- Prices, sale prices, currencies and availability use Shopify. Australia, Canada, New Zealand, Brazil and UAE currently sell in USD; non-EUR European countries currently use EUR, per Shopify Markets.
+- Links go to `https://almighty.tools/products/...` with an explicit variant and country (and currency for international files). The country remains stable even with a stored preference or different IP. Initial HTML and structured data show the selected offer. UTM parameters are preserved when changing country; existing consent/privacy processing remains applicable.
+- Genuine, approved original photos are reused; no generated product art. Google product category, actual variant details and country/product-type labels are included directly in each primary XML.
+- `almighty-tools-gmc-us-es.xml` is a legacy candidate, no longer updated or intended for new registration.
+- The live site implementation is [storefront PR 168](https://github.com/AlmightyTools/almighty-tools-store/pull/168).
 
-## Content rules
+## Merchant Center cutover
 
-Use active products published in the country; exclude `no-feed` products (screw kit, processing, shipping insurance and mystery gifts). Include regional FR/LATAM cards only for the matching language. Prices and comparison prices come directly from Shopify contextualPricing. Availability comes from Shopify. Existing real clean product photos are reused by variant, product and SKU, including regional duplicates. No generated product art. Preserve branded names, use existing translations for descriptions. Untranslated new products receive a short localized product label instead of invented claims.
+Files and successful generation do not prove Google approval. New primary sources use country-specific `CC_OWNED_TEST` feed labels and Free listings only until price/image/shipping diagnostics are verified. Existing Shopify/agency sources and Shopping Ads campaigns remain active pending a controlled cutover. Google Ads consumes the linked Merchant account; do not upload these XML files separately into Ads.
 
-Country-specific landing pages use the Shopify checkout storefront, localized routes and explicit country/currency parameters. The primary US English file retains its existing landing route.
+No Local Inventory file is generated: no physical store was linked. Attributes already present in these primary files do not need a duplicate supplemental source. Existing supplemental technical claims should be reviewed, not blindly copied.
 
-## Feed URLs
+24 countries have 76 products / 142 offers; Argentina, Chile, Colombia, France and Mexico have 70 / 120 because Shopify does not publish Quad Socket Pro Bundle, Backpack, Blaster and three Ruler alias cards there. Count reflects current market publication, not a file-size cap.
 
-Use **Raw** URLs, not GitHub blob page URLs.
+## Raw feed URLs
 
 | Country | Language | Currency | Products | Offers | Feed |
 |---|---|---|---:|---:|---|
-| United States | en | USD | 76 | 142 | [almighty-tools-gmc-us.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-us.xml) |
-| United Arab Emirates | en | USD | 76 | 142 | [almighty-tools-gmc-ae.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-ae.xml) |
-| Argentina | es | ARS | 90 | 154 | [almighty-tools-gmc-ar.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-ar.xml) |
-| Austria | en | EUR | 76 | 142 | [almighty-tools-gmc-at.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-at.xml) |
-| Australia | en | USD | 76 | 142 | [almighty-tools-gmc-au.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-au.xml) |
-| Belgium | en | EUR | 76 | 142 | [almighty-tools-gmc-be.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-be.xml) |
-| Brazil | en | USD | 76 | 142 | [almighty-tools-gmc-br.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-br.xml) |
-| Canada | en | USD | 76 | 142 | [almighty-tools-gmc-ca.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-ca.xml) |
-| Switzerland | en | EUR | 76 | 142 | [almighty-tools-gmc-ch.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-ch.xml) |
-| Chile | es | CLP | 90 | 154 | [almighty-tools-gmc-cl.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-cl.xml) |
-| Colombia | es | COP | 90 | 154 | [almighty-tools-gmc-co.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-co.xml) |
-| Germany | en | EUR | 76 | 142 | [almighty-tools-gmc-de.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-de.xml) |
-| Denmark | en | EUR | 76 | 142 | [almighty-tools-gmc-dk.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-dk.xml) |
-| Spain | en | EUR | 76 | 142 | [almighty-tools-gmc-es.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-es.xml) |
-| Finland | en | EUR | 76 | 142 | [almighty-tools-gmc-fi.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-fi.xml) |
-| France | fr | EUR | 90 | 154 | [almighty-tools-gmc-fr.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-fr.xml) |
-| United Kingdom | en | GBP | 76 | 142 | [almighty-tools-gmc-gb.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-gb.xml) |
-| Greece | en | EUR | 76 | 142 | [almighty-tools-gmc-gr.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-gr.xml) |
-| Ireland | en | EUR | 76 | 142 | [almighty-tools-gmc-ie.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-ie.xml) |
-| Israel | en | ILS | 76 | 142 | [almighty-tools-gmc-il.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-il.xml) |
-| Italy | en | EUR | 76 | 142 | [almighty-tools-gmc-it.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-it.xml) |
-| Japan | en | JPY | 76 | 142 | [almighty-tools-gmc-jp.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-jp.xml) |
-| Mexico | es | MXN | 90 | 154 | [almighty-tools-gmc-mx.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-mx.xml) |
-| Netherlands | en | EUR | 76 | 142 | [almighty-tools-gmc-nl.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-nl.xml) |
-| Norway | en | EUR | 76 | 142 | [almighty-tools-gmc-no.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-no.xml) |
-| New Zealand | en | USD | 76 | 142 | [almighty-tools-gmc-nz.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-nz.xml) |
-| Portugal | en | EUR | 76 | 142 | [almighty-tools-gmc-pt.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-pt.xml) |
-| Sweden | en | EUR | 76 | 142 | [almighty-tools-gmc-se.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-se.xml) |
-| Singapore | en | SGD | 76 | 142 | [almighty-tools-gmc-sg.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-sg.xml) |
-| United States (Spanish) | es | USD | 76 | 142 | [almighty-tools-gmc-us-es.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-us-es.xml) |
-
-English is preserved for the 14 European countries already configured with an English source in Merchant Center; France is French; Mexico, Argentina, Colombia, Chile and the additional US source are Spanish. Canada/Australia/New Zealand/Brazil/UAE use USD according to current Shopify Markets settings. Europe uses EUR even in non-EUR-native countries. Google requires matching landing/checkout currency and shipping currency when using conversion.
+| United Arab Emirates (AE) | en | USD | 76 | 142 | [almighty-tools-gmc-ae.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-ae.xml) |
+| Argentina (AR) | en | ARS | 70 | 120 | [almighty-tools-gmc-ar.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-ar.xml) |
+| Austria (AT) | en | EUR | 76 | 142 | [almighty-tools-gmc-at.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-at.xml) |
+| Australia (AU) | en | USD | 76 | 142 | [almighty-tools-gmc-au.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-au.xml) |
+| Belgium (BE) | en | EUR | 76 | 142 | [almighty-tools-gmc-be.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-be.xml) |
+| Brazil (BR) | en | USD | 76 | 142 | [almighty-tools-gmc-br.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-br.xml) |
+| Canada (CA) | en | USD | 76 | 142 | [almighty-tools-gmc-ca.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-ca.xml) |
+| Switzerland (CH) | en | EUR | 76 | 142 | [almighty-tools-gmc-ch.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-ch.xml) |
+| Chile (CL) | en | CLP | 70 | 120 | [almighty-tools-gmc-cl.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-cl.xml) |
+| Colombia (CO) | en | COP | 70 | 120 | [almighty-tools-gmc-co.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-co.xml) |
+| Germany (DE) | en | EUR | 76 | 142 | [almighty-tools-gmc-de.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-de.xml) |
+| Denmark (DK) | en | EUR | 76 | 142 | [almighty-tools-gmc-dk.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-dk.xml) |
+| Spain (ES) | en | EUR | 76 | 142 | [almighty-tools-gmc-es.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-es.xml) |
+| Finland (FI) | en | EUR | 76 | 142 | [almighty-tools-gmc-fi.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-fi.xml) |
+| France (FR) | en | EUR | 70 | 120 | [almighty-tools-gmc-fr.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-fr.xml) |
+| United Kingdom (GB) | en | GBP | 76 | 142 | [almighty-tools-gmc-gb.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-gb.xml) |
+| Greece (GR) | en | EUR | 76 | 142 | [almighty-tools-gmc-gr.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-gr.xml) |
+| Ireland (IE) | en | EUR | 76 | 142 | [almighty-tools-gmc-ie.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-ie.xml) |
+| Israel (IL) | en | ILS | 76 | 142 | [almighty-tools-gmc-il.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-il.xml) |
+| Italy (IT) | en | EUR | 76 | 142 | [almighty-tools-gmc-it.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-it.xml) |
+| Japan (JP) | en | JPY | 76 | 142 | [almighty-tools-gmc-jp.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-jp.xml) |
+| Mexico (MX) | en | MXN | 70 | 120 | [almighty-tools-gmc-mx.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-mx.xml) |
+| Netherlands (NL) | en | EUR | 76 | 142 | [almighty-tools-gmc-nl.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-nl.xml) |
+| Norway (NO) | en | EUR | 76 | 142 | [almighty-tools-gmc-no.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-no.xml) |
+| New Zealand (NZ) | en | USD | 76 | 142 | [almighty-tools-gmc-nz.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-nz.xml) |
+| Portugal (PT) | en | EUR | 76 | 142 | [almighty-tools-gmc-pt.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-pt.xml) |
+| Sweden (SE) | en | EUR | 76 | 142 | [almighty-tools-gmc-se.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-se.xml) |
+| Singapore (SG) | en | SGD | 76 | 142 | [almighty-tools-gmc-sg.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-sg.xml) |
+| United States (US) | en | USD | 76 | 142 | [almighty-tools-gmc-us.xml](https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/almighty-tools-gmc-us.xml) |
