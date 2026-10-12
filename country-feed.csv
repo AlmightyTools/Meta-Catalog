@@ -17,7 +17,7 @@ id,override,price,sale_price,availability,link
 47325315465512,GB,199.99 GBP,99.90 GBP,out of stock,https://almighty.tools/products/the-almighty-quad-socket%E2%84%A2-pro-bundle?variant=47325315465512&country=GB&currency=GBP
 47325315465512,GR,181.95 EUR,90.95 EUR,out of stock,https://almighty.tools/products/the-almighty-quad-socket%E2%84%A2-pro-bundle?variant=47325315465512&country=GR&currency=EUR
 47325315465512,IE,181.95 EUR,90.95 EUR,out of stock,https://almighty.tools/products/the-almighty-quad-socket%E2%84%A2-pro-bundle?variant=47325315465512&country=IE&currency=EUR
-47325315465512,IL,622.00 ILS,311.00 ILS,out of stock,https://almighty.tools/products/the-almighty-quad-socket%E2%84%A2-pro-bundle?variant=47325315465512&country=IL&currency=ILS
+47325315465512,IL,623.00 ILS,311.00 ILS,out of stock,https://almighty.tools/products/the-almighty-quad-socket%E2%84%A2-pro-bundle?variant=47325315465512&country=IL&currency=ILS
 47325315465512,IT,181.95 EUR,90.95 EUR,out of stock,https://almighty.tools/products/the-almighty-quad-socket%E2%84%A2-pro-bundle?variant=47325315465512&country=IT&currency=EUR
 47325315465512,JP,32200.00 JPY,16100.00 JPY,out of stock,https://almighty.tools/products/the-almighty-quad-socket%E2%84%A2-pro-bundle?variant=47325315465512&country=JP&currency=JPY
 47325315465512,MX,3600.00 MXN,1799.00 MXN,out of stock,https://almighty.tools/es/products/the-almighty-quad-socket%E2%84%A2-pro-bundle?variant=47325315465512&country=MX&currency=MXN
@@ -157,7 +157,7 @@ id,override,price,sale_price,availability,link
 47767778558248,GB,83.25 GBP,49.95 GBP,in stock,https://almighty.tools/products/the-almighty-ratchet-wrench-set?variant=47767778558248&country=GB&currency=GBP
 47767778558248,GR,75.95 EUR,45.95 EUR,in stock,https://almighty.tools/products/the-almighty-ratchet-wrench-set?variant=47767778558248&country=GR&currency=EUR
 47767778558248,IE,75.95 EUR,45.95 EUR,in stock,https://almighty.tools/products/the-almighty-ratchet-wrench-set?variant=47767778558248&country=IE&currency=EUR
-47767778558248,IL,259.00 ILS,156.00 ILS,in stock,https://almighty.tools/products/the-almighty-ratchet-wrench-set?variant=47767778558248&country=IL&currency=ILS
+47767778558248,IL,260.00 ILS,156.00 ILS,in stock,https://almighty.tools/products/the-almighty-ratchet-wrench-set?variant=47767778558248&country=IL&currency=ILS
 47767778558248,IT,75.95 EUR,45.95 EUR,in stock,https://almighty.tools/products/the-almighty-ratchet-wrench-set?variant=47767778558248&country=IT&currency=EUR
 47767778558248,JP,13400.00 JPY,8100.00 JPY,in stock,https://almighty.tools/products/the-almighty-ratchet-wrench-set?variant=47767778558248&country=JP&currency=JPY
 47767778558248,MX,1499.00 MXN,900.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-ratchet-wrench-set?variant=47767778558248&country=MX&currency=MXN
@@ -185,7 +185,7 @@ id,override,price,sale_price,availability,link
 48877026640168,GB,91.58 GBP,54.95 GBP,in stock,https://almighty.tools/products/the-almighty-tm-cordless-screwdriver?variant=48877026640168&country=GB&currency=GBP
 48877026640168,GR,83.95 EUR,49.95 EUR,in stock,https://almighty.tools/products/the-almighty-tm-cordless-screwdriver?variant=48877026640168&country=GR&currency=EUR
 48877026640168,IE,83.95 EUR,49.95 EUR,in stock,https://almighty.tools/products/the-almighty-tm-cordless-screwdriver?variant=48877026640168&country=IE&currency=EUR
-48877026640168,IL,285.00 ILS,171.00 ILS,in stock,https://almighty.tools/products/the-almighty-tm-cordless-screwdriver?variant=48877026640168&country=IL&currency=ILS
+48877026640168,IL,286.00 ILS,172.00 ILS,in stock,https://almighty.tools/products/the-almighty-tm-cordless-screwdriver?variant=48877026640168&country=IL&currency=ILS
 48877026640168,IT,83.95 EUR,49.95 EUR,in stock,https://almighty.tools/products/the-almighty-tm-cordless-screwdriver?variant=48877026640168&country=IT&currency=EUR
 48877026640168,JP,14800.00 JPY,8900.00 JPY,in stock,https://almighty.tools/products/the-almighty-tm-cordless-screwdriver?variant=48877026640168&country=JP&currency=JPY
 48877026640168,MX,1649.00 MXN,990.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-tm-cordless-screwdriver?variant=48877026640168&country=MX&currency=MXN
@@ -197,31 +197,31 @@ id,override,price,sale_price,availability,link
 48877026640168,SG,119.00 SGD,72.00 SGD,in stock,https://almighty.tools/products/the-almighty-tm-cordless-screwdriver?variant=48877026640168&country=SG&currency=SGD
 48877044957480,AE,666.58 USD,399.95 USD,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=AE&currency=USD
 48877044957480,AR,999870.00 ARS,599925.00 ARS,in stock,https://almighty.tools/es/products/the-almighty-laser-tape-pro?variant=48877044957480&country=AR&currency=ARS
-48877044957480,AT,604.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=AT&currency=EUR
+48877044957480,AT,603.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=AT&currency=EUR
 48877044957480,AU,666.58 USD,399.95 USD,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=AU&currency=USD
-48877044957480,BE,604.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=BE&currency=EUR
+48877044957480,BE,603.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=BE&currency=EUR
 48877044957480,BR,666.58 USD,399.95 USD,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=BR&currency=USD
 48877044957480,CA,666.58 USD,399.95 USD,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=CA&currency=USD
-48877044957480,CH,604.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=CH&currency=EUR
+48877044957480,CH,603.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=CH&currency=EUR
 48877044957480,CL,633300.00 CLP,380000.00 CLP,in stock,https://almighty.tools/es/products/the-almighty-laser-tape-pro?variant=48877044957480&country=CL&currency=CLP
 48877044957480,CO,2467000.00 COP,1480000.00 COP,in stock,https://almighty.tools/es/products/the-almighty-laser-tape-pro?variant=48877044957480&country=CO&currency=COP
-48877044957480,DE,604.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=DE&currency=EUR
-48877044957480,DK,604.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=DK&currency=EUR
-48877044957480,ES,604.95 EUR,362.95 EUR,in stock,https://almighty.tools/es/products/the-almighty-laser-tape-pro?variant=48877044957480&country=ES&currency=EUR
-48877044957480,FI,604.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=FI&currency=EUR
+48877044957480,DE,603.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=DE&currency=EUR
+48877044957480,DK,603.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=DK&currency=EUR
+48877044957480,ES,603.95 EUR,362.95 EUR,in stock,https://almighty.tools/es/products/the-almighty-laser-tape-pro?variant=48877044957480&country=ES&currency=EUR
+48877044957480,FI,603.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=FI&currency=EUR
 48877044957480,FR,666.95 EUR,399.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=FR&currency=EUR
 48877044957480,GB,666.58 GBP,399.95 GBP,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=GB&currency=GBP
-48877044957480,GR,604.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=GR&currency=EUR
-48877044957480,IE,604.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=IE&currency=EUR
-48877044957480,IL,2072.00 ILS,1243.00 ILS,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=IL&currency=ILS
-48877044957480,IT,604.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=IT&currency=EUR
-48877044957480,JP,107100.00 JPY,64300.00 JPY,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=JP&currency=JPY
+48877044957480,GR,603.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=GR&currency=EUR
+48877044957480,IE,603.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=IE&currency=EUR
+48877044957480,IL,2075.00 ILS,1245.00 ILS,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=IL&currency=ILS
+48877044957480,IT,603.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=IT&currency=EUR
+48877044957480,JP,107200.00 JPY,64300.00 JPY,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=JP&currency=JPY
 48877044957480,MX,11999.00 MXN,7200.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-laser-tape-pro?variant=48877044957480&country=MX&currency=MXN
-48877044957480,NL,604.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=NL&currency=EUR
-48877044957480,NO,604.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=NO&currency=EUR
+48877044957480,NL,603.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=NL&currency=EUR
+48877044957480,NO,603.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=NO&currency=EUR
 48877044957480,NZ,666.58 USD,399.95 USD,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=NZ&currency=USD
-48877044957480,PT,604.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=PT&currency=EUR
-48877044957480,SE,604.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=SE&currency=EUR
+48877044957480,PT,603.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=PT&currency=EUR
+48877044957480,SE,603.95 EUR,362.95 EUR,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=SE&currency=EUR
 48877044957480,SG,867.00 SGD,520.00 SGD,in stock,https://almighty.tools/products/the-almighty-laser-tape-pro?variant=48877044957480&country=SG&currency=SGD
 48877058720040,AE,58.17 USD,34.90 USD,in stock,https://almighty.tools/products/almighty-portable-screwdriver-set-46-in-1?variant=48877058720040&country=AE&currency=USD
 48877058720040,AR,87255.00 ARS,52350.00 ARS,in stock,https://almighty.tools/es/products/almighty-portable-screwdriver-set-46-in-1?variant=48877058720040&country=AR&currency=ARS
@@ -241,7 +241,7 @@ id,override,price,sale_price,availability,link
 48877058720040,GB,58.17 GBP,34.90 GBP,in stock,https://almighty.tools/products/almighty-portable-screwdriver-set-46-in-1?variant=48877058720040&country=GB&currency=GBP
 48877058720040,GR,52.95 EUR,31.95 EUR,in stock,https://almighty.tools/products/almighty-portable-screwdriver-set-46-in-1?variant=48877058720040&country=GR&currency=EUR
 48877058720040,IE,52.95 EUR,31.95 EUR,in stock,https://almighty.tools/products/almighty-portable-screwdriver-set-46-in-1?variant=48877058720040&country=IE&currency=EUR
-48877058720040,IL,181.00 ILS,109.00 ILS,in stock,https://almighty.tools/products/almighty-portable-screwdriver-set-46-in-1?variant=48877058720040&country=IL&currency=ILS
+48877058720040,IL,182.00 ILS,109.00 ILS,in stock,https://almighty.tools/products/almighty-portable-screwdriver-set-46-in-1?variant=48877058720040&country=IL&currency=ILS
 48877058720040,IT,52.95 EUR,31.95 EUR,in stock,https://almighty.tools/products/almighty-portable-screwdriver-set-46-in-1?variant=48877058720040&country=IT&currency=EUR
 48877058720040,JP,9400.00 JPY,5700.00 JPY,in stock,https://almighty.tools/products/almighty-portable-screwdriver-set-46-in-1?variant=48877058720040&country=JP&currency=JPY
 48877058720040,MX,1048.00 MXN,629.00 MXN,in stock,https://almighty.tools/es/products/almighty-portable-screwdriver-set-46-in-1?variant=48877058720040&country=MX&currency=MXN
@@ -493,7 +493,7 @@ id,override,price,sale_price,availability,link
 48877316243752,GB,109.99 GBP,54.95 GBP,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316243752&country=GB&currency=GBP
 48877316243752,GR,99.95 EUR,49.95 EUR,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316243752&country=GR&currency=EUR
 48877316243752,IE,99.95 EUR,49.95 EUR,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316243752&country=IE&currency=EUR
-48877316243752,IL,342.00 ILS,171.00 ILS,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316243752&country=IL&currency=ILS
+48877316243752,IL,343.00 ILS,172.00 ILS,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316243752&country=IL&currency=ILS
 48877316243752,IT,99.95 EUR,49.95 EUR,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316243752&country=IT&currency=EUR
 48877316243752,JP,17700.00 JPY,8900.00 JPY,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316243752&country=JP&currency=JPY
 48877316243752,MX,1980.00 MXN,990.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-socket-effortless-bolt-removal?variant=48877316243752&country=MX&currency=MXN
@@ -521,7 +521,7 @@ id,override,price,sale_price,availability,link
 48877316276520,GB,139.99 GBP,63.95 GBP,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316276520&country=GB&currency=GBP
 48877316276520,GR,126.95 EUR,57.95 EUR,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316276520&country=GR&currency=EUR
 48877316276520,IE,126.95 EUR,57.95 EUR,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316276520&country=IE&currency=EUR
-48877316276520,IL,436.00 ILS,199.00 ILS,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316276520&country=IL&currency=ILS
+48877316276520,IL,436.00 ILS,200.00 ILS,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316276520&country=IL&currency=ILS
 48877316276520,IT,126.95 EUR,57.95 EUR,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316276520&country=IT&currency=EUR
 48877316276520,JP,22500.00 JPY,10300.00 JPY,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316276520&country=JP&currency=JPY
 48877316276520,MX,2520.00 MXN,1152.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-socket-effortless-bolt-removal?variant=48877316276520&country=MX&currency=MXN
@@ -549,7 +549,7 @@ id,override,price,sale_price,availability,link
 48877316309288,GB,199.99 GBP,99.95 GBP,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316309288&country=GB&currency=GBP
 48877316309288,GR,181.95 EUR,90.95 EUR,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316309288&country=GR&currency=EUR
 48877316309288,IE,181.95 EUR,90.95 EUR,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316309288&country=IE&currency=EUR
-48877316309288,IL,622.00 ILS,311.00 ILS,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316309288&country=IL&currency=ILS
+48877316309288,IL,623.00 ILS,312.00 ILS,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316309288&country=IL&currency=ILS
 48877316309288,IT,181.95 EUR,90.95 EUR,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316309288&country=IT&currency=EUR
 48877316309288,JP,32200.00 JPY,16100.00 JPY,in stock,https://almighty.tools/products/the-almighty-socket-effortless-bolt-removal?variant=48877316309288&country=JP&currency=JPY
 48877316309288,MX,3600.00 MXN,1800.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-socket-effortless-bolt-removal?variant=48877316309288&country=MX&currency=MXN
@@ -577,7 +577,7 @@ id,override,price,sale_price,availability,link
 48898607218984,GB,83.25 GBP,49.95 GBP,in stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607218984&country=GB&currency=GBP
 48898607218984,GR,75.95 EUR,45.95 EUR,in stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607218984&country=GR&currency=EUR
 48898607218984,IE,75.95 EUR,45.95 EUR,in stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607218984&country=IE&currency=EUR
-48898607218984,IL,259.00 ILS,156.00 ILS,in stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607218984&country=IL&currency=ILS
+48898607218984,IL,260.00 ILS,156.00 ILS,in stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607218984&country=IL&currency=ILS
 48898607218984,IT,75.95 EUR,45.95 EUR,in stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607218984&country=IT&currency=EUR
 48898607218984,JP,13400.00 JPY,8100.00 JPY,in stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607218984&country=JP&currency=JPY
 48898607218984,MX,1499.00 MXN,900.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-tools-organizer-bag?variant=48898607218984&country=MX&currency=MXN
@@ -605,7 +605,7 @@ id,override,price,sale_price,availability,link
 48898607251752,GB,83.25 GBP,49.95 GBP,in stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607251752&country=GB&currency=GBP
 48898607251752,GR,75.95 EUR,45.95 EUR,in stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607251752&country=GR&currency=EUR
 48898607251752,IE,75.95 EUR,45.95 EUR,in stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607251752&country=IE&currency=EUR
-48898607251752,IL,259.00 ILS,156.00 ILS,in stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607251752&country=IL&currency=ILS
+48898607251752,IL,260.00 ILS,156.00 ILS,in stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607251752&country=IL&currency=ILS
 48898607251752,IT,75.95 EUR,45.95 EUR,in stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607251752&country=IT&currency=EUR
 48898607251752,JP,13400.00 JPY,8100.00 JPY,in stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607251752&country=JP&currency=JPY
 48898607251752,MX,1499.00 MXN,900.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-tools-organizer-bag?variant=48898607251752&country=MX&currency=MXN
@@ -633,7 +633,7 @@ id,override,price,sale_price,availability,link
 48898607284520,GB,83.25 GBP,49.95 GBP,out of stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607284520&country=GB&currency=GBP
 48898607284520,GR,75.95 EUR,45.95 EUR,out of stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607284520&country=GR&currency=EUR
 48898607284520,IE,75.95 EUR,45.95 EUR,out of stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607284520&country=IE&currency=EUR
-48898607284520,IL,259.00 ILS,156.00 ILS,out of stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607284520&country=IL&currency=ILS
+48898607284520,IL,260.00 ILS,156.00 ILS,out of stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607284520&country=IL&currency=ILS
 48898607284520,IT,75.95 EUR,45.95 EUR,out of stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607284520&country=IT&currency=EUR
 48898607284520,JP,13400.00 JPY,8100.00 JPY,out of stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607284520&country=JP&currency=JPY
 48898607284520,MX,1499.00 MXN,900.00 MXN,out of stock,https://almighty.tools/es/products/the-almighty-tools-organizer-bag?variant=48898607284520&country=MX&currency=MXN
@@ -661,7 +661,7 @@ id,override,price,sale_price,availability,link
 48898607317288,GB,83.25 GBP,49.95 GBP,out of stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607317288&country=GB&currency=GBP
 48898607317288,GR,75.95 EUR,45.95 EUR,out of stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607317288&country=GR&currency=EUR
 48898607317288,IE,75.95 EUR,45.95 EUR,out of stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607317288&country=IE&currency=EUR
-48898607317288,IL,259.00 ILS,156.00 ILS,out of stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607317288&country=IL&currency=ILS
+48898607317288,IL,260.00 ILS,156.00 ILS,out of stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607317288&country=IL&currency=ILS
 48898607317288,IT,75.95 EUR,45.95 EUR,out of stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607317288&country=IT&currency=EUR
 48898607317288,JP,13400.00 JPY,8100.00 JPY,out of stock,https://almighty.tools/products/the-almighty-tools-organizer-bag?variant=48898607317288&country=JP&currency=JPY
 48898607317288,MX,1499.00 MXN,900.00 MXN,out of stock,https://almighty.tools/es/products/the-almighty-tools-organizer-bag?variant=48898607317288&country=MX&currency=MXN
@@ -717,7 +717,7 @@ id,override,price,sale_price,availability,link
 49937880252712,GB,299.84 GBP,179.90 GBP,in stock,https://almighty.tools/products/the-almighty-diyers-essentials-bundle?variant=49937880252712&country=GB&currency=GBP
 49937880252712,GR,271.95 EUR,163.95 EUR,in stock,https://almighty.tools/products/the-almighty-diyers-essentials-bundle?variant=49937880252712&country=GR&currency=EUR
 49937880252712,IE,271.95 EUR,163.95 EUR,in stock,https://almighty.tools/products/the-almighty-diyers-essentials-bundle?variant=49937880252712&country=IE&currency=EUR
-49937880252712,IL,932.00 ILS,560.00 ILS,in stock,https://almighty.tools/products/the-almighty-diyers-essentials-bundle?variant=49937880252712&country=IL&currency=ILS
+49937880252712,IL,934.00 ILS,560.00 ILS,in stock,https://almighty.tools/products/the-almighty-diyers-essentials-bundle?variant=49937880252712&country=IL&currency=ILS
 49937880252712,IT,271.95 EUR,163.95 EUR,in stock,https://almighty.tools/products/the-almighty-diyers-essentials-bundle?variant=49937880252712&country=IT&currency=EUR
 49937880252712,JP,48200.00 JPY,29000.00 JPY,in stock,https://almighty.tools/products/the-almighty-diyers-essentials-bundle?variant=49937880252712&country=JP&currency=JPY
 49937880252712,MX,5398.00 MXN,3239.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-diyers-essentials-bundle?variant=49937880252712&country=MX&currency=MXN
@@ -745,7 +745,7 @@ id,override,price,sale_price,availability,link
 49865190965544,GB,121.58 GBP,72.95 GBP,in stock,https://almighty.tools/products/the-almighty-precision-electric-screwdriver-68-in-1?variant=49865190965544&country=GB&currency=GBP
 49865190965544,GR,110.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-precision-electric-screwdriver-68-in-1?variant=49865190965544&country=GR&currency=EUR
 49865190965544,IE,110.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-precision-electric-screwdriver-68-in-1?variant=49865190965544&country=IE&currency=EUR
-49865190965544,IL,378.00 ILS,227.00 ILS,in stock,https://almighty.tools/products/the-almighty-precision-electric-screwdriver-68-in-1?variant=49865190965544&country=IL&currency=ILS
+49865190965544,IL,379.00 ILS,228.00 ILS,in stock,https://almighty.tools/products/the-almighty-precision-electric-screwdriver-68-in-1?variant=49865190965544&country=IL&currency=ILS
 49865190965544,IT,110.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-precision-electric-screwdriver-68-in-1?variant=49865190965544&country=IT&currency=EUR
 49865190965544,JP,19600.00 JPY,11800.00 JPY,in stock,https://almighty.tools/products/the-almighty-precision-electric-screwdriver-68-in-1?variant=49865190965544&country=JP&currency=JPY
 49865190965544,MX,2189.00 MXN,1314.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-precision-electric-screwdriver-68-in-1?variant=49865190965544&country=MX&currency=MXN
@@ -885,7 +885,7 @@ id,override,price,sale_price,availability,link
 49919665144104,GB,119.99 GBP,59.99 GBP,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665144104&country=GB&currency=GBP
 49919665144104,GR,108.95 EUR,54.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665144104&country=GR&currency=EUR
 49919665144104,IE,108.95 EUR,54.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665144104&country=IE&currency=EUR
-49919665144104,IL,373.00 ILS,187.00 ILS,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665144104&country=IL&currency=ILS
+49919665144104,IL,374.00 ILS,187.00 ILS,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665144104&country=IL&currency=ILS
 49919665144104,IT,108.95 EUR,54.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665144104&country=IT&currency=EUR
 49919665144104,JP,19300.00 JPY,9700.00 JPY,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665144104&country=JP&currency=JPY
 49919665144104,MX,2160.00 MXN,1080.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-shank?variant=49919665144104&country=MX&currency=MXN
@@ -913,7 +913,7 @@ id,override,price,sale_price,availability,link
 49919665176872,GB,119.99 GBP,59.99 GBP,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665176872&country=GB&currency=GBP
 49919665176872,GR,108.95 EUR,54.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665176872&country=GR&currency=EUR
 49919665176872,IE,108.95 EUR,54.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665176872&country=IE&currency=EUR
-49919665176872,IL,373.00 ILS,187.00 ILS,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665176872&country=IL&currency=ILS
+49919665176872,IL,374.00 ILS,187.00 ILS,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665176872&country=IL&currency=ILS
 49919665176872,IT,108.95 EUR,54.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665176872&country=IT&currency=EUR
 49919665176872,JP,19300.00 JPY,9700.00 JPY,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665176872&country=JP&currency=JPY
 49919665176872,MX,2160.00 MXN,1080.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-shank?variant=49919665176872&country=MX&currency=MXN
@@ -925,31 +925,31 @@ id,override,price,sale_price,availability,link
 49919665176872,SG,156.00 SGD,78.00 SGD,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665176872&country=SG&currency=SGD
 49919665209640,AE,159.99 USD,79.99 USD,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=AE&currency=USD
 49919665209640,AR,239985.00 ARS,119985.00 ARS,in stock,https://almighty.tools/es/products/the-almighty-shank?variant=49919665209640&country=AR&currency=ARS
-49919665209640,AT,145.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=AT&currency=EUR
+49919665209640,AT,144.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=AT&currency=EUR
 49919665209640,AU,159.99 USD,79.99 USD,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=AU&currency=USD
-49919665209640,BE,145.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=BE&currency=EUR
+49919665209640,BE,144.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=BE&currency=EUR
 49919665209640,BR,159.99 USD,79.99 USD,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=BR&currency=USD
 49919665209640,CA,159.99 USD,79.99 USD,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=CA&currency=USD
-49919665209640,CH,145.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=CH&currency=EUR
+49919665209640,CH,144.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=CH&currency=EUR
 49919665209640,CL,152000.00 CLP,76000.00 CLP,in stock,https://almighty.tools/es/products/the-almighty-shank?variant=49919665209640&country=CL&currency=CLP
 49919665209640,CO,592000.00 COP,296000.00 COP,in stock,https://almighty.tools/es/products/the-almighty-shank?variant=49919665209640&country=CO&currency=COP
-49919665209640,DE,145.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=DE&currency=EUR
-49919665209640,DK,145.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=DK&currency=EUR
-49919665209640,ES,145.95 EUR,72.95 EUR,in stock,https://almighty.tools/es/products/the-almighty-shank?variant=49919665209640&country=ES&currency=EUR
-49919665209640,FI,145.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=FI&currency=EUR
+49919665209640,DE,144.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=DE&currency=EUR
+49919665209640,DK,144.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=DK&currency=EUR
+49919665209640,ES,144.95 EUR,72.95 EUR,in stock,https://almighty.tools/es/products/the-almighty-shank?variant=49919665209640&country=ES&currency=EUR
+49919665209640,FI,144.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=FI&currency=EUR
 49919665209640,FR,160.95 EUR,80.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=FR&currency=EUR
 49919665209640,GB,159.99 GBP,79.99 GBP,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=GB&currency=GBP
-49919665209640,GR,145.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=GR&currency=EUR
-49919665209640,IE,145.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=IE&currency=EUR
+49919665209640,GR,144.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=GR&currency=EUR
+49919665209640,IE,144.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=IE&currency=EUR
 49919665209640,IL,498.00 ILS,249.00 ILS,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=IL&currency=ILS
-49919665209640,IT,145.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=IT&currency=EUR
+49919665209640,IT,144.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=IT&currency=EUR
 49919665209640,JP,25800.00 JPY,12900.00 JPY,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=JP&currency=JPY
 49919665209640,MX,2880.00 MXN,1440.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-shank?variant=49919665209640&country=MX&currency=MXN
-49919665209640,NL,145.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=NL&currency=EUR
-49919665209640,NO,145.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=NO&currency=EUR
+49919665209640,NL,144.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=NL&currency=EUR
+49919665209640,NO,144.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=NO&currency=EUR
 49919665209640,NZ,159.99 USD,79.99 USD,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=NZ&currency=USD
-49919665209640,PT,145.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=PT&currency=EUR
-49919665209640,SE,145.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=SE&currency=EUR
+49919665209640,PT,144.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=PT&currency=EUR
+49919665209640,SE,144.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=SE&currency=EUR
 49919665209640,SG,208.00 SGD,104.00 SGD,in stock,https://almighty.tools/products/the-almighty-shank?variant=49919665209640&country=SG&currency=SGD
 49937896407336,AE,533.16 USD,319.90 USD,in stock,https://almighty.tools/products/the-almighty-bundle-for-diyers?variant=49937896407336&country=AE&currency=USD
 49937896407336,AR,799740.00 ARS,479850.00 ARS,in stock,https://almighty.tools/es/products/the-almighty-bundle-for-diyers?variant=49937896407336&country=AR&currency=ARS
@@ -969,9 +969,9 @@ id,override,price,sale_price,availability,link
 49937896407336,GB,533.16 GBP,319.90 GBP,in stock,https://almighty.tools/products/the-almighty-bundle-for-diyers?variant=49937896407336&country=GB&currency=GBP
 49937896407336,GR,483.95 EUR,289.95 EUR,in stock,https://almighty.tools/products/the-almighty-bundle-for-diyers?variant=49937896407336&country=GR&currency=EUR
 49937896407336,IE,483.95 EUR,289.95 EUR,in stock,https://almighty.tools/products/the-almighty-bundle-for-diyers?variant=49937896407336&country=IE&currency=EUR
-49937896407336,IL,1657.00 ILS,995.00 ILS,in stock,https://almighty.tools/products/the-almighty-bundle-for-diyers?variant=49937896407336&country=IL&currency=ILS
+49937896407336,IL,1660.00 ILS,996.00 ILS,in stock,https://almighty.tools/products/the-almighty-bundle-for-diyers?variant=49937896407336&country=IL&currency=ILS
 49937896407336,IT,483.95 EUR,289.95 EUR,in stock,https://almighty.tools/products/the-almighty-bundle-for-diyers?variant=49937896407336&country=IT&currency=EUR
-49937896407336,JP,85700.00 JPY,51400.00 JPY,in stock,https://almighty.tools/products/the-almighty-bundle-for-diyers?variant=49937896407336&country=JP&currency=JPY
+49937896407336,JP,85700.00 JPY,51500.00 JPY,in stock,https://almighty.tools/products/the-almighty-bundle-for-diyers?variant=49937896407336&country=JP&currency=JPY
 49937896407336,MX,9597.00 MXN,5759.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-bundle-for-diyers?variant=49937896407336&country=MX&currency=MXN
 49937896407336,NL,483.95 EUR,289.95 EUR,in stock,https://almighty.tools/products/the-almighty-bundle-for-diyers?variant=49937896407336&country=NL&currency=EUR
 49937896407336,NO,483.95 EUR,289.95 EUR,in stock,https://almighty.tools/products/the-almighty-bundle-for-diyers?variant=49937896407336&country=NO&currency=EUR
@@ -1081,9 +1081,9 @@ id,override,price,sale_price,availability,link
 49990623953192,GB,133.17 GBP,79.90 GBP,in stock,https://almighty.tools/products/the-almighty-blower?variant=49990623953192&country=GB&currency=GBP
 49990623953192,GR,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-blower?variant=49990623953192&country=GR&currency=EUR
 49990623953192,IE,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-blower?variant=49990623953192&country=IE&currency=EUR
-49990623953192,IL,414.00 ILS,249.00 ILS,in stock,https://almighty.tools/products/the-almighty-blower?variant=49990623953192&country=IL&currency=ILS
+49990623953192,IL,415.00 ILS,249.00 ILS,in stock,https://almighty.tools/products/the-almighty-blower?variant=49990623953192&country=IL&currency=ILS
 49990623953192,IT,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-blower?variant=49990623953192&country=IT&currency=EUR
-49990623953192,JP,21400.00 JPY,12900.00 JPY,in stock,https://almighty.tools/products/the-almighty-blower?variant=49990623953192&country=JP&currency=JPY
+49990623953192,JP,21500.00 JPY,12900.00 JPY,in stock,https://almighty.tools/products/the-almighty-blower?variant=49990623953192&country=JP&currency=JPY
 49990623953192,MX,2398.00 MXN,1439.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-blower?variant=49990623953192&country=MX&currency=MXN
 49990623953192,NL,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-blower?variant=49990623953192&country=NL&currency=EUR
 49990623953192,NO,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-blower?variant=49990623953192&country=NO&currency=EUR
@@ -1109,9 +1109,9 @@ id,override,price,sale_price,availability,link
 50031584772392,GB,291.50 GBP,174.90 GBP,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584772392&country=GB&currency=GBP
 50031584772392,GR,264.95 EUR,158.95 EUR,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584772392&country=GR&currency=EUR
 50031584772392,IE,264.95 EUR,158.95 EUR,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584772392&country=IE&currency=EUR
-50031584772392,IL,906.00 ILS,544.00 ILS,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584772392&country=IL&currency=ILS
+50031584772392,IL,908.00 ILS,545.00 ILS,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584772392&country=IL&currency=ILS
 50031584772392,IT,264.95 EUR,158.95 EUR,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584772392&country=IT&currency=EUR
-50031584772392,JP,46900.00 JPY,28100.00 JPY,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584772392&country=JP&currency=JPY
+50031584772392,JP,46900.00 JPY,28200.00 JPY,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584772392&country=JP&currency=JPY
 50031584772392,MX,5247.00 MXN,3149.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-painter?variant=50031584772392&country=MX&currency=MXN
 50031584772392,NL,264.95 EUR,158.95 EUR,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584772392&country=NL&currency=EUR
 50031584772392,NO,264.95 EUR,158.95 EUR,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584772392&country=NO&currency=EUR
@@ -1137,9 +1137,9 @@ id,override,price,sale_price,availability,link
 50031584805160,GB,291.50 GBP,174.90 GBP,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584805160&country=GB&currency=GBP
 50031584805160,GR,264.95 EUR,158.95 EUR,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584805160&country=GR&currency=EUR
 50031584805160,IE,264.95 EUR,158.95 EUR,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584805160&country=IE&currency=EUR
-50031584805160,IL,906.00 ILS,544.00 ILS,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584805160&country=IL&currency=ILS
+50031584805160,IL,908.00 ILS,545.00 ILS,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584805160&country=IL&currency=ILS
 50031584805160,IT,264.95 EUR,158.95 EUR,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584805160&country=IT&currency=EUR
-50031584805160,JP,46900.00 JPY,28100.00 JPY,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584805160&country=JP&currency=JPY
+50031584805160,JP,46900.00 JPY,28200.00 JPY,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584805160&country=JP&currency=JPY
 50031584805160,MX,5247.00 MXN,3149.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-painter?variant=50031584805160&country=MX&currency=MXN
 50031584805160,NL,264.95 EUR,158.95 EUR,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584805160&country=NL&currency=EUR
 50031584805160,NO,264.95 EUR,158.95 EUR,in stock,https://almighty.tools/products/the-almighty-painter?variant=50031584805160&country=NO&currency=EUR
@@ -1165,7 +1165,7 @@ id,override,price,sale_price,availability,link
 50053359796520,GB,249.90 GBP,149.90 GBP,in stock,https://almighty.tools/products/the-almighty-ruler-pro-2-0?variant=50053359796520&country=GB&currency=GBP
 50053359796520,GR,226.95 EUR,135.95 EUR,in stock,https://almighty.tools/products/the-almighty-ruler-pro-2-0?variant=50053359796520&country=GR&currency=EUR
 50053359796520,IE,226.95 EUR,135.95 EUR,in stock,https://almighty.tools/products/the-almighty-ruler-pro-2-0?variant=50053359796520&country=IE&currency=EUR
-50053359796520,IL,777.00 ILS,466.00 ILS,in stock,https://almighty.tools/products/the-almighty-ruler-pro-2-0?variant=50053359796520&country=IL&currency=ILS
+50053359796520,IL,778.00 ILS,467.00 ILS,in stock,https://almighty.tools/products/the-almighty-ruler-pro-2-0?variant=50053359796520&country=IL&currency=ILS
 50053359796520,IT,226.95 EUR,135.95 EUR,in stock,https://almighty.tools/products/the-almighty-ruler-pro-2-0?variant=50053359796520&country=IT&currency=EUR
 50053359796520,JP,40200.00 JPY,24100.00 JPY,in stock,https://almighty.tools/products/the-almighty-ruler-pro-2-0?variant=50053359796520&country=JP&currency=JPY
 50053359796520,MX,4499.00 MXN,2699.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-ruler-pro-2-0?variant=50053359796520&country=MX&currency=MXN
@@ -1177,59 +1177,59 @@ id,override,price,sale_price,availability,link
 50053359796520,SG,325.00 SGD,195.00 SGD,in stock,https://almighty.tools/products/the-almighty-ruler-pro-2-0?variant=50053359796520&country=SG&currency=SGD
 50058124722472,AE,123.17 USD,73.90 USD,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=AE&currency=USD
 50058124722472,AR,184755.00 ARS,110850.00 ARS,in stock,https://almighty.tools/es/products/the-almighty-powerhub?variant=50058124722472&country=AR&currency=ARS
-50058124722472,AT,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=AT&currency=EUR
+50058124722472,AT,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=AT&currency=EUR
 50058124722472,AU,123.17 USD,73.90 USD,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=AU&currency=USD
-50058124722472,BE,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=BE&currency=EUR
+50058124722472,BE,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=BE&currency=EUR
 50058124722472,BR,123.17 USD,73.90 USD,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=BR&currency=USD
 50058124722472,CA,123.17 USD,73.90 USD,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=CA&currency=USD
-50058124722472,CH,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=CH&currency=EUR
+50058124722472,CH,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=CH&currency=EUR
 50058124722472,CL,117100.00 CLP,70300.00 CLP,in stock,https://almighty.tools/es/products/the-almighty-powerhub?variant=50058124722472&country=CL&currency=CLP
 50058124722472,CO,456000.00 COP,274000.00 COP,in stock,https://almighty.tools/es/products/the-almighty-powerhub?variant=50058124722472&country=CO&currency=COP
-50058124722472,DE,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=DE&currency=EUR
-50058124722472,DK,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=DK&currency=EUR
-50058124722472,ES,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/es/products/the-almighty-powerhub?variant=50058124722472&country=ES&currency=EUR
-50058124722472,FI,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=FI&currency=EUR
+50058124722472,DE,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=DE&currency=EUR
+50058124722472,DK,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=DK&currency=EUR
+50058124722472,ES,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/es/products/the-almighty-powerhub?variant=50058124722472&country=ES&currency=EUR
+50058124722472,FI,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=FI&currency=EUR
 50058124722472,FR,123.95 EUR,73.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=FR&currency=EUR
 50058124722472,GB,123.17 GBP,73.90 GBP,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=GB&currency=GBP
-50058124722472,GR,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=GR&currency=EUR
-50058124722472,IE,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=IE&currency=EUR
-50058124722472,IL,383.00 ILS,230.00 ILS,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=IL&currency=ILS
-50058124722472,IT,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=IT&currency=EUR
+50058124722472,GR,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=GR&currency=EUR
+50058124722472,IE,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=IE&currency=EUR
+50058124722472,IL,384.00 ILS,230.00 ILS,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=IL&currency=ILS
+50058124722472,IT,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=IT&currency=EUR
 50058124722472,JP,19800.00 JPY,11900.00 JPY,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=JP&currency=JPY
 50058124722472,MX,2218.00 MXN,1331.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-powerhub?variant=50058124722472&country=MX&currency=MXN
-50058124722472,NL,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=NL&currency=EUR
-50058124722472,NO,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=NO&currency=EUR
+50058124722472,NL,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=NL&currency=EUR
+50058124722472,NO,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=NO&currency=EUR
 50058124722472,NZ,123.17 USD,73.90 USD,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=NZ&currency=USD
-50058124722472,PT,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=PT&currency=EUR
-50058124722472,SE,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=SE&currency=EUR
+50058124722472,PT,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=PT&currency=EUR
+50058124722472,SE,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=SE&currency=EUR
 50058124722472,SG,161.00 SGD,97.00 SGD,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124722472&country=SG&currency=SGD
 50058124755240,AE,123.17 USD,73.90 USD,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=AE&currency=USD
 50058124755240,AR,184755.00 ARS,110850.00 ARS,in stock,https://almighty.tools/es/products/the-almighty-powerhub?variant=50058124755240&country=AR&currency=ARS
-50058124755240,AT,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=AT&currency=EUR
+50058124755240,AT,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=AT&currency=EUR
 50058124755240,AU,123.17 USD,73.90 USD,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=AU&currency=USD
-50058124755240,BE,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=BE&currency=EUR
+50058124755240,BE,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=BE&currency=EUR
 50058124755240,BR,123.17 USD,73.90 USD,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=BR&currency=USD
 50058124755240,CA,123.17 USD,73.90 USD,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=CA&currency=USD
-50058124755240,CH,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=CH&currency=EUR
+50058124755240,CH,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=CH&currency=EUR
 50058124755240,CL,117100.00 CLP,70300.00 CLP,in stock,https://almighty.tools/es/products/the-almighty-powerhub?variant=50058124755240&country=CL&currency=CLP
 50058124755240,CO,456000.00 COP,274000.00 COP,in stock,https://almighty.tools/es/products/the-almighty-powerhub?variant=50058124755240&country=CO&currency=COP
-50058124755240,DE,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=DE&currency=EUR
-50058124755240,DK,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=DK&currency=EUR
-50058124755240,ES,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/es/products/the-almighty-powerhub?variant=50058124755240&country=ES&currency=EUR
-50058124755240,FI,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=FI&currency=EUR
+50058124755240,DE,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=DE&currency=EUR
+50058124755240,DK,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=DK&currency=EUR
+50058124755240,ES,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/es/products/the-almighty-powerhub?variant=50058124755240&country=ES&currency=EUR
+50058124755240,FI,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=FI&currency=EUR
 50058124755240,FR,123.95 EUR,73.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=FR&currency=EUR
 50058124755240,GB,123.17 GBP,73.90 GBP,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=GB&currency=GBP
-50058124755240,GR,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=GR&currency=EUR
-50058124755240,IE,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=IE&currency=EUR
-50058124755240,IL,383.00 ILS,230.00 ILS,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=IL&currency=ILS
-50058124755240,IT,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=IT&currency=EUR
+50058124755240,GR,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=GR&currency=EUR
+50058124755240,IE,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=IE&currency=EUR
+50058124755240,IL,384.00 ILS,230.00 ILS,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=IL&currency=ILS
+50058124755240,IT,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=IT&currency=EUR
 50058124755240,JP,19800.00 JPY,11900.00 JPY,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=JP&currency=JPY
 50058124755240,MX,2218.00 MXN,1331.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-powerhub?variant=50058124755240&country=MX&currency=MXN
-50058124755240,NL,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=NL&currency=EUR
-50058124755240,NO,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=NO&currency=EUR
+50058124755240,NL,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=NL&currency=EUR
+50058124755240,NO,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=NO&currency=EUR
 50058124755240,NZ,123.17 USD,73.90 USD,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=NZ&currency=USD
-50058124755240,PT,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=PT&currency=EUR
-50058124755240,SE,111.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=SE&currency=EUR
+50058124755240,PT,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=PT&currency=EUR
+50058124755240,SE,111.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=SE&currency=EUR
 50058124755240,SG,161.00 SGD,97.00 SGD,in stock,https://almighty.tools/products/the-almighty-powerhub?variant=50058124755240&country=SG&currency=SGD
 50080391495976,AE,109.83 USD,65.90 USD,in stock,https://almighty.tools/products/the-almighty-flashlight-pro?variant=50080391495976&country=AE&currency=USD
 50080391495976,AR,164745.00 ARS,98850.00 ARS,in stock,https://almighty.tools/es/products/the-almighty-flashlight-pro?variant=50080391495976&country=AR&currency=ARS
@@ -1249,7 +1249,7 @@ id,override,price,sale_price,availability,link
 50080391495976,GB,109.83 GBP,65.90 GBP,in stock,https://almighty.tools/products/the-almighty-flashlight-pro?variant=50080391495976&country=GB&currency=GBP
 50080391495976,GR,99.95 EUR,59.95 EUR,in stock,https://almighty.tools/products/the-almighty-flashlight-pro?variant=50080391495976&country=GR&currency=EUR
 50080391495976,IE,99.95 EUR,59.95 EUR,in stock,https://almighty.tools/products/the-almighty-flashlight-pro?variant=50080391495976&country=IE&currency=EUR
-50080391495976,IL,342.00 ILS,205.00 ILS,in stock,https://almighty.tools/products/the-almighty-flashlight-pro?variant=50080391495976&country=IL&currency=ILS
+50080391495976,IL,342.00 ILS,206.00 ILS,in stock,https://almighty.tools/products/the-almighty-flashlight-pro?variant=50080391495976&country=IL&currency=ILS
 50080391495976,IT,99.95 EUR,59.95 EUR,in stock,https://almighty.tools/products/the-almighty-flashlight-pro?variant=50080391495976&country=IT&currency=EUR
 50080391495976,JP,17700.00 JPY,10600.00 JPY,in stock,https://almighty.tools/products/the-almighty-flashlight-pro?variant=50080391495976&country=JP&currency=JPY
 50080391495976,MX,1977.00 MXN,1187.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-flashlight-pro?variant=50080391495976&country=MX&currency=MXN
@@ -1277,7 +1277,7 @@ id,override,price,sale_price,availability,link
 50785450328360,GB,76.50 GBP,45.90 GBP,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450328360&country=GB&currency=GBP
 50785450328360,GR,69.95 EUR,41.95 EUR,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450328360&country=GR&currency=EUR
 50785450328360,IE,69.95 EUR,41.95 EUR,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450328360&country=IE&currency=EUR
-50785450328360,IL,238.00 ILS,143.00 ILS,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450328360&country=IL&currency=ILS
+50785450328360,IL,239.00 ILS,143.00 ILS,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450328360&country=IL&currency=ILS
 50785450328360,IT,69.95 EUR,41.95 EUR,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450328360&country=IT&currency=EUR
 50785450328360,JP,12300.00 JPY,7400.00 JPY,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450328360&country=JP&currency=JPY
 50785450328360,MX,1377.00 MXN,827.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-flashlight-duo?variant=50785450328360&country=MX&currency=MXN
@@ -1305,7 +1305,7 @@ id,override,price,sale_price,availability,link
 50785450361128,GB,153.00 GBP,87.21 GBP,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450361128&country=GB&currency=GBP
 50785450361128,GR,138.95 EUR,79.95 EUR,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450361128&country=GR&currency=EUR
 50785450361128,IE,138.95 EUR,79.95 EUR,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450361128&country=IE&currency=EUR
-50785450361128,IL,476.00 ILS,272.00 ILS,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450361128&country=IL&currency=ILS
+50785450361128,IL,477.00 ILS,272.00 ILS,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450361128&country=IL&currency=ILS
 50785450361128,IT,138.95 EUR,79.95 EUR,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450361128&country=IT&currency=EUR
 50785450361128,JP,24600.00 JPY,14100.00 JPY,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450361128&country=JP&currency=JPY
 50785450361128,MX,2754.00 MXN,1570.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-flashlight-duo?variant=50785450361128&country=MX&currency=MXN
@@ -1333,7 +1333,7 @@ id,override,price,sale_price,availability,link
 50785450393896,GB,229.50 GBP,128.06 GBP,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450393896&country=GB&currency=GBP
 50785450393896,GR,207.95 EUR,116.95 EUR,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450393896&country=GR&currency=EUR
 50785450393896,IE,207.95 EUR,116.95 EUR,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450393896&country=IE&currency=EUR
-50785450393896,IL,714.00 ILS,398.00 ILS,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450393896&country=IL&currency=ILS
+50785450393896,IL,715.00 ILS,399.00 ILS,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450393896&country=IL&currency=ILS
 50785450393896,IT,207.95 EUR,116.95 EUR,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450393896&country=IT&currency=EUR
 50785450393896,JP,36900.00 JPY,20600.00 JPY,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450393896&country=JP&currency=JPY
 50785450393896,MX,4131.00 MXN,2306.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-flashlight-duo?variant=50785450393896&country=MX&currency=MXN
@@ -1361,7 +1361,7 @@ id,override,price,sale_price,availability,link
 50785450426664,GB,306.00 GBP,161.57 GBP,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450426664&country=GB&currency=GBP
 50785450426664,GR,277.95 EUR,146.95 EUR,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450426664&country=GR&currency=EUR
 50785450426664,IE,277.95 EUR,146.95 EUR,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450426664&country=IE&currency=EUR
-50785450426664,IL,951.00 ILS,503.00 ILS,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450426664&country=IL&currency=ILS
+50785450426664,IL,953.00 ILS,503.00 ILS,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450426664&country=IL&currency=ILS
 50785450426664,IT,277.95 EUR,146.95 EUR,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450426664&country=IT&currency=EUR
 50785450426664,JP,49200.00 JPY,26000.00 JPY,in stock,https://almighty.tools/products/the-almighty-flashlight-duo?variant=50785450426664&country=JP&currency=JPY
 50785450426664,MX,5508.00 MXN,2909.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-flashlight-duo?variant=50785450426664&country=MX&currency=MXN
@@ -1473,7 +1473,7 @@ id,override,price,sale_price,availability,link
 50120407056680,GB,58.17 GBP,34.90 GBP,in stock,https://almighty.tools/products/the-almighty-cyber-headlamp?variant=50120407056680&country=GB&currency=GBP
 50120407056680,GR,52.95 EUR,31.95 EUR,in stock,https://almighty.tools/products/the-almighty-cyber-headlamp?variant=50120407056680&country=GR&currency=EUR
 50120407056680,IE,52.95 EUR,31.95 EUR,in stock,https://almighty.tools/products/the-almighty-cyber-headlamp?variant=50120407056680&country=IE&currency=EUR
-50120407056680,IL,181.00 ILS,109.00 ILS,in stock,https://almighty.tools/products/the-almighty-cyber-headlamp?variant=50120407056680&country=IL&currency=ILS
+50120407056680,IL,182.00 ILS,109.00 ILS,in stock,https://almighty.tools/products/the-almighty-cyber-headlamp?variant=50120407056680&country=IL&currency=ILS
 50120407056680,IT,52.95 EUR,31.95 EUR,in stock,https://almighty.tools/products/the-almighty-cyber-headlamp?variant=50120407056680&country=IT&currency=EUR
 50120407056680,JP,9400.00 JPY,5700.00 JPY,in stock,https://almighty.tools/products/the-almighty-cyber-headlamp?variant=50120407056680&country=JP&currency=JPY
 50120407056680,MX,1048.00 MXN,629.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-cyber-headlamp?variant=50120407056680&country=MX&currency=MXN
@@ -1501,7 +1501,7 @@ id,override,price,sale_price,availability,link
 50147771220264,GB,99.99 GBP,59.99 GBP,in stock,https://almighty.tools/products/the-almighty-solar-power-bank?variant=50147771220264&country=GB&currency=GBP
 50147771220264,GR,90.95 EUR,54.95 EUR,in stock,https://almighty.tools/products/the-almighty-solar-power-bank?variant=50147771220264&country=GR&currency=EUR
 50147771220264,IE,90.95 EUR,54.95 EUR,in stock,https://almighty.tools/products/the-almighty-solar-power-bank?variant=50147771220264&country=IE&currency=EUR
-50147771220264,IL,311.00 ILS,187.00 ILS,in stock,https://almighty.tools/products/the-almighty-solar-power-bank?variant=50147771220264&country=IL&currency=ILS
+50147771220264,IL,312.00 ILS,187.00 ILS,in stock,https://almighty.tools/products/the-almighty-solar-power-bank?variant=50147771220264&country=IL&currency=ILS
 50147771220264,IT,90.95 EUR,54.95 EUR,in stock,https://almighty.tools/products/the-almighty-solar-power-bank?variant=50147771220264&country=IT&currency=EUR
 50147771220264,JP,16100.00 JPY,9700.00 JPY,in stock,https://almighty.tools/products/the-almighty-solar-power-bank?variant=50147771220264&country=JP&currency=JPY
 50147771220264,MX,1800.00 MXN,1080.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-solar-power-bank?variant=50147771220264&country=MX&currency=MXN
@@ -1529,7 +1529,7 @@ id,override,price,sale_price,availability,link
 50147771253032,GB,99.99 GBP,59.99 GBP,in stock,https://almighty.tools/products/the-almighty-solar-power-bank?variant=50147771253032&country=GB&currency=GBP
 50147771253032,GR,90.95 EUR,54.95 EUR,in stock,https://almighty.tools/products/the-almighty-solar-power-bank?variant=50147771253032&country=GR&currency=EUR
 50147771253032,IE,90.95 EUR,54.95 EUR,in stock,https://almighty.tools/products/the-almighty-solar-power-bank?variant=50147771253032&country=IE&currency=EUR
-50147771253032,IL,311.00 ILS,187.00 ILS,in stock,https://almighty.tools/products/the-almighty-solar-power-bank?variant=50147771253032&country=IL&currency=ILS
+50147771253032,IL,312.00 ILS,187.00 ILS,in stock,https://almighty.tools/products/the-almighty-solar-power-bank?variant=50147771253032&country=IL&currency=ILS
 50147771253032,IT,90.95 EUR,54.95 EUR,in stock,https://almighty.tools/products/the-almighty-solar-power-bank?variant=50147771253032&country=IT&currency=EUR
 50147771253032,JP,16100.00 JPY,9700.00 JPY,in stock,https://almighty.tools/products/the-almighty-solar-power-bank?variant=50147771253032&country=JP&currency=JPY
 50147771253032,MX,1800.00 MXN,1080.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-solar-power-bank?variant=50147771253032&country=MX&currency=MXN
@@ -1557,7 +1557,7 @@ id,override,price,sale_price,availability,link
 50143662866728,GB,313.17 GBP,187.90 GBP,out of stock,https://almighty.tools/products/the-almighty-backpack?variant=50143662866728&country=GB&currency=GBP
 50143662866728,GR,283.95 EUR,170.95 EUR,out of stock,https://almighty.tools/products/the-almighty-backpack?variant=50143662866728&country=GR&currency=EUR
 50143662866728,IE,283.95 EUR,170.95 EUR,out of stock,https://almighty.tools/products/the-almighty-backpack?variant=50143662866728&country=IE&currency=EUR
-50143662866728,IL,974.00 ILS,584.00 ILS,out of stock,https://almighty.tools/products/the-almighty-backpack?variant=50143662866728&country=IL&currency=ILS
+50143662866728,IL,975.00 ILS,585.00 ILS,out of stock,https://almighty.tools/products/the-almighty-backpack?variant=50143662866728&country=IL&currency=ILS
 50143662866728,IT,283.95 EUR,170.95 EUR,out of stock,https://almighty.tools/products/the-almighty-backpack?variant=50143662866728&country=IT&currency=EUR
 50143662866728,JP,50400.00 JPY,30200.00 JPY,out of stock,https://almighty.tools/products/the-almighty-backpack?variant=50143662866728&country=JP&currency=JPY
 50143662866728,MX,5638.00 MXN,3383.00 MXN,out of stock,https://almighty.tools/es/products/the-almighty-backpack?variant=50143662866728&country=MX&currency=MXN
@@ -1585,7 +1585,7 @@ id,override,price,sale_price,availability,link
 50151522468136,GB,139.83 GBP,83.90 GBP,in stock,https://almighty.tools/products/the-almighty-ruler-20?variant=50151522468136&country=GB&currency=GBP
 50151522468136,GR,126.95 EUR,76.95 EUR,in stock,https://almighty.tools/products/the-almighty-ruler-20?variant=50151522468136&country=GR&currency=EUR
 50151522468136,IE,126.95 EUR,76.95 EUR,in stock,https://almighty.tools/products/the-almighty-ruler-20?variant=50151522468136&country=IE&currency=EUR
-50151522468136,IL,435.00 ILS,261.00 ILS,in stock,https://almighty.tools/products/the-almighty-ruler-20?variant=50151522468136&country=IL&currency=ILS
+50151522468136,IL,436.00 ILS,262.00 ILS,in stock,https://almighty.tools/products/the-almighty-ruler-20?variant=50151522468136&country=IL&currency=ILS
 50151522468136,IT,126.95 EUR,76.95 EUR,in stock,https://almighty.tools/products/the-almighty-ruler-20?variant=50151522468136&country=IT&currency=EUR
 50151522468136,JP,22500.00 JPY,13500.00 JPY,in stock,https://almighty.tools/products/the-almighty-ruler-20?variant=50151522468136&country=JP&currency=JPY
 50151522468136,MX,2517.00 MXN,1511.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-ruler-20?variant=50151522468136&country=MX&currency=MXN
@@ -1641,9 +1641,9 @@ id,override,price,sale_price,availability,link
 50292856193320,GB,133.17 GBP,79.90 GBP,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856193320&country=GB&currency=GBP
 50292856193320,GR,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856193320&country=GR&currency=EUR
 50292856193320,IE,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856193320&country=IE&currency=EUR
-50292856193320,IL,414.00 ILS,249.00 ILS,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856193320&country=IL&currency=ILS
+50292856193320,IL,415.00 ILS,249.00 ILS,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856193320&country=IL&currency=ILS
 50292856193320,IT,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856193320&country=IT&currency=EUR
-50292856193320,JP,21400.00 JPY,12900.00 JPY,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856193320&country=JP&currency=JPY
+50292856193320,JP,21500.00 JPY,12900.00 JPY,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856193320&country=JP&currency=JPY
 50292856193320,MX,2398.00 MXN,1439.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-boots?variant=50292856193320&country=MX&currency=MXN
 50292856193320,NL,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856193320&country=NL&currency=EUR
 50292856193320,NO,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856193320&country=NO&currency=EUR
@@ -1669,9 +1669,9 @@ id,override,price,sale_price,availability,link
 50292856226088,GB,133.17 GBP,79.90 GBP,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856226088&country=GB&currency=GBP
 50292856226088,GR,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856226088&country=GR&currency=EUR
 50292856226088,IE,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856226088&country=IE&currency=EUR
-50292856226088,IL,414.00 ILS,249.00 ILS,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856226088&country=IL&currency=ILS
+50292856226088,IL,415.00 ILS,249.00 ILS,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856226088&country=IL&currency=ILS
 50292856226088,IT,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856226088&country=IT&currency=EUR
-50292856226088,JP,21400.00 JPY,12900.00 JPY,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856226088&country=JP&currency=JPY
+50292856226088,JP,21500.00 JPY,12900.00 JPY,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856226088&country=JP&currency=JPY
 50292856226088,MX,2398.00 MXN,1439.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-boots?variant=50292856226088&country=MX&currency=MXN
 50292856226088,NL,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856226088&country=NL&currency=EUR
 50292856226088,NO,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856226088&country=NO&currency=EUR
@@ -1697,9 +1697,9 @@ id,override,price,sale_price,availability,link
 50292856258856,GB,133.17 GBP,79.90 GBP,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856258856&country=GB&currency=GBP
 50292856258856,GR,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856258856&country=GR&currency=EUR
 50292856258856,IE,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856258856&country=IE&currency=EUR
-50292856258856,IL,414.00 ILS,249.00 ILS,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856258856&country=IL&currency=ILS
+50292856258856,IL,415.00 ILS,249.00 ILS,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856258856&country=IL&currency=ILS
 50292856258856,IT,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856258856&country=IT&currency=EUR
-50292856258856,JP,21400.00 JPY,12900.00 JPY,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856258856&country=JP&currency=JPY
+50292856258856,JP,21500.00 JPY,12900.00 JPY,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856258856&country=JP&currency=JPY
 50292856258856,MX,2398.00 MXN,1439.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-boots?variant=50292856258856&country=MX&currency=MXN
 50292856258856,NL,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856258856&country=NL&currency=EUR
 50292856258856,NO,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856258856&country=NO&currency=EUR
@@ -1725,9 +1725,9 @@ id,override,price,sale_price,availability,link
 50292856291624,GB,133.17 GBP,79.90 GBP,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856291624&country=GB&currency=GBP
 50292856291624,GR,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856291624&country=GR&currency=EUR
 50292856291624,IE,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856291624&country=IE&currency=EUR
-50292856291624,IL,414.00 ILS,249.00 ILS,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856291624&country=IL&currency=ILS
+50292856291624,IL,415.00 ILS,249.00 ILS,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856291624&country=IL&currency=ILS
 50292856291624,IT,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856291624&country=IT&currency=EUR
-50292856291624,JP,21400.00 JPY,12900.00 JPY,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856291624&country=JP&currency=JPY
+50292856291624,JP,21500.00 JPY,12900.00 JPY,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856291624&country=JP&currency=JPY
 50292856291624,MX,2398.00 MXN,1439.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-boots?variant=50292856291624&country=MX&currency=MXN
 50292856291624,NL,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856291624&country=NL&currency=EUR
 50292856291624,NO,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856291624&country=NO&currency=EUR
@@ -1753,9 +1753,9 @@ id,override,price,sale_price,availability,link
 50292856324392,GB,133.17 GBP,79.90 GBP,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856324392&country=GB&currency=GBP
 50292856324392,GR,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856324392&country=GR&currency=EUR
 50292856324392,IE,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856324392&country=IE&currency=EUR
-50292856324392,IL,414.00 ILS,249.00 ILS,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856324392&country=IL&currency=ILS
+50292856324392,IL,415.00 ILS,249.00 ILS,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856324392&country=IL&currency=ILS
 50292856324392,IT,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856324392&country=IT&currency=EUR
-50292856324392,JP,21400.00 JPY,12900.00 JPY,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856324392&country=JP&currency=JPY
+50292856324392,JP,21500.00 JPY,12900.00 JPY,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856324392&country=JP&currency=JPY
 50292856324392,MX,2398.00 MXN,1439.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-boots?variant=50292856324392&country=MX&currency=MXN
 50292856324392,NL,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856324392&country=NL&currency=EUR
 50292856324392,NO,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856324392&country=NO&currency=EUR
@@ -1781,9 +1781,9 @@ id,override,price,sale_price,availability,link
 50292856357160,GB,133.17 GBP,79.90 GBP,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856357160&country=GB&currency=GBP
 50292856357160,GR,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856357160&country=GR&currency=EUR
 50292856357160,IE,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856357160&country=IE&currency=EUR
-50292856357160,IL,414.00 ILS,249.00 ILS,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856357160&country=IL&currency=ILS
+50292856357160,IL,415.00 ILS,249.00 ILS,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856357160&country=IL&currency=ILS
 50292856357160,IT,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856357160&country=IT&currency=EUR
-50292856357160,JP,21400.00 JPY,12900.00 JPY,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856357160&country=JP&currency=JPY
+50292856357160,JP,21500.00 JPY,12900.00 JPY,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856357160&country=JP&currency=JPY
 50292856357160,MX,2398.00 MXN,1439.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-boots?variant=50292856357160&country=MX&currency=MXN
 50292856357160,NL,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856357160&country=NL&currency=EUR
 50292856357160,NO,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856357160&country=NO&currency=EUR
@@ -1809,9 +1809,9 @@ id,override,price,sale_price,availability,link
 50292856389928,GB,133.17 GBP,79.90 GBP,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856389928&country=GB&currency=GBP
 50292856389928,GR,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856389928&country=GR&currency=EUR
 50292856389928,IE,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856389928&country=IE&currency=EUR
-50292856389928,IL,414.00 ILS,249.00 ILS,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856389928&country=IL&currency=ILS
+50292856389928,IL,415.00 ILS,249.00 ILS,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856389928&country=IL&currency=ILS
 50292856389928,IT,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856389928&country=IT&currency=EUR
-50292856389928,JP,21400.00 JPY,12900.00 JPY,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856389928&country=JP&currency=JPY
+50292856389928,JP,21500.00 JPY,12900.00 JPY,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856389928&country=JP&currency=JPY
 50292856389928,MX,2398.00 MXN,1439.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-boots?variant=50292856389928&country=MX&currency=MXN
 50292856389928,NL,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856389928&country=NL&currency=EUR
 50292856389928,NO,120.95 EUR,72.95 EUR,in stock,https://almighty.tools/products/the-almighty-boots?variant=50292856389928&country=NO&currency=EUR
@@ -1837,7 +1837,7 @@ id,override,price,sale_price,availability,link
 50351543648552,GB,58.17 GBP,34.90 GBP,in stock,https://almighty.tools/products/the-almighty-ruler-iron-edition?variant=50351543648552&country=GB&currency=GBP
 50351543648552,GR,52.95 EUR,31.95 EUR,in stock,https://almighty.tools/products/the-almighty-ruler-iron-edition?variant=50351543648552&country=GR&currency=EUR
 50351543648552,IE,52.95 EUR,31.95 EUR,in stock,https://almighty.tools/products/the-almighty-ruler-iron-edition?variant=50351543648552&country=IE&currency=EUR
-50351543648552,IL,181.00 ILS,109.00 ILS,in stock,https://almighty.tools/products/the-almighty-ruler-iron-edition?variant=50351543648552&country=IL&currency=ILS
+50351543648552,IL,182.00 ILS,109.00 ILS,in stock,https://almighty.tools/products/the-almighty-ruler-iron-edition?variant=50351543648552&country=IL&currency=ILS
 50351543648552,IT,52.95 EUR,31.95 EUR,in stock,https://almighty.tools/products/the-almighty-ruler-iron-edition?variant=50351543648552&country=IT&currency=EUR
 50351543648552,JP,9400.00 JPY,5700.00 JPY,in stock,https://almighty.tools/products/the-almighty-ruler-iron-edition?variant=50351543648552&country=JP&currency=JPY
 50351543648552,MX,1048.00 MXN,629.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-ruler-iron-edition?variant=50351543648552&country=MX&currency=MXN
@@ -1921,7 +1921,7 @@ id,override,price,sale_price,availability,link
 50362357154088,GB,208.17 GBP,124.90 GBP,in stock,https://almighty.tools/products/the-almighty-airbuddy?variant=50362357154088&country=GB&currency=GBP
 50362357154088,GR,188.95 EUR,113.95 EUR,in stock,https://almighty.tools/products/the-almighty-airbuddy?variant=50362357154088&country=GR&currency=EUR
 50362357154088,IE,188.95 EUR,113.95 EUR,in stock,https://almighty.tools/products/the-almighty-airbuddy?variant=50362357154088&country=IE&currency=EUR
-50362357154088,IL,647.00 ILS,389.00 ILS,in stock,https://almighty.tools/products/the-almighty-airbuddy?variant=50362357154088&country=IL&currency=ILS
+50362357154088,IL,648.00 ILS,389.00 ILS,in stock,https://almighty.tools/products/the-almighty-airbuddy?variant=50362357154088&country=IL&currency=ILS
 50362357154088,IT,188.95 EUR,113.95 EUR,in stock,https://almighty.tools/products/the-almighty-airbuddy?variant=50362357154088&country=IT&currency=EUR
 50362357154088,JP,33500.00 JPY,20100.00 JPY,in stock,https://almighty.tools/products/the-almighty-airbuddy?variant=50362357154088&country=JP&currency=JPY
 50362357154088,MX,3748.00 MXN,2249.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-airbuddy?variant=50362357154088&country=MX&currency=MXN
@@ -1949,9 +1949,9 @@ id,override,price,sale_price,availability,link
 50373548310824,GB,174.90 GBP,104.90 GBP,in stock,https://almighty.tools/products/the-almighty-chargestation?variant=50373548310824&country=GB&currency=GBP
 50373548310824,GR,158.95 EUR,95.95 EUR,in stock,https://almighty.tools/products/the-almighty-chargestation?variant=50373548310824&country=GR&currency=EUR
 50373548310824,IE,158.95 EUR,95.95 EUR,in stock,https://almighty.tools/products/the-almighty-chargestation?variant=50373548310824&country=IE&currency=EUR
-50373548310824,IL,544.00 ILS,326.00 ILS,in stock,https://almighty.tools/products/the-almighty-chargestation?variant=50373548310824&country=IL&currency=ILS
+50373548310824,IL,545.00 ILS,327.00 ILS,in stock,https://almighty.tools/products/the-almighty-chargestation?variant=50373548310824&country=IL&currency=ILS
 50373548310824,IT,158.95 EUR,95.95 EUR,in stock,https://almighty.tools/products/the-almighty-chargestation?variant=50373548310824&country=IT&currency=EUR
-50373548310824,JP,28100.00 JPY,16900.00 JPY,in stock,https://almighty.tools/products/the-almighty-chargestation?variant=50373548310824&country=JP&currency=JPY
+50373548310824,JP,28200.00 JPY,16900.00 JPY,in stock,https://almighty.tools/products/the-almighty-chargestation?variant=50373548310824&country=JP&currency=JPY
 50373548310824,MX,3149.00 MXN,1889.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-chargestation?variant=50373548310824&country=MX&currency=MXN
 50373548310824,NL,158.95 EUR,95.95 EUR,in stock,https://almighty.tools/products/the-almighty-chargestation?variant=50373548310824&country=NL&currency=EUR
 50373548310824,NO,158.95 EUR,95.95 EUR,in stock,https://almighty.tools/products/the-almighty-chargestation?variant=50373548310824&country=NO&currency=EUR
@@ -1961,32 +1961,32 @@ id,override,price,sale_price,availability,link
 50373548310824,SG,228.00 SGD,137.00 SGD,in stock,https://almighty.tools/products/the-almighty-chargestation?variant=50373548310824&country=SG&currency=SGD
 50396674818344,AE,183.17 USD,109.90 USD,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=AE&currency=USD
 50396674818344,AR,274755.00 ARS,164850.00 ARS,in stock,https://almighty.tools/es/products/the-almighty-dustbuster-20?variant=50396674818344&country=AR&currency=ARS
-50396674818344,AT,166.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=AT&currency=EUR
+50396674818344,AT,165.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=AT&currency=EUR
 50396674818344,AU,183.17 USD,109.90 USD,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=AU&currency=USD
-50396674818344,BE,166.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=BE&currency=EUR
+50396674818344,BE,165.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=BE&currency=EUR
 50396674818344,BR,183.17 USD,109.90 USD,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=BR&currency=USD
 50396674818344,CA,183.17 USD,109.90 USD,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=CA&currency=USD
-50396674818344,CH,166.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=CH&currency=EUR
+50396674818344,CH,165.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=CH&currency=EUR
 50396674818344,CL,174100.00 CLP,104500.00 CLP,in stock,https://almighty.tools/es/products/the-almighty-dustbuster-20?variant=50396674818344&country=CL&currency=CLP
 50396674818344,CO,678000.00 COP,407000.00 COP,in stock,https://almighty.tools/es/products/the-almighty-dustbuster-20?variant=50396674818344&country=CO&currency=COP
-50396674818344,DE,166.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=DE&currency=EUR
-50396674818344,DK,166.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=DK&currency=EUR
-50396674818344,ES,166.95 EUR,99.95 EUR,in stock,https://almighty.tools/es/products/the-almighty-dustbuster-20?variant=50396674818344&country=ES&currency=EUR
-50396674818344,FI,166.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=FI&currency=EUR
+50396674818344,DE,165.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=DE&currency=EUR
+50396674818344,DK,165.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=DK&currency=EUR
+50396674818344,ES,165.95 EUR,99.95 EUR,in stock,https://almighty.tools/es/products/the-almighty-dustbuster-20?variant=50396674818344&country=ES&currency=EUR
+50396674818344,FI,165.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=FI&currency=EUR
 50396674818344,FR,183.95 EUR,109.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=FR&currency=EUR
 50396674818344,GB,183.17 GBP,109.90 GBP,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=GB&currency=GBP
-50396674818344,GR,166.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=GR&currency=EUR
-50396674818344,IE,166.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=IE&currency=EUR
-50396674818344,IL,570.00 ILS,342.00 ILS,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=IL&currency=ILS
-50396674818344,IT,166.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=IT&currency=EUR
+50396674818344,GR,165.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=GR&currency=EUR
+50396674818344,IE,165.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=IE&currency=EUR
+50396674818344,IL,571.00 ILS,343.00 ILS,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=IL&currency=ILS
+50396674818344,IT,165.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=IT&currency=EUR
 50396674818344,JP,29500.00 JPY,17700.00 JPY,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=JP&currency=JPY
 50396674818344,MX,3298.00 MXN,1979.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-dustbuster-20?variant=50396674818344&country=MX&currency=MXN
-50396674818344,NL,166.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=NL&currency=EUR
-50396674818344,NO,166.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=NO&currency=EUR
+50396674818344,NL,165.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=NL&currency=EUR
+50396674818344,NO,165.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=NO&currency=EUR
 50396674818344,NZ,183.17 USD,109.90 USD,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=NZ&currency=USD
-50396674818344,PT,166.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=PT&currency=EUR
-50396674818344,SE,166.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=SE&currency=EUR
-50396674818344,SG,239.00 SGD,143.00 SGD,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=SG&currency=SGD
+50396674818344,PT,165.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=PT&currency=EUR
+50396674818344,SE,165.95 EUR,99.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=SE&currency=EUR
+50396674818344,SG,238.00 SGD,143.00 SGD,in stock,https://almighty.tools/products/the-almighty-dustbuster-20?variant=50396674818344&country=SG&currency=SGD
 50423263133992,AE,214.83 USD,128.90 USD,in stock,https://almighty.tools/products/the-almighty-360-level?variant=50423263133992&country=AE&currency=USD
 50423263133992,AR,322245.00 ARS,193350.00 ARS,in stock,https://almighty.tools/es/products/the-almighty-360-level?variant=50423263133992&country=AR&currency=ARS
 50423263133992,AT,194.95 EUR,116.95 EUR,in stock,https://almighty.tools/products/the-almighty-360-level?variant=50423263133992&country=AT&currency=EUR
@@ -2005,7 +2005,7 @@ id,override,price,sale_price,availability,link
 50423263133992,GB,214.83 GBP,128.90 GBP,in stock,https://almighty.tools/products/the-almighty-360-level?variant=50423263133992&country=GB&currency=GBP
 50423263133992,GR,194.95 EUR,116.95 EUR,in stock,https://almighty.tools/products/the-almighty-360-level?variant=50423263133992&country=GR&currency=EUR
 50423263133992,IE,194.95 EUR,116.95 EUR,in stock,https://almighty.tools/products/the-almighty-360-level?variant=50423263133992&country=IE&currency=EUR
-50423263133992,IL,668.00 ILS,401.00 ILS,in stock,https://almighty.tools/products/the-almighty-360-level?variant=50423263133992&country=IL&currency=ILS
+50423263133992,IL,669.00 ILS,402.00 ILS,in stock,https://almighty.tools/products/the-almighty-360-level?variant=50423263133992&country=IL&currency=ILS
 50423263133992,IT,194.95 EUR,116.95 EUR,in stock,https://almighty.tools/products/the-almighty-360-level?variant=50423263133992&country=IT&currency=EUR
 50423263133992,JP,34600.00 JPY,20800.00 JPY,in stock,https://almighty.tools/products/the-almighty-360-level?variant=50423263133992&country=JP&currency=JPY
 50423263133992,MX,3867.00 MXN,2321.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-360-level?variant=50423263133992&country=MX&currency=MXN
@@ -2035,7 +2035,7 @@ id,override,price,sale_price,availability,link
 50440808530216,IE,79.95 EUR,47.95 EUR,in stock,https://almighty.tools/products/the-almighty-hurricane?variant=50440808530216&country=IE&currency=EUR
 50440808530216,IL,275.00 ILS,165.00 ILS,in stock,https://almighty.tools/products/the-almighty-hurricane?variant=50440808530216&country=IL&currency=ILS
 50440808530216,IT,79.95 EUR,47.95 EUR,in stock,https://almighty.tools/products/the-almighty-hurricane?variant=50440808530216&country=IT&currency=EUR
-50440808530216,JP,14200.00 JPY,8500.00 JPY,in stock,https://almighty.tools/products/the-almighty-hurricane?variant=50440808530216&country=JP&currency=JPY
+50440808530216,JP,14200.00 JPY,8600.00 JPY,in stock,https://almighty.tools/products/the-almighty-hurricane?variant=50440808530216&country=JP&currency=JPY
 50440808530216,MX,1588.00 MXN,953.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-hurricane?variant=50440808530216&country=MX&currency=MXN
 50440808530216,NL,79.95 EUR,47.95 EUR,in stock,https://almighty.tools/products/the-almighty-hurricane?variant=50440808530216&country=NL&currency=EUR
 50440808530216,NO,79.95 EUR,47.95 EUR,in stock,https://almighty.tools/products/the-almighty-hurricane?variant=50440808530216&country=NO&currency=EUR
@@ -2101,59 +2101,59 @@ id,override,price,sale_price,availability,link
 50459601600808,SG,119.00 SGD,72.00 SGD,in stock,https://almighty.tools/products/the-almighty-ratchet-wrench-set-42-in-1?variant=50459601600808&country=SG&currency=SGD
 50641515905320,AE,346.50 USD,207.90 USD,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=AE&currency=USD
 50641515905320,AR,519750.00 ARS,311850.00 ARS,out of stock,https://almighty.tools/es/products/the-almighty-fixer?variant=50641515905320&country=AR&currency=ARS
-50641515905320,AT,314.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=AT&currency=EUR
+50641515905320,AT,313.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=AT&currency=EUR
 50641515905320,AU,346.50 USD,207.90 USD,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=AU&currency=USD
-50641515905320,BE,314.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=BE&currency=EUR
+50641515905320,BE,313.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=BE&currency=EUR
 50641515905320,BR,346.50 USD,207.90 USD,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=BR&currency=USD
 50641515905320,CA,346.50 USD,207.90 USD,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=CA&currency=USD
-50641515905320,CH,314.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=CH&currency=EUR
+50641515905320,CH,313.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=CH&currency=EUR
 50641515905320,CL,329200.00 CLP,197600.00 CLP,out of stock,https://almighty.tools/es/products/the-almighty-fixer?variant=50641515905320&country=CL&currency=CLP
 50641515905320,CO,1283000.00 COP,770000.00 COP,out of stock,https://almighty.tools/es/products/the-almighty-fixer?variant=50641515905320&country=CO&currency=COP
-50641515905320,DE,314.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=DE&currency=EUR
-50641515905320,DK,314.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=DK&currency=EUR
-50641515905320,ES,314.95 EUR,188.95 EUR,out of stock,https://almighty.tools/es/products/the-almighty-fixer?variant=50641515905320&country=ES&currency=EUR
-50641515905320,FI,314.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=FI&currency=EUR
+50641515905320,DE,313.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=DE&currency=EUR
+50641515905320,DK,313.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=DK&currency=EUR
+50641515905320,ES,313.95 EUR,188.95 EUR,out of stock,https://almighty.tools/es/products/the-almighty-fixer?variant=50641515905320&country=ES&currency=EUR
+50641515905320,FI,313.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=FI&currency=EUR
 50641515905320,FR,346.95 EUR,207.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=FR&currency=EUR
 50641515905320,GB,346.50 GBP,207.90 GBP,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=GB&currency=GBP
-50641515905320,GR,314.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=GR&currency=EUR
-50641515905320,IE,314.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=IE&currency=EUR
-50641515905320,IL,1077.00 ILS,647.00 ILS,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=IL&currency=ILS
-50641515905320,IT,314.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=IT&currency=EUR
+50641515905320,GR,313.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=GR&currency=EUR
+50641515905320,IE,313.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=IE&currency=EUR
+50641515905320,IL,1079.00 ILS,648.00 ILS,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=IL&currency=ILS
+50641515905320,IT,313.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=IT&currency=EUR
 50641515905320,JP,55700.00 JPY,33500.00 JPY,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=JP&currency=JPY
 50641515905320,MX,6237.00 MXN,3743.00 MXN,out of stock,https://almighty.tools/es/products/the-almighty-fixer?variant=50641515905320&country=MX&currency=MXN
-50641515905320,NL,314.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=NL&currency=EUR
-50641515905320,NO,314.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=NO&currency=EUR
+50641515905320,NL,313.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=NL&currency=EUR
+50641515905320,NO,313.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=NO&currency=EUR
 50641515905320,NZ,346.50 USD,207.90 USD,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=NZ&currency=USD
-50641515905320,PT,314.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=PT&currency=EUR
-50641515905320,SE,314.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=SE&currency=EUR
+50641515905320,PT,313.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=PT&currency=EUR
+50641515905320,SE,313.95 EUR,188.95 EUR,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=SE&currency=EUR
 50641515905320,SG,451.00 SGD,271.00 SGD,out of stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515905320&country=SG&currency=SGD
 50641515938088,AE,346.50 USD,207.90 USD,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=AE&currency=USD
 50641515938088,AR,519750.00 ARS,311850.00 ARS,in stock,https://almighty.tools/es/products/the-almighty-fixer?variant=50641515938088&country=AR&currency=ARS
-50641515938088,AT,314.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=AT&currency=EUR
+50641515938088,AT,313.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=AT&currency=EUR
 50641515938088,AU,346.50 USD,207.90 USD,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=AU&currency=USD
-50641515938088,BE,314.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=BE&currency=EUR
+50641515938088,BE,313.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=BE&currency=EUR
 50641515938088,BR,346.50 USD,207.90 USD,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=BR&currency=USD
 50641515938088,CA,346.50 USD,207.90 USD,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=CA&currency=USD
-50641515938088,CH,314.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=CH&currency=EUR
+50641515938088,CH,313.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=CH&currency=EUR
 50641515938088,CL,329200.00 CLP,197600.00 CLP,in stock,https://almighty.tools/es/products/the-almighty-fixer?variant=50641515938088&country=CL&currency=CLP
 50641515938088,CO,1283000.00 COP,770000.00 COP,in stock,https://almighty.tools/es/products/the-almighty-fixer?variant=50641515938088&country=CO&currency=COP
-50641515938088,DE,314.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=DE&currency=EUR
-50641515938088,DK,314.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=DK&currency=EUR
-50641515938088,ES,314.95 EUR,188.95 EUR,in stock,https://almighty.tools/es/products/the-almighty-fixer?variant=50641515938088&country=ES&currency=EUR
-50641515938088,FI,314.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=FI&currency=EUR
+50641515938088,DE,313.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=DE&currency=EUR
+50641515938088,DK,313.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=DK&currency=EUR
+50641515938088,ES,313.95 EUR,188.95 EUR,in stock,https://almighty.tools/es/products/the-almighty-fixer?variant=50641515938088&country=ES&currency=EUR
+50641515938088,FI,313.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=FI&currency=EUR
 50641515938088,FR,346.95 EUR,207.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=FR&currency=EUR
 50641515938088,GB,346.50 GBP,207.90 GBP,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=GB&currency=GBP
-50641515938088,GR,314.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=GR&currency=EUR
-50641515938088,IE,314.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=IE&currency=EUR
-50641515938088,IL,1077.00 ILS,647.00 ILS,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=IL&currency=ILS
-50641515938088,IT,314.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=IT&currency=EUR
+50641515938088,GR,313.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=GR&currency=EUR
+50641515938088,IE,313.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=IE&currency=EUR
+50641515938088,IL,1079.00 ILS,648.00 ILS,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=IL&currency=ILS
+50641515938088,IT,313.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=IT&currency=EUR
 50641515938088,JP,55700.00 JPY,33500.00 JPY,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=JP&currency=JPY
 50641515938088,MX,6237.00 MXN,3743.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-fixer?variant=50641515938088&country=MX&currency=MXN
-50641515938088,NL,314.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=NL&currency=EUR
-50641515938088,NO,314.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=NO&currency=EUR
+50641515938088,NL,313.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=NL&currency=EUR
+50641515938088,NO,313.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=NO&currency=EUR
 50641515938088,NZ,346.50 USD,207.90 USD,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=NZ&currency=USD
-50641515938088,PT,314.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=PT&currency=EUR
-50641515938088,SE,314.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=SE&currency=EUR
+50641515938088,PT,313.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=PT&currency=EUR
+50641515938088,SE,313.95 EUR,188.95 EUR,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=SE&currency=EUR
 50641515938088,SG,451.00 SGD,271.00 SGD,in stock,https://almighty.tools/products/the-almighty-fixer?variant=50641515938088&country=SG&currency=SGD
 50619044987176,AE,138.17 USD,82.90 USD,in stock,https://almighty.tools/products/the-almighty-tape-measure?variant=50619044987176&country=AE&currency=USD
 50619044987176,AR,207255.00 ARS,124350.00 ARS,in stock,https://almighty.tools/es/products/the-almighty-tape-measure?variant=50619044987176&country=AR&currency=ARS
@@ -2173,9 +2173,9 @@ id,override,price,sale_price,availability,link
 50619044987176,GB,138.17 GBP,82.90 GBP,in stock,https://almighty.tools/products/the-almighty-tape-measure?variant=50619044987176&country=GB&currency=GBP
 50619044987176,GR,125.95 EUR,75.95 EUR,in stock,https://almighty.tools/products/the-almighty-tape-measure?variant=50619044987176&country=GR&currency=EUR
 50619044987176,IE,125.95 EUR,75.95 EUR,in stock,https://almighty.tools/products/the-almighty-tape-measure?variant=50619044987176&country=IE&currency=EUR
-50619044987176,IL,430.00 ILS,258.00 ILS,in stock,https://almighty.tools/products/the-almighty-tape-measure?variant=50619044987176&country=IL&currency=ILS
+50619044987176,IL,431.00 ILS,259.00 ILS,in stock,https://almighty.tools/products/the-almighty-tape-measure?variant=50619044987176&country=IL&currency=ILS
 50619044987176,IT,125.95 EUR,75.95 EUR,in stock,https://almighty.tools/products/the-almighty-tape-measure?variant=50619044987176&country=IT&currency=EUR
-50619044987176,JP,22200.00 JPY,13400.00 JPY,in stock,https://almighty.tools/products/the-almighty-tape-measure?variant=50619044987176&country=JP&currency=JPY
+50619044987176,JP,22300.00 JPY,13400.00 JPY,in stock,https://almighty.tools/products/the-almighty-tape-measure?variant=50619044987176&country=JP&currency=JPY
 50619044987176,MX,2488.00 MXN,1493.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-tape-measure?variant=50619044987176&country=MX&currency=MXN
 50619044987176,NL,125.95 EUR,75.95 EUR,in stock,https://almighty.tools/products/the-almighty-tape-measure?variant=50619044987176&country=NL&currency=EUR
 50619044987176,NO,125.95 EUR,75.95 EUR,in stock,https://almighty.tools/products/the-almighty-tape-measure?variant=50619044987176&country=NO&currency=EUR
@@ -2229,7 +2229,7 @@ id,override,price,sale_price,availability,link
 50503554728232,GB,141.50 GBP,84.90 GBP,in stock,https://almighty.tools/products/the-almighty-dustbuster?variant=50503554728232&country=GB&currency=GBP
 50503554728232,GR,128.95 EUR,76.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster?variant=50503554728232&country=GR&currency=EUR
 50503554728232,IE,128.95 EUR,76.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster?variant=50503554728232&country=IE&currency=EUR
-50503554728232,IL,440.00 ILS,264.00 ILS,in stock,https://almighty.tools/products/the-almighty-dustbuster?variant=50503554728232&country=IL&currency=ILS
+50503554728232,IL,441.00 ILS,265.00 ILS,in stock,https://almighty.tools/products/the-almighty-dustbuster?variant=50503554728232&country=IL&currency=ILS
 50503554728232,IT,128.95 EUR,76.95 EUR,in stock,https://almighty.tools/products/the-almighty-dustbuster?variant=50503554728232&country=IT&currency=EUR
 50503554728232,JP,22800.00 JPY,13700.00 JPY,in stock,https://almighty.tools/products/the-almighty-dustbuster?variant=50503554728232&country=JP&currency=JPY
 50503554728232,MX,2547.00 MXN,1529.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-dustbuster?variant=50503554728232&country=MX&currency=MXN
@@ -2257,7 +2257,7 @@ id,override,price,sale_price,availability,link
 51411044172072,GB,116.59 GBP,89.99 GBP,in stock,https://almighty.tools/products/the-almighty-180in1-screwdriver-set?variant=51411044172072&country=GB&currency=GBP
 51411044172072,GR,105.95 EUR,81.95 EUR,in stock,https://almighty.tools/products/the-almighty-180in1-screwdriver-set?variant=51411044172072&country=GR&currency=EUR
 51411044172072,IE,105.95 EUR,81.95 EUR,in stock,https://almighty.tools/products/the-almighty-180in1-screwdriver-set?variant=51411044172072&country=IE&currency=EUR
-51411044172072,IL,363.00 ILS,280.00 ILS,in stock,https://almighty.tools/products/the-almighty-180in1-screwdriver-set?variant=51411044172072&country=IL&currency=ILS
+51411044172072,IL,363.00 ILS,281.00 ILS,in stock,https://almighty.tools/products/the-almighty-180in1-screwdriver-set?variant=51411044172072&country=IL&currency=ILS
 51411044172072,IT,105.95 EUR,81.95 EUR,in stock,https://almighty.tools/products/the-almighty-180in1-screwdriver-set?variant=51411044172072&country=IT&currency=EUR
 51411044172072,JP,18800.00 JPY,14500.00 JPY,in stock,https://almighty.tools/products/the-almighty-180in1-screwdriver-set?variant=51411044172072&country=JP&currency=JPY
 51411044172072,MX,2099.00 MXN,1620.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-180in1-screwdriver-set?variant=51411044172072&country=MX&currency=MXN
@@ -2285,7 +2285,7 @@ id,override,price,sale_price,availability,link
 51411044204840,GB,166.65 GBP,99.99 GBP,in stock,https://almighty.tools/products/the-almighty-180in1-screwdriver-set?variant=51411044204840&country=GB&currency=GBP
 51411044204840,GR,151.95 EUR,90.95 EUR,in stock,https://almighty.tools/products/the-almighty-180in1-screwdriver-set?variant=51411044204840&country=GR&currency=EUR
 51411044204840,IE,151.95 EUR,90.95 EUR,in stock,https://almighty.tools/products/the-almighty-180in1-screwdriver-set?variant=51411044204840&country=IE&currency=EUR
-51411044204840,IL,518.00 ILS,311.00 ILS,in stock,https://almighty.tools/products/the-almighty-180in1-screwdriver-set?variant=51411044204840&country=IL&currency=ILS
+51411044204840,IL,519.00 ILS,312.00 ILS,in stock,https://almighty.tools/products/the-almighty-180in1-screwdriver-set?variant=51411044204840&country=IL&currency=ILS
 51411044204840,IT,151.95 EUR,90.95 EUR,in stock,https://almighty.tools/products/the-almighty-180in1-screwdriver-set?variant=51411044204840&country=IT&currency=EUR
 51411044204840,JP,26800.00 JPY,16100.00 JPY,in stock,https://almighty.tools/products/the-almighty-180in1-screwdriver-set?variant=51411044204840&country=JP&currency=JPY
 51411044204840,MX,3000.00 MXN,1800.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-180in1-screwdriver-set?variant=51411044204840&country=MX&currency=MXN
@@ -2313,7 +2313,7 @@ id,override,price,sale_price,availability,link
 50585409945896,GB,106.50 GBP,63.90 GBP,in stock,https://almighty.tools/products/the-almighty-rechargeable-digital-level?variant=50585409945896&country=GB&currency=GBP
 50585409945896,GR,96.95 EUR,57.95 EUR,in stock,https://almighty.tools/products/the-almighty-rechargeable-digital-level?variant=50585409945896&country=GR&currency=EUR
 50585409945896,IE,96.95 EUR,57.95 EUR,in stock,https://almighty.tools/products/the-almighty-rechargeable-digital-level?variant=50585409945896&country=IE&currency=EUR
-50585409945896,IL,331.00 ILS,199.00 ILS,in stock,https://almighty.tools/products/the-almighty-rechargeable-digital-level?variant=50585409945896&country=IL&currency=ILS
+50585409945896,IL,332.00 ILS,199.00 ILS,in stock,https://almighty.tools/products/the-almighty-rechargeable-digital-level?variant=50585409945896&country=IL&currency=ILS
 50585409945896,IT,96.95 EUR,57.95 EUR,in stock,https://almighty.tools/products/the-almighty-rechargeable-digital-level?variant=50585409945896&country=IT&currency=EUR
 50585409945896,JP,17200.00 JPY,10300.00 JPY,in stock,https://almighty.tools/products/the-almighty-rechargeable-digital-level?variant=50585409945896&country=JP&currency=JPY
 50585409945896,MX,1917.00 MXN,1151.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-rechargeable-digital-level?variant=50585409945896&country=MX&currency=MXN
@@ -2341,7 +2341,7 @@ id,override,price,sale_price,availability,link
 50598338134312,GB,109.99 GBP,59.99 GBP,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338134312&country=GB&currency=GBP
 50598338134312,GR,99.95 EUR,54.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338134312&country=GR&currency=EUR
 50598338134312,IE,99.95 EUR,54.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338134312&country=IE&currency=EUR
-50598338134312,IL,342.00 ILS,187.00 ILS,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338134312&country=IL&currency=ILS
+50598338134312,IL,343.00 ILS,187.00 ILS,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338134312&country=IL&currency=ILS
 50598338134312,IT,99.95 EUR,54.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338134312&country=IT&currency=EUR
 50598338134312,JP,17700.00 JPY,9700.00 JPY,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338134312&country=JP&currency=JPY
 50598338134312,MX,1980.00 MXN,1080.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-clamping-tool?variant=50598338134312&country=MX&currency=MXN
@@ -2369,7 +2369,7 @@ id,override,price,sale_price,availability,link
 50598338167080,GB,199.99 GBP,99.99 GBP,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338167080&country=GB&currency=GBP
 50598338167080,GR,181.95 EUR,90.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338167080&country=GR&currency=EUR
 50598338167080,IE,181.95 EUR,90.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338167080&country=IE&currency=EUR
-50598338167080,IL,622.00 ILS,311.00 ILS,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338167080&country=IL&currency=ILS
+50598338167080,IL,623.00 ILS,312.00 ILS,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338167080&country=IL&currency=ILS
 50598338167080,IT,181.95 EUR,90.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338167080&country=IT&currency=EUR
 50598338167080,JP,32200.00 JPY,16100.00 JPY,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338167080&country=JP&currency=JPY
 50598338167080,MX,3600.00 MXN,1800.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-clamping-tool?variant=50598338167080&country=MX&currency=MXN
@@ -2381,59 +2381,59 @@ id,override,price,sale_price,availability,link
 50598338167080,SG,260.00 SGD,130.00 SGD,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338167080&country=SG&currency=SGD
 50598338199848,AE,399.99 USD,159.99 USD,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=AE&currency=USD
 50598338199848,AR,599985.00 ARS,239985.00 ARS,in stock,https://almighty.tools/es/products/the-almighty-clamping-tool?variant=50598338199848&country=AR&currency=ARS
-50598338199848,AT,362.95 EUR,145.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=AT&currency=EUR
+50598338199848,AT,362.95 EUR,144.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=AT&currency=EUR
 50598338199848,AU,399.99 USD,159.99 USD,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=AU&currency=USD
-50598338199848,BE,362.95 EUR,145.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=BE&currency=EUR
+50598338199848,BE,362.95 EUR,144.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=BE&currency=EUR
 50598338199848,BR,399.99 USD,159.99 USD,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=BR&currency=USD
 50598338199848,CA,399.99 USD,159.99 USD,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=CA&currency=USD
-50598338199848,CH,362.95 EUR,145.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=CH&currency=EUR
+50598338199848,CH,362.95 EUR,144.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=CH&currency=EUR
 50598338199848,CL,380000.00 CLP,152000.00 CLP,in stock,https://almighty.tools/es/products/the-almighty-clamping-tool?variant=50598338199848&country=CL&currency=CLP
 50598338199848,CO,1480000.00 COP,592000.00 COP,in stock,https://almighty.tools/es/products/the-almighty-clamping-tool?variant=50598338199848&country=CO&currency=COP
-50598338199848,DE,362.95 EUR,145.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=DE&currency=EUR
-50598338199848,DK,362.95 EUR,145.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=DK&currency=EUR
-50598338199848,ES,362.95 EUR,145.95 EUR,in stock,https://almighty.tools/es/products/the-almighty-clamping-tool?variant=50598338199848&country=ES&currency=EUR
-50598338199848,FI,362.95 EUR,145.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=FI&currency=EUR
+50598338199848,DE,362.95 EUR,144.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=DE&currency=EUR
+50598338199848,DK,362.95 EUR,144.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=DK&currency=EUR
+50598338199848,ES,362.95 EUR,144.95 EUR,in stock,https://almighty.tools/es/products/the-almighty-clamping-tool?variant=50598338199848&country=ES&currency=EUR
+50598338199848,FI,362.95 EUR,144.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=FI&currency=EUR
 50598338199848,FR,400.95 EUR,160.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=FR&currency=EUR
 50598338199848,GB,399.99 GBP,159.99 GBP,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=GB&currency=GBP
-50598338199848,GR,362.95 EUR,145.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=GR&currency=EUR
-50598338199848,IE,362.95 EUR,145.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=IE&currency=EUR
-50598338199848,IL,1244.00 ILS,498.00 ILS,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=IL&currency=ILS
-50598338199848,IT,362.95 EUR,145.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=IT&currency=EUR
+50598338199848,GR,362.95 EUR,144.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=GR&currency=EUR
+50598338199848,IE,362.95 EUR,144.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=IE&currency=EUR
+50598338199848,IL,1245.00 ILS,498.00 ILS,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=IL&currency=ILS
+50598338199848,IT,362.95 EUR,144.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=IT&currency=EUR
 50598338199848,JP,64300.00 JPY,25800.00 JPY,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=JP&currency=JPY
 50598338199848,MX,7200.00 MXN,2880.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-clamping-tool?variant=50598338199848&country=MX&currency=MXN
-50598338199848,NL,362.95 EUR,145.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=NL&currency=EUR
-50598338199848,NO,362.95 EUR,145.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=NO&currency=EUR
+50598338199848,NL,362.95 EUR,144.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=NL&currency=EUR
+50598338199848,NO,362.95 EUR,144.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=NO&currency=EUR
 50598338199848,NZ,399.99 USD,159.99 USD,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=NZ&currency=USD
-50598338199848,PT,362.95 EUR,145.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=PT&currency=EUR
-50598338199848,SE,362.95 EUR,145.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=SE&currency=EUR
+50598338199848,PT,362.95 EUR,144.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=PT&currency=EUR
+50598338199848,SE,362.95 EUR,144.95 EUR,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=SE&currency=EUR
 50598338199848,SG,520.00 SGD,208.00 SGD,in stock,https://almighty.tools/products/the-almighty-clamping-tool?variant=50598338199848&country=SG&currency=SGD
 50608901816616,AE,123.99 USD,73.90 USD,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=AE&currency=USD
 50608901816616,AR,185985.00 ARS,110850.00 ARS,in stock,https://almighty.tools/es/products/the-almighty-wizard-wand?variant=50608901816616&country=AR&currency=ARS
-50608901816616,AT,112.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=AT&currency=EUR
+50608901816616,AT,112.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=AT&currency=EUR
 50608901816616,AU,123.99 USD,73.90 USD,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=AU&currency=USD
-50608901816616,BE,112.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=BE&currency=EUR
+50608901816616,BE,112.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=BE&currency=EUR
 50608901816616,BR,123.99 USD,73.90 USD,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=BR&currency=USD
 50608901816616,CA,123.99 USD,73.90 USD,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=CA&currency=USD
-50608901816616,CH,112.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=CH&currency=EUR
+50608901816616,CH,112.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=CH&currency=EUR
 50608901816616,CL,117800.00 CLP,70300.00 CLP,in stock,https://almighty.tools/es/products/the-almighty-wizard-wand?variant=50608901816616&country=CL&currency=CLP
 50608901816616,CO,459000.00 COP,274000.00 COP,in stock,https://almighty.tools/es/products/the-almighty-wizard-wand?variant=50608901816616&country=CO&currency=COP
-50608901816616,DE,112.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=DE&currency=EUR
-50608901816616,DK,112.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=DK&currency=EUR
-50608901816616,ES,112.95 EUR,67.95 EUR,in stock,https://almighty.tools/es/products/the-almighty-wizard-wand?variant=50608901816616&country=ES&currency=EUR
-50608901816616,FI,112.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=FI&currency=EUR
+50608901816616,DE,112.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=DE&currency=EUR
+50608901816616,DK,112.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=DK&currency=EUR
+50608901816616,ES,112.95 EUR,66.95 EUR,in stock,https://almighty.tools/es/products/the-almighty-wizard-wand?variant=50608901816616&country=ES&currency=EUR
+50608901816616,FI,112.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=FI&currency=EUR
 50608901816616,FR,124.95 EUR,73.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=FR&currency=EUR
 50608901816616,GB,123.99 GBP,73.90 GBP,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=GB&currency=GBP
-50608901816616,GR,112.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=GR&currency=EUR
-50608901816616,IE,112.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=IE&currency=EUR
+50608901816616,GR,112.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=GR&currency=EUR
+50608901816616,IE,112.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=IE&currency=EUR
 50608901816616,IL,386.00 ILS,230.00 ILS,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=IL&currency=ILS
-50608901816616,IT,112.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=IT&currency=EUR
+50608901816616,IT,112.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=IT&currency=EUR
 50608901816616,JP,20000.00 JPY,11900.00 JPY,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=JP&currency=JPY
 50608901816616,MX,2232.00 MXN,1331.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-wizard-wand?variant=50608901816616&country=MX&currency=MXN
-50608901816616,NL,112.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=NL&currency=EUR
-50608901816616,NO,112.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=NO&currency=EUR
+50608901816616,NL,112.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=NL&currency=EUR
+50608901816616,NO,112.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=NO&currency=EUR
 50608901816616,NZ,123.99 USD,73.90 USD,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=NZ&currency=USD
-50608901816616,PT,112.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=PT&currency=EUR
-50608901816616,SE,112.95 EUR,67.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=SE&currency=EUR
+50608901816616,PT,112.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=PT&currency=EUR
+50608901816616,SE,112.95 EUR,66.95 EUR,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=SE&currency=EUR
 50608901816616,SG,162.00 SGD,97.00 SGD,in stock,https://almighty.tools/products/the-almighty-wizard-wand?variant=50608901816616&country=SG&currency=SGD
 50608919871784,AE,146.50 USD,87.90 USD,in stock,https://almighty.tools/products/the-almighty-guide?variant=50608919871784&country=AE&currency=USD
 50608919871784,AR,219750.00 ARS,131850.00 ARS,in stock,https://almighty.tools/es/products/the-almighty-guide?variant=50608919871784&country=AR&currency=ARS
@@ -2481,7 +2481,7 @@ id,override,price,sale_price,availability,link
 50616969298216,GB,81.50 GBP,48.90 GBP,in stock,https://almighty.tools/products/the-almighty-craft?variant=50616969298216&country=GB&currency=GBP
 50616969298216,GR,73.95 EUR,44.95 EUR,in stock,https://almighty.tools/products/the-almighty-craft?variant=50616969298216&country=GR&currency=EUR
 50616969298216,IE,73.95 EUR,44.95 EUR,in stock,https://almighty.tools/products/the-almighty-craft?variant=50616969298216&country=IE&currency=EUR
-50616969298216,IL,254.00 ILS,152.00 ILS,in stock,https://almighty.tools/products/the-almighty-craft?variant=50616969298216&country=IL&currency=ILS
+50616969298216,IL,254.00 ILS,153.00 ILS,in stock,https://almighty.tools/products/the-almighty-craft?variant=50616969298216&country=IL&currency=ILS
 50616969298216,IT,73.95 EUR,44.95 EUR,in stock,https://almighty.tools/products/the-almighty-craft?variant=50616969298216&country=IT&currency=EUR
 50616969298216,JP,13100.00 JPY,7900.00 JPY,in stock,https://almighty.tools/products/the-almighty-craft?variant=50616969298216&country=JP&currency=JPY
 50616969298216,MX,1467.00 MXN,881.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-craft?variant=50616969298216&country=MX&currency=MXN
@@ -2621,7 +2621,7 @@ id,override,price,sale_price,availability,link
 50742764765480,GB,149.83 GBP,89.90 GBP,in stock,https://almighty.tools/products/the-almighty-bitmaster-138-in-1?variant=50742764765480&country=GB&currency=GBP
 50742764765480,GR,135.95 EUR,81.95 EUR,in stock,https://almighty.tools/products/the-almighty-bitmaster-138-in-1?variant=50742764765480&country=GR&currency=EUR
 50742764765480,IE,135.95 EUR,81.95 EUR,in stock,https://almighty.tools/products/the-almighty-bitmaster-138-in-1?variant=50742764765480&country=IE&currency=EUR
-50742764765480,IL,466.00 ILS,280.00 ILS,in stock,https://almighty.tools/products/the-almighty-bitmaster-138-in-1?variant=50742764765480&country=IL&currency=ILS
+50742764765480,IL,467.00 ILS,280.00 ILS,in stock,https://almighty.tools/products/the-almighty-bitmaster-138-in-1?variant=50742764765480&country=IL&currency=ILS
 50742764765480,IT,135.95 EUR,81.95 EUR,in stock,https://almighty.tools/products/the-almighty-bitmaster-138-in-1?variant=50742764765480&country=IT&currency=EUR
 50742764765480,JP,24100.00 JPY,14500.00 JPY,in stock,https://almighty.tools/products/the-almighty-bitmaster-138-in-1?variant=50742764765480&country=JP&currency=JPY
 50742764765480,MX,2697.00 MXN,1619.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-bitmaster-138-in-1?variant=50742764765480&country=MX&currency=MXN
@@ -2649,7 +2649,7 @@ id,override,price,sale_price,availability,link
 50742764798248,GB,149.83 GBP,89.90 GBP,in stock,https://almighty.tools/products/the-almighty-bitmaster-138-in-1?variant=50742764798248&country=GB&currency=GBP
 50742764798248,GR,135.95 EUR,81.95 EUR,in stock,https://almighty.tools/products/the-almighty-bitmaster-138-in-1?variant=50742764798248&country=GR&currency=EUR
 50742764798248,IE,135.95 EUR,81.95 EUR,in stock,https://almighty.tools/products/the-almighty-bitmaster-138-in-1?variant=50742764798248&country=IE&currency=EUR
-50742764798248,IL,466.00 ILS,280.00 ILS,in stock,https://almighty.tools/products/the-almighty-bitmaster-138-in-1?variant=50742764798248&country=IL&currency=ILS
+50742764798248,IL,467.00 ILS,280.00 ILS,in stock,https://almighty.tools/products/the-almighty-bitmaster-138-in-1?variant=50742764798248&country=IL&currency=ILS
 50742764798248,IT,135.95 EUR,81.95 EUR,in stock,https://almighty.tools/products/the-almighty-bitmaster-138-in-1?variant=50742764798248&country=IT&currency=EUR
 50742764798248,JP,24100.00 JPY,14500.00 JPY,in stock,https://almighty.tools/products/the-almighty-bitmaster-138-in-1?variant=50742764798248&country=JP&currency=JPY
 50742764798248,MX,2697.00 MXN,1619.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-bitmaster-138-in-1?variant=50742764798248&country=MX&currency=MXN
@@ -2705,7 +2705,7 @@ id,override,price,sale_price,availability,link
 50821979144488,GB,289.90 GBP,173.90 GBP,in stock,https://almighty.tools/products/the-almighty-diy-duo-gift-box?variant=50821979144488&country=GB&currency=GBP
 50821979144488,GR,262.95 EUR,157.95 EUR,in stock,https://almighty.tools/products/the-almighty-diy-duo-gift-box?variant=50821979144488&country=GR&currency=EUR
 50821979144488,IE,262.95 EUR,157.95 EUR,in stock,https://almighty.tools/products/the-almighty-diy-duo-gift-box?variant=50821979144488&country=IE&currency=EUR
-50821979144488,IL,901.00 ILS,541.00 ILS,in stock,https://almighty.tools/products/the-almighty-diy-duo-gift-box?variant=50821979144488&country=IL&currency=ILS
+50821979144488,IL,903.00 ILS,542.00 ILS,in stock,https://almighty.tools/products/the-almighty-diy-duo-gift-box?variant=50821979144488&country=IL&currency=ILS
 50821979144488,IT,262.95 EUR,157.95 EUR,in stock,https://almighty.tools/products/the-almighty-diy-duo-gift-box?variant=50821979144488&country=IT&currency=EUR
 50821979144488,JP,46600.00 JPY,28000.00 JPY,in stock,https://almighty.tools/products/the-almighty-diy-duo-gift-box?variant=50821979144488&country=JP&currency=JPY
 50821979144488,MX,5219.00 MXN,3131.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-diy-duo-gift-box?variant=50821979144488&country=MX&currency=MXN
@@ -2733,7 +2733,7 @@ id,override,price,sale_price,availability,link
 50821979177256,GB,289.90 GBP,173.90 GBP,in stock,https://almighty.tools/products/the-almighty-diy-duo-gift-box?variant=50821979177256&country=GB&currency=GBP
 50821979177256,GR,262.95 EUR,157.95 EUR,in stock,https://almighty.tools/products/the-almighty-diy-duo-gift-box?variant=50821979177256&country=GR&currency=EUR
 50821979177256,IE,262.95 EUR,157.95 EUR,in stock,https://almighty.tools/products/the-almighty-diy-duo-gift-box?variant=50821979177256&country=IE&currency=EUR
-50821979177256,IL,901.00 ILS,541.00 ILS,in stock,https://almighty.tools/products/the-almighty-diy-duo-gift-box?variant=50821979177256&country=IL&currency=ILS
+50821979177256,IL,903.00 ILS,542.00 ILS,in stock,https://almighty.tools/products/the-almighty-diy-duo-gift-box?variant=50821979177256&country=IL&currency=ILS
 50821979177256,IT,262.95 EUR,157.95 EUR,in stock,https://almighty.tools/products/the-almighty-diy-duo-gift-box?variant=50821979177256&country=IT&currency=EUR
 50821979177256,JP,46600.00 JPY,28000.00 JPY,in stock,https://almighty.tools/products/the-almighty-diy-duo-gift-box?variant=50821979177256&country=JP&currency=JPY
 50821979177256,MX,5219.00 MXN,3131.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-diy-duo-gift-box?variant=50821979177256&country=MX&currency=MXN
@@ -2789,7 +2789,7 @@ id,override,price,sale_price,availability,link
 50855793262888,GB,104.97 GBP,99.99 GBP,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793262888&country=GB&currency=GBP
 50855793262888,GR,95.95 EUR,90.95 EUR,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793262888&country=GR&currency=EUR
 50855793262888,IE,95.95 EUR,90.95 EUR,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793262888&country=IE&currency=EUR
-50855793262888,IL,327.00 ILS,311.00 ILS,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793262888&country=IL&currency=ILS
+50855793262888,IL,327.00 ILS,312.00 ILS,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793262888&country=IL&currency=ILS
 50855793262888,IT,95.95 EUR,90.95 EUR,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793262888&country=IT&currency=EUR
 50855793262888,JP,16900.00 JPY,16100.00 JPY,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793262888&country=JP&currency=JPY
 50855793262888,MX,1890.00 MXN,1800.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-magbelt?variant=50855793262888&country=MX&currency=MXN
@@ -2817,7 +2817,7 @@ id,override,price,sale_price,availability,link
 50855793295656,GB,174.95 GBP,157.99 GBP,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793295656&country=GB&currency=GBP
 50855793295656,GR,158.95 EUR,143.95 EUR,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793295656&country=GR&currency=EUR
 50855793295656,IE,158.95 EUR,143.95 EUR,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793295656&country=IE&currency=EUR
-50855793295656,IL,544.00 ILS,491.00 ILS,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793295656&country=IL&currency=ILS
+50855793295656,IL,545.00 ILS,492.00 ILS,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793295656&country=IL&currency=ILS
 50855793295656,IT,158.95 EUR,143.95 EUR,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793295656&country=IT&currency=EUR
 50855793295656,JP,28200.00 JPY,25400.00 JPY,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793295656&country=JP&currency=JPY
 50855793295656,MX,3150.00 MXN,2844.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-magbelt?variant=50855793295656&country=MX&currency=MXN
@@ -2845,9 +2845,9 @@ id,override,price,sale_price,availability,link
 50855793328424,GB,349.90 GBP,299.99 GBP,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793328424&country=GB&currency=GBP
 50855793328424,GR,317.95 EUR,271.95 EUR,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793328424&country=GR&currency=EUR
 50855793328424,IE,317.95 EUR,271.95 EUR,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793328424&country=IE&currency=EUR
-50855793328424,IL,1088.00 ILS,933.00 ILS,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793328424&country=IL&currency=ILS
+50855793328424,IL,1090.00 ILS,934.00 ILS,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793328424&country=IL&currency=ILS
 50855793328424,IT,317.95 EUR,271.95 EUR,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793328424&country=IT&currency=EUR
-50855793328424,JP,56300.00 JPY,48200.00 JPY,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793328424&country=JP&currency=JPY
+50855793328424,JP,56300.00 JPY,48300.00 JPY,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793328424&country=JP&currency=JPY
 50855793328424,MX,6299.00 MXN,5400.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-magbelt?variant=50855793328424&country=MX&currency=MXN
 50855793328424,NL,317.95 EUR,271.95 EUR,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793328424&country=NL&currency=EUR
 50855793328424,NO,317.95 EUR,271.95 EUR,in stock,https://almighty.tools/products/the-almighty-magbelt?variant=50855793328424&country=NO&currency=EUR
@@ -2929,7 +2929,7 @@ id,override,price,sale_price,availability,link
 50865753719080,GB,199.83 GBP,119.90 GBP,in stock,https://almighty.tools/products/the-almighty-bolt?variant=50865753719080&country=GB&currency=GBP
 50865753719080,GR,181.95 EUR,108.95 EUR,in stock,https://almighty.tools/products/the-almighty-bolt?variant=50865753719080&country=GR&currency=EUR
 50865753719080,IE,181.95 EUR,108.95 EUR,in stock,https://almighty.tools/products/the-almighty-bolt?variant=50865753719080&country=IE&currency=EUR
-50865753719080,IL,622.00 ILS,373.00 ILS,in stock,https://almighty.tools/products/the-almighty-bolt?variant=50865753719080&country=IL&currency=ILS
+50865753719080,IL,622.00 ILS,374.00 ILS,in stock,https://almighty.tools/products/the-almighty-bolt?variant=50865753719080&country=IL&currency=ILS
 50865753719080,IT,181.95 EUR,108.95 EUR,in stock,https://almighty.tools/products/the-almighty-bolt?variant=50865753719080&country=IT&currency=EUR
 50865753719080,JP,32200.00 JPY,19300.00 JPY,in stock,https://almighty.tools/products/the-almighty-bolt?variant=50865753719080&country=JP&currency=JPY
 50865753719080,MX,3597.00 MXN,2159.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-bolt?variant=50865753719080&country=MX&currency=MXN
@@ -2957,7 +2957,7 @@ id,override,price,sale_price,availability,link
 50865753882920,GB,139.83 GBP,83.90 GBP,in stock,https://almighty.tools/products/the-almighty-levelline?variant=50865753882920&country=GB&currency=GBP
 50865753882920,GR,126.95 EUR,76.95 EUR,in stock,https://almighty.tools/products/the-almighty-levelline?variant=50865753882920&country=GR&currency=EUR
 50865753882920,IE,126.95 EUR,76.95 EUR,in stock,https://almighty.tools/products/the-almighty-levelline?variant=50865753882920&country=IE&currency=EUR
-50865753882920,IL,435.00 ILS,261.00 ILS,in stock,https://almighty.tools/products/the-almighty-levelline?variant=50865753882920&country=IL&currency=ILS
+50865753882920,IL,436.00 ILS,262.00 ILS,in stock,https://almighty.tools/products/the-almighty-levelline?variant=50865753882920&country=IL&currency=ILS
 50865753882920,IT,126.95 EUR,76.95 EUR,in stock,https://almighty.tools/products/the-almighty-levelline?variant=50865753882920&country=IT&currency=EUR
 50865753882920,JP,22500.00 JPY,13500.00 JPY,in stock,https://almighty.tools/products/the-almighty-levelline?variant=50865753882920&country=JP&currency=JPY
 50865753882920,MX,2517.00 MXN,1511.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-levelline?variant=50865753882920&country=MX&currency=MXN
@@ -2985,7 +2985,7 @@ id,override,price,sale_price,availability,link
 51349921693992,GB,116.69 GBP,69.99 GBP,in stock,https://almighty.tools/products/the-almighty-smartwatch?variant=51349921693992&country=GB&currency=GBP
 51349921693992,GR,105.95 EUR,63.95 EUR,in stock,https://almighty.tools/products/the-almighty-smartwatch?variant=51349921693992&country=GR&currency=EUR
 51349921693992,IE,105.95 EUR,63.95 EUR,in stock,https://almighty.tools/products/the-almighty-smartwatch?variant=51349921693992&country=IE&currency=EUR
-51349921693992,IL,363.00 ILS,218.00 ILS,in stock,https://almighty.tools/products/the-almighty-smartwatch?variant=51349921693992&country=IL&currency=ILS
+51349921693992,IL,364.00 ILS,218.00 ILS,in stock,https://almighty.tools/products/the-almighty-smartwatch?variant=51349921693992&country=IL&currency=ILS
 51349921693992,IT,105.95 EUR,63.95 EUR,in stock,https://almighty.tools/products/the-almighty-smartwatch?variant=51349921693992&country=IT&currency=EUR
 51349921693992,JP,18800.00 JPY,11300.00 JPY,in stock,https://almighty.tools/products/the-almighty-smartwatch?variant=51349921693992&country=JP&currency=JPY
 51349921693992,MX,2101.00 MXN,1260.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-smartwatch?variant=51349921693992&country=MX&currency=MXN
@@ -3013,7 +3013,7 @@ id,override,price,sale_price,availability,link
 51349921726760,GB,116.69 GBP,69.99 GBP,in stock,https://almighty.tools/products/the-almighty-smartwatch?variant=51349921726760&country=GB&currency=GBP
 51349921726760,GR,105.95 EUR,63.95 EUR,in stock,https://almighty.tools/products/the-almighty-smartwatch?variant=51349921726760&country=GR&currency=EUR
 51349921726760,IE,105.95 EUR,63.95 EUR,in stock,https://almighty.tools/products/the-almighty-smartwatch?variant=51349921726760&country=IE&currency=EUR
-51349921726760,IL,363.00 ILS,218.00 ILS,in stock,https://almighty.tools/products/the-almighty-smartwatch?variant=51349921726760&country=IL&currency=ILS
+51349921726760,IL,364.00 ILS,218.00 ILS,in stock,https://almighty.tools/products/the-almighty-smartwatch?variant=51349921726760&country=IL&currency=ILS
 51349921726760,IT,105.95 EUR,63.95 EUR,in stock,https://almighty.tools/products/the-almighty-smartwatch?variant=51349921726760&country=IT&currency=EUR
 51349921726760,JP,18800.00 JPY,11300.00 JPY,in stock,https://almighty.tools/products/the-almighty-smartwatch?variant=51349921726760&country=JP&currency=JPY
 51349921726760,MX,2101.00 MXN,1260.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-smartwatch?variant=51349921726760&country=MX&currency=MXN
@@ -3097,7 +3097,7 @@ id,override,price,sale_price,availability,link
 51523663364392,GB,156.50 GBP,93.90 GBP,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=GB&currency=GBP
 51523663364392,GR,141.95 EUR,85.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=GR&currency=EUR
 51523663364392,IE,141.95 EUR,85.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=IE&currency=EUR
-51523663364392,IL,487.00 ILS,292.00 ILS,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=IL&currency=ILS
+51523663364392,IL,488.00 ILS,293.00 ILS,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=IL&currency=ILS
 51523663364392,IT,141.95 EUR,85.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=IT&currency=EUR
 51523663364392,JP,25200.00 JPY,15100.00 JPY,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=JP&currency=JPY
 51523663364392,MX,2817.00 MXN,1691.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-steam-cleaner?variant=51523663364392&country=MX&currency=MXN
@@ -3106,7 +3106,7 @@ id,override,price,sale_price,availability,link
 51523663364392,NZ,156.50 USD,93.90 USD,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=NZ&currency=USD
 51523663364392,PT,141.95 EUR,85.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=PT&currency=EUR
 51523663364392,SE,141.95 EUR,85.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=SE&currency=EUR
-51523663364392,SG,204.00 SGD,123.00 SGD,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=SG&currency=SGD
+51523663364392,SG,204.00 SGD,122.00 SGD,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=SG&currency=SGD
 51567395799336,AE,149.83 USD,89.90 USD,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395799336&country=AE&currency=USD
 51567395799336,AR,224745.00 ARS,134850.00 ARS,in stock,https://almighty.tools/es/products/the-almighty-power-wash?variant=51567395799336&country=AR&currency=ARS
 51567395799336,AT,135.95 EUR,81.95 EUR,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395799336&country=AT&currency=EUR
@@ -3125,7 +3125,7 @@ id,override,price,sale_price,availability,link
 51567395799336,GB,149.83 GBP,89.90 GBP,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395799336&country=GB&currency=GBP
 51567395799336,GR,135.95 EUR,81.95 EUR,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395799336&country=GR&currency=EUR
 51567395799336,IE,135.95 EUR,81.95 EUR,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395799336&country=IE&currency=EUR
-51567395799336,IL,466.00 ILS,280.00 ILS,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395799336&country=IL&currency=ILS
+51567395799336,IL,467.00 ILS,280.00 ILS,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395799336&country=IL&currency=ILS
 51567395799336,IT,135.95 EUR,81.95 EUR,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395799336&country=IT&currency=EUR
 51567395799336,JP,24100.00 JPY,14500.00 JPY,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395799336&country=JP&currency=JPY
 51567395799336,MX,2697.00 MXN,1619.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-power-wash?variant=51567395799336&country=MX&currency=MXN
@@ -3153,7 +3153,7 @@ id,override,price,sale_price,availability,link
 51567395832104,GB,66.50 GBP,39.90 GBP,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395832104&country=GB&currency=GBP
 51567395832104,GR,60.95 EUR,36.95 EUR,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395832104&country=GR&currency=EUR
 51567395832104,IE,60.95 EUR,36.95 EUR,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395832104&country=IE&currency=EUR
-51567395832104,IL,207.00 ILS,124.00 ILS,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395832104&country=IL&currency=ILS
+51567395832104,IL,207.00 ILS,125.00 ILS,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395832104&country=IL&currency=ILS
 51567395832104,IT,60.95 EUR,36.95 EUR,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395832104&country=IT&currency=EUR
 51567395832104,JP,10700.00 JPY,6500.00 JPY,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395832104&country=JP&currency=JPY
 51567395832104,MX,1197.00 MXN,719.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-power-wash?variant=51567395832104&country=MX&currency=MXN
@@ -3181,7 +3181,7 @@ id,override,price,sale_price,availability,link
 51544709464360,GB,104.83 GBP,62.90 GBP,in stock,https://almighty.tools/products/the-almighty-back-support?variant=51544709464360&country=GB&currency=GBP
 51544709464360,GR,95.95 EUR,57.95 EUR,in stock,https://almighty.tools/products/the-almighty-back-support?variant=51544709464360&country=GR&currency=EUR
 51544709464360,IE,95.95 EUR,57.95 EUR,in stock,https://almighty.tools/products/the-almighty-back-support?variant=51544709464360&country=IE&currency=EUR
-51544709464360,IL,326.00 ILS,196.00 ILS,in stock,https://almighty.tools/products/the-almighty-back-support?variant=51544709464360&country=IL&currency=ILS
+51544709464360,IL,327.00 ILS,196.00 ILS,in stock,https://almighty.tools/products/the-almighty-back-support?variant=51544709464360&country=IL&currency=ILS
 51544709464360,IT,95.95 EUR,57.95 EUR,in stock,https://almighty.tools/products/the-almighty-back-support?variant=51544709464360&country=IT&currency=EUR
 51544709464360,JP,16900.00 JPY,10200.00 JPY,in stock,https://almighty.tools/products/the-almighty-back-support?variant=51544709464360&country=JP&currency=JPY
 51544709464360,MX,1887.00 MXN,1133.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-back-support?variant=51544709464360&country=MX&currency=MXN
@@ -3209,9 +3209,9 @@ id,override,price,sale_price,availability,link
 51581850517800,GB,283.17 GBP,169.90 GBP,in stock,https://almighty.tools/products/the-almighty-lighttower?variant=51581850517800&country=GB&currency=GBP
 51581850517800,GR,256.95 EUR,153.95 EUR,in stock,https://almighty.tools/products/the-almighty-lighttower?variant=51581850517800&country=GR&currency=EUR
 51581850517800,IE,256.95 EUR,153.95 EUR,in stock,https://almighty.tools/products/the-almighty-lighttower?variant=51581850517800&country=IE&currency=EUR
-51581850517800,IL,881.00 ILS,529.00 ILS,in stock,https://almighty.tools/products/the-almighty-lighttower?variant=51581850517800&country=IL&currency=ILS
+51581850517800,IL,882.00 ILS,529.00 ILS,in stock,https://almighty.tools/products/the-almighty-lighttower?variant=51581850517800&country=IL&currency=ILS
 51581850517800,IT,256.95 EUR,153.95 EUR,in stock,https://almighty.tools/products/the-almighty-lighttower?variant=51581850517800&country=IT&currency=EUR
-51581850517800,JP,45500.00 JPY,27300.00 JPY,in stock,https://almighty.tools/products/the-almighty-lighttower?variant=51581850517800&country=JP&currency=JPY
+51581850517800,JP,45600.00 JPY,27400.00 JPY,in stock,https://almighty.tools/products/the-almighty-lighttower?variant=51581850517800&country=JP&currency=JPY
 51581850517800,MX,5098.00 MXN,3059.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-lighttower?variant=51581850517800&country=MX&currency=MXN
 51581850517800,NL,256.95 EUR,153.95 EUR,in stock,https://almighty.tools/products/the-almighty-lighttower?variant=51581850517800&country=NL&currency=EUR
 51581850517800,NO,256.95 EUR,153.95 EUR,in stock,https://almighty.tools/products/the-almighty-lighttower?variant=51581850517800&country=NO&currency=EUR
@@ -3237,7 +3237,7 @@ id,override,price,sale_price,availability,link
 51581850550568,GB,243.17 GBP,145.90 GBP,in stock,https://almighty.tools/products/the-almighty-camping-light?variant=51581850550568&country=GB&currency=GBP
 51581850550568,GR,220.95 EUR,132.95 EUR,in stock,https://almighty.tools/products/the-almighty-camping-light?variant=51581850550568&country=GR&currency=EUR
 51581850550568,IE,220.95 EUR,132.95 EUR,in stock,https://almighty.tools/products/the-almighty-camping-light?variant=51581850550568&country=IE&currency=EUR
-51581850550568,IL,756.00 ILS,454.00 ILS,in stock,https://almighty.tools/products/the-almighty-camping-light?variant=51581850550568&country=IL&currency=ILS
+51581850550568,IL,757.00 ILS,455.00 ILS,in stock,https://almighty.tools/products/the-almighty-camping-light?variant=51581850550568&country=IL&currency=ILS
 51581850550568,IT,220.95 EUR,132.95 EUR,in stock,https://almighty.tools/products/the-almighty-camping-light?variant=51581850550568&country=IT&currency=EUR
 51581850550568,JP,39100.00 JPY,23500.00 JPY,in stock,https://almighty.tools/products/the-almighty-camping-light?variant=51581850550568&country=JP&currency=JPY
 51581850550568,MX,4378.00 MXN,2627.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-camping-light?variant=51581850550568&country=MX&currency=MXN
@@ -3265,7 +3265,7 @@ id,override,price,sale_price,availability,link
 51742047371560,GB,58.17 GBP,34.90 GBP,in stock,https://almighty.tools/products/the-almighty-ultimate-protection-mask?variant=51742047371560&country=GB&currency=GBP
 51742047371560,GR,52.95 EUR,31.95 EUR,in stock,https://almighty.tools/products/the-almighty-ultimate-protection-mask?variant=51742047371560&country=GR&currency=EUR
 51742047371560,IE,52.95 EUR,31.95 EUR,in stock,https://almighty.tools/products/the-almighty-ultimate-protection-mask?variant=51742047371560&country=IE&currency=EUR
-51742047371560,IL,181.00 ILS,109.00 ILS,in stock,https://almighty.tools/products/the-almighty-ultimate-protection-mask?variant=51742047371560&country=IL&currency=ILS
+51742047371560,IL,182.00 ILS,109.00 ILS,in stock,https://almighty.tools/products/the-almighty-ultimate-protection-mask?variant=51742047371560&country=IL&currency=ILS
 51742047371560,IT,52.95 EUR,31.95 EUR,in stock,https://almighty.tools/products/the-almighty-ultimate-protection-mask?variant=51742047371560&country=IT&currency=EUR
 51742047371560,JP,9400.00 JPY,5700.00 JPY,in stock,https://almighty.tools/products/the-almighty-ultimate-protection-mask?variant=51742047371560&country=JP&currency=JPY
 51742047371560,MX,1048.00 MXN,629.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-ultimate-protection-mask?variant=51742047371560&country=MX&currency=MXN
@@ -3321,7 +3321,7 @@ id,override,price,sale_price,availability,link
 52197493735720,GB,96.50 GBP,57.90 GBP,in stock,https://almighty.tools/products/the-almighty-cut?variant=52197493735720&country=GB&currency=GBP
 52197493735720,GR,87.95 EUR,52.95 EUR,in stock,https://almighty.tools/products/the-almighty-cut?variant=52197493735720&country=GR&currency=EUR
 52197493735720,IE,87.95 EUR,52.95 EUR,in stock,https://almighty.tools/products/the-almighty-cut?variant=52197493735720&country=IE&currency=EUR
-52197493735720,IL,300.00 ILS,180.00 ILS,in stock,https://almighty.tools/products/the-almighty-cut?variant=52197493735720&country=IL&currency=ILS
+52197493735720,IL,301.00 ILS,181.00 ILS,in stock,https://almighty.tools/products/the-almighty-cut?variant=52197493735720&country=IL&currency=ILS
 52197493735720,IT,87.95 EUR,52.95 EUR,in stock,https://almighty.tools/products/the-almighty-cut?variant=52197493735720&country=IT&currency=EUR
 52197493735720,JP,15600.00 JPY,9400.00 JPY,in stock,https://almighty.tools/products/the-almighty-cut?variant=52197493735720&country=JP&currency=JPY
 52197493735720,MX,1737.00 MXN,1043.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-cut?variant=52197493735720&country=MX&currency=MXN
@@ -3349,7 +3349,7 @@ id,override,price,sale_price,availability,link
 52197493801256,GB,96.50 GBP,57.90 GBP,in stock,https://almighty.tools/products/the-almighty-cut?variant=52197493801256&country=GB&currency=GBP
 52197493801256,GR,87.95 EUR,52.95 EUR,in stock,https://almighty.tools/products/the-almighty-cut?variant=52197493801256&country=GR&currency=EUR
 52197493801256,IE,87.95 EUR,52.95 EUR,in stock,https://almighty.tools/products/the-almighty-cut?variant=52197493801256&country=IE&currency=EUR
-52197493801256,IL,300.00 ILS,180.00 ILS,in stock,https://almighty.tools/products/the-almighty-cut?variant=52197493801256&country=IL&currency=ILS
+52197493801256,IL,301.00 ILS,181.00 ILS,in stock,https://almighty.tools/products/the-almighty-cut?variant=52197493801256&country=IL&currency=ILS
 52197493801256,IT,87.95 EUR,52.95 EUR,in stock,https://almighty.tools/products/the-almighty-cut?variant=52197493801256&country=IT&currency=EUR
 52197493801256,JP,15600.00 JPY,9400.00 JPY,in stock,https://almighty.tools/products/the-almighty-cut?variant=52197493801256&country=JP&currency=JPY
 52197493801256,MX,1737.00 MXN,1043.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-cut?variant=52197493801256&country=MX&currency=MXN
@@ -3377,16 +3377,16 @@ id,override,price,sale_price,availability,link
 52365153141032,GB,25.00 GBP,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153141032&country=GB&currency=GBP
 52365153141032,GR,22.65 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153141032&country=GR&currency=EUR
 52365153141032,IE,22.65 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153141032&country=IE&currency=EUR
-52365153141032,IL,77.69 ILS,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153141032&country=IL&currency=ILS
+52365153141032,IL,77.81 ILS,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153141032&country=IL&currency=ILS
 52365153141032,IT,22.65 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153141032&country=IT&currency=EUR
-52365153141032,JP,4017.00 JPY,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153141032&country=JP&currency=JPY
+52365153141032,JP,4018.00 JPY,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153141032&country=JP&currency=JPY
 52365153141032,MX,450.00 MXN,,in stock,https://almighty.tools/es/products/the-almighty-tools-gift-card?variant=52365153141032&country=MX&currency=MXN
 52365153141032,NL,22.65 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153141032&country=NL&currency=EUR
 52365153141032,NO,22.65 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153141032&country=NO&currency=EUR
 52365153141032,NZ,25.00 USD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153141032&country=NZ&currency=USD
 52365153141032,PT,22.65 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153141032&country=PT&currency=EUR
 52365153141032,SE,22.65 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153141032&country=SE&currency=EUR
-52365153141032,SG,32.49 SGD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153141032&country=SG&currency=SGD
+52365153141032,SG,32.48 SGD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153141032&country=SG&currency=SGD
 52365153173800,AE,50.00 USD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153173800&country=AE&currency=USD
 52365153173800,AR,75000.00 ARS,,in stock,https://almighty.tools/es/products/the-almighty-tools-gift-card?variant=52365153173800&country=AR&currency=ARS
 52365153173800,AT,45.30 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153173800&country=AT&currency=EUR
@@ -3405,69 +3405,69 @@ id,override,price,sale_price,availability,link
 52365153173800,GB,50.00 GBP,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153173800&country=GB&currency=GBP
 52365153173800,GR,45.30 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153173800&country=GR&currency=EUR
 52365153173800,IE,45.30 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153173800&country=IE&currency=EUR
-52365153173800,IL,155.39 ILS,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153173800&country=IL&currency=ILS
+52365153173800,IL,155.62 ILS,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153173800&country=IL&currency=ILS
 52365153173800,IT,45.30 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153173800&country=IT&currency=EUR
-52365153173800,JP,8033.00 JPY,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153173800&country=JP&currency=JPY
+52365153173800,JP,8036.00 JPY,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153173800&country=JP&currency=JPY
 52365153173800,MX,900.00 MXN,,in stock,https://almighty.tools/es/products/the-almighty-tools-gift-card?variant=52365153173800&country=MX&currency=MXN
 52365153173800,NL,45.30 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153173800&country=NL&currency=EUR
 52365153173800,NO,45.30 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153173800&country=NO&currency=EUR
 52365153173800,NZ,50.00 USD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153173800&country=NZ&currency=USD
 52365153173800,PT,45.30 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153173800&country=PT&currency=EUR
 52365153173800,SE,45.30 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153173800&country=SE&currency=EUR
-52365153173800,SG,64.97 SGD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153173800&country=SG&currency=SGD
+52365153173800,SG,64.96 SGD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153173800&country=SG&currency=SGD
 52365153206568,AE,100.00 USD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=AE&currency=USD
 52365153206568,AR,150000.00 ARS,,in stock,https://almighty.tools/es/products/the-almighty-tools-gift-card?variant=52365153206568&country=AR&currency=ARS
-52365153206568,AT,90.61 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=AT&currency=EUR
+52365153206568,AT,90.60 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=AT&currency=EUR
 52365153206568,AU,100.00 USD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=AU&currency=USD
-52365153206568,BE,90.61 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=BE&currency=EUR
+52365153206568,BE,90.60 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=BE&currency=EUR
 52365153206568,BR,100.00 USD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=BR&currency=USD
 52365153206568,CA,100.00 USD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=CA&currency=USD
-52365153206568,CH,90.61 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=CH&currency=EUR
+52365153206568,CH,90.60 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=CH&currency=EUR
 52365153206568,CL,95000.00 CLP,,in stock,https://almighty.tools/es/products/the-almighty-tools-gift-card?variant=52365153206568&country=CL&currency=CLP
 52365153206568,CO,370000.00 COP,,in stock,https://almighty.tools/es/products/the-almighty-tools-gift-card?variant=52365153206568&country=CO&currency=COP
-52365153206568,DE,90.61 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=DE&currency=EUR
-52365153206568,DK,90.61 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=DK&currency=EUR
-52365153206568,ES,90.61 EUR,,in stock,https://almighty.tools/es/products/the-almighty-tools-gift-card?variant=52365153206568&country=ES&currency=EUR
-52365153206568,FI,90.61 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=FI&currency=EUR
+52365153206568,DE,90.60 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=DE&currency=EUR
+52365153206568,DK,90.60 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=DK&currency=EUR
+52365153206568,ES,90.60 EUR,,in stock,https://almighty.tools/es/products/the-almighty-tools-gift-card?variant=52365153206568&country=ES&currency=EUR
+52365153206568,FI,90.60 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=FI&currency=EUR
 52365153206568,FR,100.00 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=FR&currency=EUR
 52365153206568,GB,100.00 GBP,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=GB&currency=GBP
-52365153206568,GR,90.61 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=GR&currency=EUR
-52365153206568,IE,90.61 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=IE&currency=EUR
-52365153206568,IL,310.78 ILS,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=IL&currency=ILS
-52365153206568,IT,90.61 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=IT&currency=EUR
-52365153206568,JP,16066.00 JPY,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=JP&currency=JPY
+52365153206568,GR,90.60 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=GR&currency=EUR
+52365153206568,IE,90.60 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=IE&currency=EUR
+52365153206568,IL,311.23 ILS,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=IL&currency=ILS
+52365153206568,IT,90.60 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=IT&currency=EUR
+52365153206568,JP,16071.00 JPY,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=JP&currency=JPY
 52365153206568,MX,1800.00 MXN,,in stock,https://almighty.tools/es/products/the-almighty-tools-gift-card?variant=52365153206568&country=MX&currency=MXN
-52365153206568,NL,90.61 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=NL&currency=EUR
-52365153206568,NO,90.61 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=NO&currency=EUR
+52365153206568,NL,90.60 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=NL&currency=EUR
+52365153206568,NO,90.60 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=NO&currency=EUR
 52365153206568,NZ,100.00 USD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=NZ&currency=USD
-52365153206568,PT,90.61 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=PT&currency=EUR
-52365153206568,SE,90.61 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=SE&currency=EUR
-52365153206568,SG,129.94 SGD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=SG&currency=SGD
+52365153206568,PT,90.60 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=PT&currency=EUR
+52365153206568,SE,90.60 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=SE&currency=EUR
+52365153206568,SG,129.93 SGD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153206568&country=SG&currency=SGD
 52365153239336,AE,150.00 USD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=AE&currency=USD
 52365153239336,AR,225000.00 ARS,,in stock,https://almighty.tools/es/products/the-almighty-tools-gift-card?variant=52365153239336&country=AR&currency=ARS
-52365153239336,AT,135.91 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=AT&currency=EUR
+52365153239336,AT,135.90 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=AT&currency=EUR
 52365153239336,AU,150.00 USD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=AU&currency=USD
-52365153239336,BE,135.91 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=BE&currency=EUR
+52365153239336,BE,135.90 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=BE&currency=EUR
 52365153239336,BR,150.00 USD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=BR&currency=USD
 52365153239336,CA,150.00 USD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=CA&currency=USD
-52365153239336,CH,135.91 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=CH&currency=EUR
+52365153239336,CH,135.90 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=CH&currency=EUR
 52365153239336,CL,142500.00 CLP,,in stock,https://almighty.tools/es/products/the-almighty-tools-gift-card?variant=52365153239336&country=CL&currency=CLP
 52365153239336,CO,555000.00 COP,,in stock,https://almighty.tools/es/products/the-almighty-tools-gift-card?variant=52365153239336&country=CO&currency=COP
-52365153239336,DE,135.91 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=DE&currency=EUR
-52365153239336,DK,135.91 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=DK&currency=EUR
-52365153239336,ES,135.91 EUR,,in stock,https://almighty.tools/es/products/the-almighty-tools-gift-card?variant=52365153239336&country=ES&currency=EUR
-52365153239336,FI,135.91 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=FI&currency=EUR
+52365153239336,DE,135.90 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=DE&currency=EUR
+52365153239336,DK,135.90 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=DK&currency=EUR
+52365153239336,ES,135.90 EUR,,in stock,https://almighty.tools/es/products/the-almighty-tools-gift-card?variant=52365153239336&country=ES&currency=EUR
+52365153239336,FI,135.90 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=FI&currency=EUR
 52365153239336,FR,150.00 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=FR&currency=EUR
 52365153239336,GB,150.00 GBP,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=GB&currency=GBP
-52365153239336,GR,135.91 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=GR&currency=EUR
-52365153239336,IE,135.91 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=IE&currency=EUR
-52365153239336,IL,466.16 ILS,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=IL&currency=ILS
-52365153239336,IT,135.91 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=IT&currency=EUR
-52365153239336,JP,24100.00 JPY,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=JP&currency=JPY
+52365153239336,GR,135.90 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=GR&currency=EUR
+52365153239336,IE,135.90 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=IE&currency=EUR
+52365153239336,IL,466.85 ILS,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=IL&currency=ILS
+52365153239336,IT,135.90 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=IT&currency=EUR
+52365153239336,JP,24107.00 JPY,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=JP&currency=JPY
 52365153239336,MX,2700.00 MXN,,in stock,https://almighty.tools/es/products/the-almighty-tools-gift-card?variant=52365153239336&country=MX&currency=MXN
-52365153239336,NL,135.91 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=NL&currency=EUR
-52365153239336,NO,135.91 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=NO&currency=EUR
+52365153239336,NL,135.90 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=NL&currency=EUR
+52365153239336,NO,135.90 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=NO&currency=EUR
 52365153239336,NZ,150.00 USD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=NZ&currency=USD
-52365153239336,PT,135.91 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=PT&currency=EUR
-52365153239336,SE,135.91 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=SE&currency=EUR
-52365153239336,SG,194.92 SGD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=SG&currency=SGD
+52365153239336,PT,135.90 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=PT&currency=EUR
+52365153239336,SE,135.90 EUR,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=SE&currency=EUR
+52365153239336,SG,194.89 SGD,,in stock,https://almighty.tools/products/the-almighty-tools-gift-card?variant=52365153239336&country=SG&currency=SGD
