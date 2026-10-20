@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build Axon's public US catalog from the existing owned US Merchant feed."""
 import csv
+from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import html
 import io
@@ -19,6 +20,58 @@ NS = {'g': 'http://base.google.com/ns/1.0'}
 FIELDS = ['id', 'name', 'itemId', 'price', 'isAvailable', 'webUrl',
           'description', 'brand', 'categoryId', 'primaryImageUrl']
 ASSET_BASE = 'https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/'
+SHOPIFY_ORIGIN = 'https://checkout.almighty.tools'
+
+
+def select_shopify_image(product, product_id, variant_id):
+    """Use the variant's assigned photo, otherwise the product's first cover."""
+    assert str(product['id']) == product_id, 'Shopify product identity changed'
+    variants = [v for v in product['variants'] if str(v['id']) == variant_id]
+    assert len(variants) == 1, 'Source variant missing from Shopify product'
+    variant_image = variants[0].get('featured_image')
+    if variant_image:
+        assert str(variant_image.get('product_id', product_id)) == product_id
+        url = variant_image['src']
+        strategy = 'variant_featured_image'
+    else:
+        url = product.get('featured_image') or (product.get('images') or [None])[0]
+        strategy = 'product_first_image'
+    assert isinstance(url, str) and url, 'Shopify cover unavailable'
+    if url.startswith('//'):
+        url = 'https:' + url
+    parsed = urllib.parse.urlsplit(url)
+    assert parsed.scheme == 'https' and parsed.hostname == 'cdn.shopify.com', 'Unexpected Shopify cover host'
+    return {'product_id': product_id, 'source_url': url, 'strategy': strategy}
+
+
+def shopify_images(xml_bytes):
+    products = {}
+    for item in ET.fromstring(xml_bytes).findall('.//item'):
+        match = re.fullmatch(r'shopify_US_(\d+)_(\d+)', item.findtext('g:id', namespaces=NS))
+        assert match, 'Unexpected source identity'
+        product_id, variant_id = match.groups()
+        path = urllib.parse.urlsplit(item.findtext('link')).path
+        assert re.fullmatch(r'/products/(?:[a-z0-9-]|%[0-9A-Fa-f]{2})+', path), 'Unexpected product path'
+        previous = products.setdefault(product_id, {'path': path, 'variants': []})
+        assert previous['path'] == path, 'Conflicting product handles'
+        previous['variants'].append(variant_id)
+
+    def fetch(entry):
+        product_id, source = entry
+        request = urllib.request.Request(SHOPIFY_ORIGIN + source['path'] + '.js',
+                                         headers={'User-Agent': 'AlmightyTools-AxonFeed/1.0'})
+        with urllib.request.urlopen(request, timeout=45) as response:
+            assert urllib.parse.urlsplit(response.geturl()).hostname == 'checkout.almighty.tools', 'Unexpected product redirect'
+            payload = response.read(5_000_001)
+        assert len(payload) <= 5_000_000, 'Product response too large'
+        product = json.loads(payload)
+        return {v: select_shopify_image(product, product_id, v) for v in source['variants']}
+
+    selected = {}
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for mapping in pool.map(fetch, products.items()):
+            selected.update(mapping)
+    return selected
 
 
 def clean(value, limit):
@@ -69,7 +122,7 @@ def image_asset(url, cache, root):
     return ASSET_BASE + path
 
 
-def build_items(xml_bytes, resolve_image):
+def build_items(xml_bytes, resolve_image, source_images=None):
     source = ET.fromstring(xml_bytes)
     rows = []
     seen = set()
@@ -99,13 +152,18 @@ def build_items(xml_bytes, resolve_image):
         assert available in {'in stock', 'out of stock', 'preorder', 'backorder'}
         category = g('google_product_category')
         assert not category or category.isdigit()
+        if source_images is not None:
+            assert source_images[variant_id]['product_id'] == product_id
+            primary_image = source_images[variant_id]['source_url']
+        else:
+            primary_image = g('image_link')
         rows.append({
             'id': variant_id, 'name': clean(item.findtext('title'), 1024),
             'itemId': product_id, 'price': f'{current:.2f}',
             'isAvailable': 'TRUE' if available == 'in stock' else 'FALSE',
             'webUrl': url, 'description': clean(item.findtext('description'), 8192),
             'brand': 'The Almighty Tools®', 'categoryId': category,
-            'primaryImageUrl': resolve_image(g('image_link')),
+            'primaryImageUrl': resolve_image(primary_image),
         })
     assert len(rows) >= 80, 'Source unexpectedly small; keep prior feed'
     for row in rows:
@@ -127,7 +185,9 @@ def main():
     output_path = ROOT / 'almighty-tools-axon-us.csv'
     cache_path = ROOT / 'scripts/axon-image-cache.json'
     cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
-    rows = build_items(source_path.read_bytes(), lambda url: image_asset(url, cache, ROOT))
+    xml_bytes = source_path.read_bytes()
+    source_images = shopify_images(xml_bytes)
+    rows = build_items(xml_bytes, lambda url: image_asset(url, cache, ROOT), source_images)
     if output_path.exists():
         previous = list(csv.DictReader(output_path.open(encoding='utf-8')))
         assert len(rows) >= len(previous) * .8, 'Source shrank by over 20%; review before replacing'
@@ -137,6 +197,7 @@ def main():
     writer.writerows(rows)
     # Only replace the public feed after the whole source and all images pass.
     atomic_write(cache_path, json.dumps(cache, indent=2, sort_keys=True) + '\n')
+    atomic_write(ROOT / 'scripts/axon-source-images.json', json.dumps(source_images, indent=2, sort_keys=True) + '\n')
     atomic_write(output_path, output.getvalue())
     print(json.dumps({'status': 'AXON_FEED_READY', 'variants': len(rows),
                       'products': len({r['itemId'] for r in rows}),

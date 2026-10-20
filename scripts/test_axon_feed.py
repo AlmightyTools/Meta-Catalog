@@ -1,13 +1,29 @@
 import unittest
 from pathlib import Path
 import xml.etree.ElementTree as ET
-from build_axon_feed import build_items, NS
+from build_axon_feed import build_items, select_shopify_image, NS
 
 SOURCE = Path(__file__).resolve().parents[1] / 'almighty-tools-gmc-us.xml'
 IMAGE = 'https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/images/axon/test.png'
 
 
 class FeedSafety(unittest.TestCase):
+    def test_variant_color_photo_precedes_generic_cover(self):
+        product = {'id': 1, 'featured_image': '//cdn.shopify.com/yellow.jpg',
+                   'variants': [{'id': 2, 'featured_image': {'product_id':1, 'src':'https://cdn.shopify.com/blue.jpg'}}]}
+        result = select_shopify_image(product, '1', '2')
+        self.assertEqual(result['source_url'], 'https://cdn.shopify.com/blue.jpg')
+
+    def test_product_first_image_without_variant_photo(self):
+        product = {'id': 1, 'featured_image': '//cdn.shopify.com/cover.jpg',
+                   'variants': [{'id': 2, 'featured_image': None}]}
+        self.assertEqual(select_shopify_image(product, '1', '2')['source_url'], 'https://cdn.shopify.com/cover.jpg')
+
+    def test_wrong_product_and_missing_variant_stop_publication(self):
+        product = {'id': 1, 'featured_image': '//cdn.shopify.com/cover.jpg', 'variants': []}
+        with self.assertRaises(AssertionError): select_shopify_image(product, '9', '2')
+        with self.assertRaises(AssertionError): select_shopify_image(product, '1', '2')
+
     def source(self):
         return ET.fromstring(SOURCE.read_bytes())
 
