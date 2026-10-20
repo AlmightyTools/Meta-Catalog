@@ -1,7 +1,9 @@
 import unittest
+from unittest.mock import patch
+import urllib.error
 from pathlib import Path
 import xml.etree.ElementTree as ET
-from build_axon_feed import build_items, select_shopify_image, NS
+from build_axon_feed import build_items, select_shopify_image, shopify_images, NS
 
 SOURCE = Path(__file__).resolve().parents[1] / 'almighty-tools-gmc-us.xml'
 IMAGE = 'https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/images/axon/test.png'
@@ -23,6 +25,19 @@ class FeedSafety(unittest.TestCase):
         product = {'id': 1, 'featured_image': '//cdn.shopify.com/cover.jpg', 'variants': []}
         with self.assertRaises(AssertionError): select_shopify_image(product, '9', '2')
         with self.assertRaises(AssertionError): select_shopify_image(product, '1', '2')
+
+    def test_rate_limit_preserves_verified_originals_and_stops_requests(self):
+        root = self.source()
+        previous = {i.findtext('g:id', namespaces=NS).split('_')[-1]: {
+            'product_id':i.findtext('g:item_group_id', namespaces=NS),
+            'strategy':'product_first_image','source_url':'https://cdn.shopify.com/original.jpg'
+        } for i in root.findall('.//item')}
+        error = urllib.error.HTTPError('https://checkout.almighty.tools', 429, 'Too Many Requests', {}, None)
+        with patch('build_axon_feed.urllib.request.urlopen', side_effect=error) as request, patch('build_axon_feed.time.sleep'):
+            self.assertEqual(shopify_images(ET.tostring(root), previous), previous)
+            self.assertEqual(request.call_count, 2)
+        with patch('build_axon_feed.urllib.request.urlopen', side_effect=error), patch('build_axon_feed.time.sleep'):
+            with self.assertRaises(AssertionError): shopify_images(ET.tostring(root), {})
 
     def source(self):
         return ET.fromstring(SOURCE.read_bytes())

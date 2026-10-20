@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Build Axon's public US catalog from the existing owned US Merchant feed."""
 import csv
-from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import html
 import io
@@ -10,6 +9,8 @@ import os
 from pathlib import Path
 import re
 import tempfile
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -44,7 +45,7 @@ def select_shopify_image(product, product_id, variant_id):
     return {'product_id': product_id, 'source_url': url, 'strategy': strategy}
 
 
-def shopify_images(xml_bytes):
+def shopify_images(xml_bytes, previous=None):
     products = {}
     for item in ET.fromstring(xml_bytes).findall('.//item'):
         match = re.fullmatch(r'shopify_US_(\d+)_(\d+)', item.findtext('g:id', namespaces=NS))
@@ -52,9 +53,9 @@ def shopify_images(xml_bytes):
         product_id, variant_id = match.groups()
         path = urllib.parse.urlsplit(item.findtext('link')).path
         assert re.fullmatch(r'/products/(?:[a-z0-9-]|%[0-9A-Fa-f]{2})+', path), 'Unexpected product path'
-        previous = products.setdefault(product_id, {'path': path, 'variants': []})
-        assert previous['path'] == path, 'Conflicting product handles'
-        previous['variants'].append(variant_id)
+        grouped = products.setdefault(product_id, {'path': path, 'variants': []})
+        assert grouped['path'] == path, 'Conflicting product handles'
+        grouped['variants'].append(variant_id)
 
     def fetch(entry):
         product_id, source = entry
@@ -68,9 +69,43 @@ def shopify_images(xml_bytes):
         return {v: select_shopify_image(product, product_id, v) for v in source['variants']}
 
     selected = {}
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        for mapping in pool.map(fetch, products.items()):
-            selected.update(mapping)
+    previous = previous or {}
+    rate_limited = False
+    cached_products = 0
+    for entry in products.items():
+        product_id, source = entry
+        mapping = None
+        if not rate_limited:
+            for attempt in range(2):
+                try:
+                    mapping = fetch(entry)
+                    break
+                except urllib.error.HTTPError as error:
+                    if error.code != 429:
+                        raise
+                    if attempt == 0:
+                        try: retry_after = float(error.headers.get('Retry-After', 2))
+                        except (TypeError, ValueError): retry_after = 2
+                        time.sleep(min(max(retry_after, 2), 60))
+                    else:
+                        rate_limited = True
+            if mapping:
+                time.sleep(.5)
+        if mapping is None:
+            # Respect Shopify's rate limit. Keep only our last verified ORIGINAL
+            # mappings; never substitute Google images or guess a new variant.
+            mapping = {}
+            for variant_id in source['variants']:
+                cached = previous.get(variant_id)
+                assert cached and cached['product_id'] == product_id, 'No verified original image for rate-limited variant'
+                assert cached['strategy'] in {'product_first_image', 'variant_featured_image'}
+                mapping[variant_id] = cached
+            cached_products += 1
+        selected.update(mapping)
+    if cached_products:
+        print(json.dumps({'warning': 'SHOPIFY_IMAGE_REFRESH_RATE_LIMITED',
+                          'verified_original_product_mappings_retained': cached_products,
+                          'next_refresh_attempt': 'next scheduled build'}))
     return selected
 
 
@@ -186,7 +221,9 @@ def main():
     cache_path = ROOT / 'scripts/axon-image-cache.json'
     cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
     xml_bytes = source_path.read_bytes()
-    source_images = shopify_images(xml_bytes)
+    source_map_path = ROOT / 'scripts/axon-source-images.json'
+    previous_images = json.loads(source_map_path.read_text()) if source_map_path.exists() else {}
+    source_images = shopify_images(xml_bytes, previous_images)
     rows = build_items(xml_bytes, lambda url: image_asset(url, cache, ROOT), source_images)
     if output_path.exists():
         previous = list(csv.DictReader(output_path.open(encoding='utf-8')))
@@ -197,7 +234,7 @@ def main():
     writer.writerows(rows)
     # Only replace the public feed after the whole source and all images pass.
     atomic_write(cache_path, json.dumps(cache, indent=2, sort_keys=True) + '\n')
-    atomic_write(ROOT / 'scripts/axon-source-images.json', json.dumps(source_images, indent=2, sort_keys=True) + '\n')
+    atomic_write(source_map_path, json.dumps(source_images, indent=2, sort_keys=True) + '\n')
     atomic_write(output_path, output.getvalue())
     print(json.dumps({'status': 'AXON_FEED_READY', 'variants': len(rows),
                       'products': len({r['itemId'] for r in rows}),
