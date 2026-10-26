@@ -1,23 +1,23 @@
 # Meta catalog feeds
 
-Updated 2026-10-09. Catalog: The Almighty Tools® — Meta — Global (1039287162085046).
+Updated 2026-10-25. Catalog: The Almighty Tools® — Meta — Global (1039287162085046).
 
-| Source | File | Schedule |
+| Source | File | Generation |
 | --- | --- | --- |
-| US USD, 922783000838712 | meta-catalog-feed.xml | Hourly generation and replacement |
-| 28 markets, 1067518952622184 | country-feed.csv | Daily generation, download every 12 hours |
-| Spanish, 1321846853351634 | language-feed.csv | Daily |
+| US USD, 922783000838712 | meta-catalog-feed.xml | Hourly |
+| 28 markets, 1067518952622184 | country-feed.csv | Daily |
+| Spanish + French, 1321846853351634 | language-feed.csv | Daily |
 
-142 unchanged Shopify variant IDs. Country overrides have 3976 rows. Prices and sale prices come from Shopify Markets. Links use almighty.tools with variant, country and currency parameters.
+Published files contain 122 unique numeric Shopify variant IDs from 71 parent products. These IDs are unchanged by the separate GMC identifier migration. Country overrides contain 3,416 rows (122 × 28). Language overrides contain 244 rows: 122 Spanish (`es_XX`) and 122 French (`fr_XX`), with the same IDs as the primary feed.
 
-Markets: AE AR AT AU BE BR CA CH CL CO DE DK ES FI FR GB GR IE IL IT JP MX NL NO NZ PT SE SG. US uses the primary source. GB uses GBP; AU and CA use USD. Other currencies follow Shopify Markets.
+The language source is named **The Almighty Tools® — Meta — Languages ES + FR**. The existing public language-feed.csv URL and daily Meta download schedule are retained; no second catalog is needed. The language file overrides title and description. Prices, sale prices, stock and regional URLs remain in the independent country file. No language-and-country URL override is configured by this addition.
 
-n8n: dJKJKkPssEnXlVQM (primary), SR0H0Sa4E5y9YfoZ (country/language). Production executions 1321430 and 1321427 succeeded. Meta country import on Oct 9 reported 4.0K updated, zero failed and zero issues.
+Markets: AE AR AT AU BE BR CA CH CL CO DE DK ES FI FR GB GR IE IL IT JP MX NL NO NZ PT SE SG. US uses the primary source. GB uses GBP; AU, CA and NZ use USD. Other currencies follow Shopify Markets. All product landing URLs use almighty.tools with variant and country context.
 
-Retired workflow bp0yDn0lrh69OoOy is stopped and archived. Four unused full-country-feed files (us, gb, ca-usd, au-usd) were removed and remain recoverable through Git history. Google generators remain separate.
+n8n workflows: dJKJKkPssEnXlVQM (primary), SR0H0Sa4E5y9YfoZ (country/language). Both generate independently from Shopify; neither reads the GMC XML files. French text comes from https://almighty.tools/data/feed-translations-fr.json independently of GMC. Missing French translations stop publication instead of silently creating a partial language file.
 
-Country completeness guard: current query allows 90 active products, 10 variants per product. Audit found 82 products, maximum 7 variants. Truncation rejects publication; implement pagination before limits are reached.
+French generation execution 1386943 succeeded on October 25 at 21:50 America/New_York. Its one-time test trigger was removed and the ordinary daily schedule restored. Publication was verified separately from the Meta download; a successful generator run does not itself certify provider ingestion, event matching, or advertising eligibility.
 
-Landing checks: GB GBP, AU USD and CA USD matched. MX automated page checks returned 503/403 and remain unverified. Import success does not mean all products are eligible for advertising.
+The latest inspected main-source upload had zero upload failures and six Out of stock items. Stock was not overridden. The source's next scheduled upload remains the authority for ingestion of a later hourly file.
 
-Final Meta verification: all three sources show All good. Main US source imported 142 variants on Oct 9 at 11:56 AM EDT; country source imported 3976 overrides (4.0K in UI), with zero failed and zero issues.
+The retired workflow bp0yDn0lrh69OoOy remains stopped and archived. Four unused full-country-feed XML files were removed previously and are recoverable in Git history. Google, Axon and Microsoft retain their distinct feed purposes and identifier contracts.
