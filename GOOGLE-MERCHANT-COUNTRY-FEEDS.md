@@ -96,3 +96,17 @@ Approval remains pending: last full owned-source diagnostics showed US Back Supp
 | SE | 10763768606 | SE_OWNED_TEST | 142 |
 | SG | 10763944917 | SG_OWNED_TEST | 142 |
 | US | 10763849973 | US_OWNED_TEST | 142 |
+
+
+## Active AU/NZ campaign compatibility — 2026-10-25
+
+The 39 canonical GMC files use `Shopify_{productId}_{variantId}`. Two existing additional sources under the shared `AU_NZ_OWNED` feed label remain active campaign inputs and deliberately preserve their previous country-prefixed IDs:
+
+- Australia: `almighty-tools-gmc-au-nz-au-compat.xml`, preserving `shopify_AU_{productId}_{variantId}`.
+- New Zealand: `almighty-tools-gmc-au-nz-nz-compat.xml`, preserving `shopify_NZ_{productId}_{variantId}`.
+
+These are actively used compatibility outputs, not unused backup files. Their initial bytes exactly match the preceding AU/NZ campaign input data. Only the corresponding two existing source URLs changed; labels, countries, schedules and offer identities were preserved. Both provider imports confirmed 122 updates, zero new offers and no file issues.
+
+`scripts/build_gmc_au_nz_compat.py` copies all current canonical AU/NZ data and rewrites only the ID prefix for these two existing campaign namespaces. `.github/workflows/gmc-au-nz-compat.yml` refreshes the compatibility files when the canonical AU/NZ XML changes; it has no extra cron and does not recursively trigger itself. The first production run succeeded: https://github.com/AlmightyTools/Meta-Catalog/actions/runs/40257953542 .
+
+Removing these inputs or unifying their IDs requires a separate controlled migration of campaigns using `AU_NZ_OWNED`, including the shared label and country-specific landing URLs. Do not interpret canonical offer replacement as authorization to delete the active compatibility inputs.
