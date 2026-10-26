@@ -110,3 +110,8 @@ These are actively used compatibility outputs, not unused backup files. Their in
 `scripts/build_gmc_au_nz_compat.py` copies all current canonical AU/NZ data and rewrites only the ID prefix for these two existing campaign namespaces. `.github/workflows/gmc-au-nz-compat.yml` refreshes the compatibility files when the canonical AU/NZ XML changes; it has no extra cron and does not recursively trigger itself. The first production run succeeded: https://github.com/AlmightyTools/Meta-Catalog/actions/runs/40257953542 .
 
 Removing these inputs or unifying their IDs requires a separate controlled migration of campaigns using `AU_NZ_OWNED`, including the shared label and country-specific landing URLs. Do not interpret canonical offer replacement as authorization to delete the active compatibility inputs.
+
+
+## Steam Cleaner market availability (2026-10-26)
+
+Steam Cleaner retains its existing identity and prices. Advertising-feed availability is forced to `out of stock` outside US and CA. US and CA retain source availability (not forced in stock). This is a feed-only restriction, not a Shopify inventory mutation. The active Google country builder and Meta country-override builder enforce it on every refresh. AU/NZ compatibility feeds inherit the primary AU/NZ availability. US-only Axon, Microsoft and Meta primary feeds retain their existing source availability; Meta applies country overrides for other markets. Language overrides do not contain stock fields.

@@ -21,3 +21,8 @@ French generation execution 1386943 succeeded on October 25 at 21:50 America/New
 The latest inspected main-source upload had zero upload failures and six Out of stock items. Stock was not overridden. The source's next scheduled upload remains the authority for ingestion of a later hourly file.
 
 The retired workflow bp0yDn0lrh69OoOy remains stopped and archived. Four unused full-country-feed XML files were removed previously and are recoverable in Git history. Google, Axon and Microsoft retain their distinct feed purposes and identifier contracts.
+
+
+## Steam Cleaner market availability (2026-10-26)
+
+Steam Cleaner retains its existing identity and prices. Advertising-feed availability is forced to `out of stock` outside US and CA. US and CA retain source availability (not forced in stock). This is a feed-only restriction, not a Shopify inventory mutation. The active Google country builder and Meta country-override builder enforce it on every refresh. AU/NZ compatibility feeds inherit the primary AU/NZ availability. US-only Axon, Microsoft and Meta primary feeds retain their existing source availability; Meta applies country overrides for other markets. Language overrides do not contain stock fields.

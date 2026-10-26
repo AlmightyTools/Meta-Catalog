@@ -3023,34 +3023,34 @@ id,override,price,sale_price,availability,link
 51523660480808,PT,75.95 EUR,45.95 EUR,in stock,https://almighty.tools/products/the-almighty-solarguard?variant=51523660480808&country=PT&currency=EUR
 51523660480808,SE,75.95 EUR,45.95 EUR,in stock,https://almighty.tools/products/the-almighty-solarguard?variant=51523660480808&country=SE&currency=EUR
 51523660480808,SG,108.00 SGD,65.00 SGD,in stock,https://almighty.tools/products/the-almighty-solarguard?variant=51523660480808&country=SG&currency=SGD
-51523663364392,AE,156.50 USD,93.90 USD,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=AE&currency=USD
-51523663364392,AR,234750.00 ARS,140850.00 ARS,in stock,https://almighty.tools/es/products/the-almighty-steam-cleaner?variant=51523663364392&country=AR&currency=ARS
-51523663364392,AT,141.95 EUR,84.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=AT&currency=EUR
-51523663364392,AU,156.50 USD,93.90 USD,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=AU&currency=USD
-51523663364392,BE,141.95 EUR,84.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=BE&currency=EUR
-51523663364392,BR,156.50 USD,93.90 USD,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=BR&currency=USD
+51523663364392,AE,156.50 USD,93.90 USD,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=AE&currency=USD
+51523663364392,AR,234750.00 ARS,140850.00 ARS,out of stock,https://almighty.tools/es/products/the-almighty-steam-cleaner?variant=51523663364392&country=AR&currency=ARS
+51523663364392,AT,141.95 EUR,84.95 EUR,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=AT&currency=EUR
+51523663364392,AU,156.50 USD,93.90 USD,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=AU&currency=USD
+51523663364392,BE,141.95 EUR,84.95 EUR,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=BE&currency=EUR
+51523663364392,BR,156.50 USD,93.90 USD,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=BR&currency=USD
 51523663364392,CA,156.50 USD,93.90 USD,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=CA&currency=USD
-51523663364392,CH,141.95 EUR,84.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=CH&currency=EUR
-51523663364392,CL,148700.00 CLP,89300.00 CLP,in stock,https://almighty.tools/es/products/the-almighty-steam-cleaner?variant=51523663364392&country=CL&currency=CLP
-51523663364392,CO,580000.00 COP,348000.00 COP,in stock,https://almighty.tools/es/products/the-almighty-steam-cleaner?variant=51523663364392&country=CO&currency=COP
-51523663364392,DE,141.95 EUR,84.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=DE&currency=EUR
-51523663364392,DK,141.95 EUR,84.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=DK&currency=EUR
-51523663364392,ES,141.95 EUR,84.95 EUR,in stock,https://almighty.tools/es/products/the-almighty-steam-cleaner?variant=51523663364392&country=ES&currency=EUR
-51523663364392,FI,141.95 EUR,84.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=FI&currency=EUR
-51523663364392,FR,156.95 EUR,93.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=FR&currency=EUR
-51523663364392,GB,156.50 GBP,93.90 GBP,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=GB&currency=GBP
-51523663364392,GR,141.95 EUR,84.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=GR&currency=EUR
-51523663364392,IE,141.95 EUR,84.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=IE&currency=EUR
-51523663364392,IL,496.00 ILS,298.00 ILS,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=IL&currency=ILS
-51523663364392,IT,141.95 EUR,84.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=IT&currency=EUR
-51523663364392,JP,25000.00 JPY,15000.00 JPY,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=JP&currency=JPY
-51523663364392,MX,2817.00 MXN,1691.00 MXN,in stock,https://almighty.tools/es/products/the-almighty-steam-cleaner?variant=51523663364392&country=MX&currency=MXN
-51523663364392,NL,141.95 EUR,84.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=NL&currency=EUR
-51523663364392,NO,141.95 EUR,84.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=NO&currency=EUR
-51523663364392,NZ,156.50 USD,93.90 USD,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=NZ&currency=USD
-51523663364392,PT,141.95 EUR,84.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=PT&currency=EUR
-51523663364392,SE,141.95 EUR,84.95 EUR,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=SE&currency=EUR
-51523663364392,SG,204.00 SGD,122.00 SGD,in stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=SG&currency=SGD
+51523663364392,CH,141.95 EUR,84.95 EUR,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=CH&currency=EUR
+51523663364392,CL,148700.00 CLP,89300.00 CLP,out of stock,https://almighty.tools/es/products/the-almighty-steam-cleaner?variant=51523663364392&country=CL&currency=CLP
+51523663364392,CO,580000.00 COP,348000.00 COP,out of stock,https://almighty.tools/es/products/the-almighty-steam-cleaner?variant=51523663364392&country=CO&currency=COP
+51523663364392,DE,141.95 EUR,84.95 EUR,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=DE&currency=EUR
+51523663364392,DK,141.95 EUR,84.95 EUR,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=DK&currency=EUR
+51523663364392,ES,141.95 EUR,84.95 EUR,out of stock,https://almighty.tools/es/products/the-almighty-steam-cleaner?variant=51523663364392&country=ES&currency=EUR
+51523663364392,FI,141.95 EUR,84.95 EUR,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=FI&currency=EUR
+51523663364392,FR,156.95 EUR,93.95 EUR,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=FR&currency=EUR
+51523663364392,GB,156.50 GBP,93.90 GBP,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=GB&currency=GBP
+51523663364392,GR,141.95 EUR,84.95 EUR,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=GR&currency=EUR
+51523663364392,IE,141.95 EUR,84.95 EUR,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=IE&currency=EUR
+51523663364392,IL,496.00 ILS,298.00 ILS,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=IL&currency=ILS
+51523663364392,IT,141.95 EUR,84.95 EUR,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=IT&currency=EUR
+51523663364392,JP,25000.00 JPY,15000.00 JPY,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=JP&currency=JPY
+51523663364392,MX,2817.00 MXN,1691.00 MXN,out of stock,https://almighty.tools/es/products/the-almighty-steam-cleaner?variant=51523663364392&country=MX&currency=MXN
+51523663364392,NL,141.95 EUR,84.95 EUR,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=NL&currency=EUR
+51523663364392,NO,141.95 EUR,84.95 EUR,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=NO&currency=EUR
+51523663364392,NZ,156.50 USD,93.90 USD,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=NZ&currency=USD
+51523663364392,PT,141.95 EUR,84.95 EUR,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=PT&currency=EUR
+51523663364392,SE,141.95 EUR,84.95 EUR,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=SE&currency=EUR
+51523663364392,SG,204.00 SGD,122.00 SGD,out of stock,https://almighty.tools/products/the-almighty-steam-cleaner?variant=51523663364392&country=SG&currency=SGD
 51567395799336,AE,149.83 USD,89.90 USD,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395799336&country=AE&currency=USD
 51567395799336,AR,224745.00 ARS,134850.00 ARS,in stock,https://almighty.tools/es/products/the-almighty-power-wash?variant=51567395799336&country=AR&currency=ARS
 51567395799336,AT,135.95 EUR,81.95 EUR,in stock,https://almighty.tools/products/the-almighty-power-wash?variant=51567395799336&country=AT&currency=EUR
