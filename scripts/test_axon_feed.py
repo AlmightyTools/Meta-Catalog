@@ -60,6 +60,30 @@ class FeedSafety(unittest.TestCase):
         self.assertNotIn('salePriceStartDate', rows[0])
         self.assertTrue(all(',' not in r['description'] for r in rows))
 
+    def test_country_independent_and_legacy_ids_produce_identical_axon_rows(self):
+        current = self.source()
+        legacy = self.source()
+        for root, prefix in [(current, 'Shopify'), (legacy, 'shopify_US')]:
+            for item in root.findall('.//item'):
+                pid = item.findtext('g:item_group_id', namespaces=NS)
+                vid = item.findtext('g:id', namespaces=NS).split('_')[-1]
+                item.find('g:id', NS).text = f'{prefix}_{pid}_{vid}'
+        self.assertEqual(self.build(current), self.build(legacy))
+        previous = {i.findtext('g:id', namespaces=NS).split('_')[-1]: {
+            'product_id': i.findtext('g:item_group_id', namespaces=NS),
+            'strategy': 'product_first_image', 'source_url': 'https://cdn.shopify.com/original.jpg'
+        } for i in current.findall('.//item')}
+        error = urllib.error.HTTPError('https://checkout.almighty.tools', 429, 'Too Many Requests', {}, None)
+        with patch('build_axon_feed.urllib.request.urlopen', side_effect=error), patch('build_axon_feed.time.sleep'):
+            self.assertEqual(shopify_images(ET.tostring(current), previous), shopify_images(ET.tostring(legacy), previous))
+
+    def test_non_us_legacy_or_malformed_id_rejected(self):
+        for invalid in ['shopify_GB_1_2', 'Shopify_1_2_extra', 'Shopify_1', '1_2']:
+            root = self.source()
+            root.find('.//item/g:id', NS).text = invalid
+            with self.assertRaises(AssertionError): self.build(root)
+            with self.assertRaises(AssertionError): shopify_images(ET.tostring(root))
+
     def test_checkout_domain_rejected(self):
         root = self.source()
         link = root.find('.//item/link')

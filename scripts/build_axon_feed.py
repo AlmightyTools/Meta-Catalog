@@ -48,7 +48,7 @@ def select_shopify_image(product, product_id, variant_id):
 def shopify_images(xml_bytes, previous=None):
     products = {}
     for item in ET.fromstring(xml_bytes).findall('.//item'):
-        match = re.fullmatch(r'shopify_US_(\d+)_(\d+)', item.findtext('g:id', namespaces=NS))
+        match = re.fullmatch(r'(?:shopify_US|Shopify)_(\d+)_(\d+)', item.findtext('g:id', namespaces=NS))
         assert match, 'Unexpected source identity'
         product_id, variant_id = match.groups()
         path = urllib.parse.urlsplit(item.findtext('link')).path
@@ -164,7 +164,7 @@ def build_items(xml_bytes, resolve_image, source_images=None):
     for item in source.findall('.//item'):
         def g(name):
             return item.findtext('g:' + name, default='', namespaces=NS)
-        match = re.fullmatch(r'shopify_US_(\d+)_(\d+)', g('id'))
+        match = re.fullmatch(r'(?:shopify_US|Shopify)_(\d+)_(\d+)', g('id'))
         assert match, 'Unexpected source identity'
         product_id, variant_id = match.groups()
         assert g('item_group_id') == product_id
