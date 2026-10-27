@@ -196,7 +196,7 @@ def build_items(xml_bytes, resolve_image, source_images=None):
             'id': variant_id, 'name': clean(item.findtext('title'), 1024),
             'itemId': product_id, 'price': f'{current:.2f}',
             'isAvailable': 'TRUE' if available == 'in stock' else 'FALSE',
-            'webUrl': url, 'description': clean(item.findtext('description'), 8192),
+            'webUrl': url, 'description': clean(item.findtext('description') or g('structured_description/g:content'), 8192),
             'brand': 'The Almighty Tools®', 'categoryId': category,
             'primaryImageUrl': resolve_image(primary_image),
         })
