@@ -157,7 +157,7 @@ def image_asset(url, cache, root):
     return ASSET_BASE + path
 
 
-def build_items(xml_bytes, resolve_image, source_images=None):
+def build_items(xml_bytes, resolve_image, source_images=None, copy_overrides=None):
     source = ET.fromstring(xml_bytes)
     rows = []
     seen = set()
@@ -192,11 +192,17 @@ def build_items(xml_bytes, resolve_image, source_images=None):
             primary_image = source_images[variant_id]['source_url']
         else:
             primary_image = g('image_link')
+        # Axon copy is independent of Google-specific search title/description optimization.
+        original_copy = (copy_overrides or {}).get(variant_id)
+        if original_copy:
+            assert original_copy['product_id'] == product_id, 'Axon copy identity mismatch'
+        name = original_copy['name'] if original_copy else (item.findtext('title') or g('structured_title/g:content'))
+        description = original_copy['description'] if original_copy else (item.findtext('description') or g('structured_description/g:content'))
         rows.append({
-            'id': variant_id, 'name': clean(item.findtext('title'), 1024),
+            'id': variant_id, 'name': clean(name, 1024),
             'itemId': product_id, 'price': f'{current:.2f}',
             'isAvailable': 'TRUE' if available == 'in stock' else 'FALSE',
-            'webUrl': url, 'description': clean(item.findtext('description') or g('structured_description/g:content'), 8192),
+            'webUrl': url, 'description': clean(description, 8192),
             'brand': 'The Almighty Tools®', 'categoryId': category,
             'primaryImageUrl': resolve_image(primary_image),
         })
@@ -224,7 +230,9 @@ def main():
     source_map_path = ROOT / 'scripts/axon-source-images.json'
     previous_images = json.loads(source_map_path.read_text()) if source_map_path.exists() else {}
     source_images = shopify_images(xml_bytes, previous_images)
-    rows = build_items(xml_bytes, lambda url: image_asset(url, cache, ROOT), source_images)
+    copy_path = ROOT / 'scripts/axon-product-copy.json'
+    copy_overrides = json.loads(copy_path.read_text()) if copy_path.exists() else {}
+    rows = build_items(xml_bytes, lambda url: image_asset(url, cache, ROOT), source_images, copy_overrides)
     if output_path.exists():
         previous = list(csv.DictReader(output_path.open(encoding='utf-8')))
         assert len(rows) >= len(previous) * .8, 'Source shrank by over 20%; review before replacing'
