@@ -1,15 +1,83 @@
 import unittest
-from unittest.mock import patch
+from unittest.mock import patch, MagicMock
+import json
+import tempfile
 import urllib.error
 from pathlib import Path
 import xml.etree.ElementTree as ET
-from build_axon_feed import build_items, select_shopify_image, shopify_images, NS
+from build_axon_feed import build_items, select_shopify_image, shopify_images, shopify_product_payload, main, NS
 
 SOURCE = Path(__file__).resolve().parents[1] / 'almighty-tools-gmc-us.xml'
 IMAGE = 'https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/images/axon/test.png'
 
 
 class FeedSafety(unittest.TestCase):
+    def response(self, product=None, url='https://checkout.almighty.tools/products/tool.js'):
+        response = MagicMock()
+        response.__enter__.return_value = response
+        response.geturl.return_value = url
+        response.read.return_value = json.dumps(product or {'id': 1}).encode()
+        return response
+
+    def test_temporary_gateway_error_recovers_with_bounded_retries(self):
+        for code in (502, 503, 504):
+            error = urllib.error.HTTPError('https://checkout.almighty.tools', code, 'temporary', {}, None)
+            with self.subTest(code=code), patch('build_axon_feed.urllib.request.urlopen', side_effect=[error, error, self.response()]) as request, patch('build_axon_feed.time.sleep') as sleep:
+                self.assertEqual(shopify_product_payload('request'), {'id': 1})
+                self.assertEqual(request.call_count, 3)
+                self.assertEqual([c.args[0] for c in sleep.call_args_list], [2, 4])
+
+    def test_persistent_gateway_error_never_uses_previous_image_cache(self):
+        error = urllib.error.HTTPError('https://checkout.almighty.tools', 503, 'temporary', {}, None)
+        with patch('build_axon_feed.urllib.request.urlopen', side_effect=error) as request, patch('build_axon_feed.time.sleep'):
+            with self.assertRaises(urllib.error.HTTPError):
+                shopify_images(SOURCE.read_bytes(), {'unused': {'source_url': 'https://cdn.shopify.com/old.jpg'}})
+            self.assertEqual(request.call_count, 3)
+
+    def test_retry_after_is_respected_and_long_pause_stops_build(self):
+        for value, expected_delay in [('7', 7), ('invalid', 2), ('Wed, 01 Jan 2020 00:00:00 GMT', 2)]:
+            error = urllib.error.HTTPError('https://checkout.almighty.tools', 503, 'temporary', {'Retry-After': value}, None)
+            with self.subTest(value=value), patch('build_axon_feed.urllib.request.urlopen', side_effect=[error, self.response()]), patch('build_axon_feed.time.sleep') as sleep:
+                shopify_product_payload('request')
+                sleep.assert_called_once_with(expected_delay)
+        for value in ('120', 'nan', 'inf'):
+            error = urllib.error.HTTPError('https://checkout.almighty.tools', 503, 'temporary', {'Retry-After': value}, None)
+            with self.subTest(value=value), patch('build_axon_feed.urllib.request.urlopen', side_effect=error) as request, patch('build_axon_feed.time.sleep') as sleep:
+                with self.assertRaises(urllib.error.HTTPError): shopify_product_payload('request')
+                self.assertEqual(request.call_count, 1)
+                sleep.assert_not_called()
+
+    def test_nontransient_http_errors_are_not_retried(self):
+        for code in (401, 403, 404, 429, 500):
+            error = urllib.error.HTTPError('https://checkout.almighty.tools', code, 'stop', {}, None)
+            with self.subTest(code=code), patch('build_axon_feed.urllib.request.urlopen', side_effect=error) as request, patch('build_axon_feed.time.sleep') as sleep:
+                with self.assertRaises(urllib.error.HTTPError): shopify_product_payload('request')
+                self.assertEqual(request.call_count, 1)
+                sleep.assert_not_called()
+
+    def test_invalid_json_and_redirect_still_stop_immediately(self):
+        response = self.response()
+        response.read.return_value = b'invalid'
+        with patch('build_axon_feed.urllib.request.urlopen', return_value=response) as request:
+            with self.assertRaises(json.JSONDecodeError): shopify_product_payload('request')
+            self.assertEqual(request.call_count, 1)
+        with patch('build_axon_feed.urllib.request.urlopen', return_value=self.response(url='https://example.com/tool.js')):
+            with self.assertRaises(AssertionError): shopify_product_payload('request')
+
+    def test_failed_refresh_preserves_all_published_files(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'scripts').mkdir()
+            files = {'almighty-tools-gmc-us.xml': SOURCE.read_bytes(),
+                     'almighty-tools-axon-us.csv': b'previous catalog\n',
+                     'scripts/axon-image-cache.json': b'{}\n',
+                     'scripts/axon-source-images.json': b'{}\n'}
+            for path, data in files.items(): (root / path).write_bytes(data)
+            error = urllib.error.HTTPError('https://checkout.almighty.tools', 503, 'temporary', {}, None)
+            with patch('build_axon_feed.ROOT', root), patch('build_axon_feed.urllib.request.urlopen', side_effect=error), patch('build_axon_feed.time.sleep'):
+                with self.assertRaises(urllib.error.HTTPError): main()
+            self.assertEqual({path: (root / path).read_bytes() for path in files}, files)
+
     def test_variant_color_photo_precedes_generic_cover(self):
         product = {'id': 1, 'featured_image': '//cdn.shopify.com/yellow.jpg',
                    'variants': [{'id': 2, 'featured_image': {'product_id':1, 'src':'https://cdn.shopify.com/blue.jpg'}}]}
