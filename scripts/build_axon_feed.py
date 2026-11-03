@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """Build Axon's public US catalog from the existing owned US Merchant feed."""
 import csv
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 import hashlib
 import html
 import io
 import json
+import math
 import os
 from pathlib import Path
 import re
@@ -22,6 +25,35 @@ FIELDS = ['id', 'name', 'itemId', 'price', 'isAvailable', 'webUrl',
           'description', 'brand', 'categoryId', 'primaryImageUrl']
 ASSET_BASE = 'https://raw.githubusercontent.com/AlmightyTools/Meta-Catalog/main/'
 SHOPIFY_ORIGIN = 'https://checkout.almighty.tools'
+
+
+def shopify_product_payload(request):
+    """Retry temporary gateway failures; persistent failures keep publication closed."""
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(request, timeout=45) as response:
+                assert urllib.parse.urlsplit(response.geturl()).hostname == 'checkout.almighty.tools', 'Unexpected product redirect'
+                payload = response.read(5_000_001)
+            assert len(payload) <= 5_000_000, 'Product response too large'
+            return json.loads(payload)
+        except urllib.error.HTTPError as error:
+            if error.code not in {502, 503, 504} or attempt == 2:
+                raise
+            retry_after = error.headers.get('Retry-After')
+            delay = 2 ** (attempt + 1)
+            if retry_after:
+                try:
+                    delay = float(retry_after)
+                except ValueError:
+                    try:
+                        delay = (parsedate_to_datetime(retry_after) - datetime.now(timezone.utc)).total_seconds()
+                    except (ValueError, TypeError, OverflowError):
+                        pass
+            # Do not retry earlier than a long server-requested pause or wait
+            # indefinitely inside this bounded job. Leave the public CSV intact.
+            if not math.isfinite(delay) or delay > 60:
+                raise
+            time.sleep(max(delay, 2))
 
 
 def select_shopify_image(product, product_id, variant_id):
@@ -61,11 +93,7 @@ def shopify_images(xml_bytes, previous=None):
         product_id, source = entry
         request = urllib.request.Request(SHOPIFY_ORIGIN + source['path'] + '.js',
                                          headers={'User-Agent': 'AlmightyTools-AxonFeed/1.0'})
-        with urllib.request.urlopen(request, timeout=45) as response:
-            assert urllib.parse.urlsplit(response.geturl()).hostname == 'checkout.almighty.tools', 'Unexpected product redirect'
-            payload = response.read(5_000_001)
-        assert len(payload) <= 5_000_000, 'Product response too large'
-        product = json.loads(payload)
+        product = shopify_product_payload(request)
         return {v: select_shopify_image(product, product_id, v) for v in source['variants']}
 
     selected = {}
