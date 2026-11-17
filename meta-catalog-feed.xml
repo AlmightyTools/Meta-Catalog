@@ -119,7 +119,7 @@ Key features
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Tool-Box</g:custom_label_4>
     <g:shipping_weight>200 g</g:shipping_weight>
-    <g:inventory>481</g:inventory>
+    <g:inventory>480</g:inventory>
   </item>
   <item>
     <g:id>47492283892008</g:id>
@@ -389,7 +389,7 @@ Key features
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Screwdrivers</g:custom_label_4>
     <g:shipping_weight>455 g</g:shipping_weight>
-    <g:inventory>902</g:inventory>
+    <g:inventory>901</g:inventory>
   </item>
   <item>
     <g:id>48877287047464</g:id>
@@ -424,7 +424,7 @@ Key features
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>17931</g:inventory>
+    <g:inventory>17919</g:inventory>
   </item>
   <item>
     <g:id>48877287276840</g:id>
@@ -459,7 +459,7 @@ Key features
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>8325</g:inventory>
+    <g:inventory>8319</g:inventory>
   </item>
   <item>
     <g:id>48877287080232</g:id>
@@ -494,7 +494,7 @@ Key features
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>0.37 kg</g:shipping_weight>
-    <g:inventory>3383</g:inventory>
+    <g:inventory>3379</g:inventory>
   </item>
   <item>
     <g:id>48877287309608</g:id>
@@ -529,7 +529,7 @@ Key features
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>3838</g:inventory>
+    <g:inventory>3829</g:inventory>
   </item>
   <item>
     <g:id>50796295553320</g:id>
@@ -599,7 +599,7 @@ Key features
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>1398</g:inventory>
+    <g:inventory>1397</g:inventory>
   </item>
   <item>
     <g:id>48877316210984</g:id>
@@ -4440,7 +4440,7 @@ Key features
     <g:custom_label_0>Cutters</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Other-Tools</g:custom_label_4>
-    <g:inventory>8453</g:inventory>
+    <g:inventory>8451</g:inventory>
   </item>
   <item>
     <g:id>52197493801256</g:id>
