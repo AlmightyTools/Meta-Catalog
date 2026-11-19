@@ -7,7 +7,7 @@ import re
 import xml.etree.ElementTree as ET
 from decimal import Decimal
 from pathlib import Path
-from urllib.parse import parse_qs, urlsplit, urlunsplit
+from urllib.parse import parse_qs, urlsplit, urlunsplit, urlencode
 
 ROOT = Path(__file__).resolve().parents[1]
 G = '{http://base.google.com/ns/1.0}'
@@ -80,8 +80,10 @@ def build(raw, options, country='US', currency='USD'):
         query = parse_qs(parsed.query)
         if parsed.scheme != 'https' or parsed.hostname != 'almighty.tools' or query.get('variant') != [vid] or query.get('country') != [country]:
             raise ValueError('Wrong product/variant/market URL')
-        if query.get('currency') != [currency]:
+        if query.get('currency') and query.get('currency') != [currency]:
             raise ValueError('Product URL currency does not match market')
+        query['currency'] = [currency]
+        url = urlunsplit(parsed._replace(query=urlencode(query,doseq=True)))
         title = item.findtext(G+'structured_title/'+G+'content') or field('title')
         description = item.findtext(G+'structured_description/'+G+'content') or field('description')
         if not 0 < len(title) <= 150 or not 0 < len(description) <= 5000:
