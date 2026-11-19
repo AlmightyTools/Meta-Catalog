@@ -61,7 +61,7 @@ def build(raw):
             content = element.findtext(G + 'content') or ''
             if not content.strip():
                 raise ValueError('Empty source copy')
-            new = 'Christmas Gift - ' + content if field == 'structured_title' else gift_description(item) + ' ' + content
+            new = 'Gift for DIYer. Christmas Gift - ' + content if field == 'structured_title' else gift_description(item) + ' ' + content + ' Ready to gift'
             if len(new) > limit:
                 raise ValueError('Christmas copy exceeds Google field limit; preserve variant details')
             pattern = r'(<g:' + field + r'>.*?<g:content>).*?(</g:content>.*?</g:' + field + r'>)'
