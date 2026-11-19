@@ -19,6 +19,12 @@ IDs and variant groups are country-qualified to avoid cross-market overwrites.
 Google campaign/Christmas alias IDs are never imported. Variant names/values are
 refreshed from public Shopify product definitions, not inferred from ad titles.
 
+Localized copy and product links are selected together: DE/AT/CH use verified
+published German product schema; ES/AR/CL/CO/MX use canonical Spanish country
+feeds; FR/BE use canonical French country feeds. The remaining countries use the
+actual English storefront. No Japanese, Hebrew, Arabic or other unsupported
+translation is invented. Country and currency parameters are retained.
+
 The workflow refreshes after canonical/image updates and every six hours. It
 publishes only the OpenAI catalog and its public-data caches. All validation and
 source refreshes must succeed before replacement; no Shopify credentials are used.
@@ -28,6 +34,7 @@ Run:
 ```sh
 python3 scripts/refresh_chatgpt_variant_options.py
 python3 scripts/refresh_chatgpt_qatar.py
+python3 scripts/refresh_chatgpt_german.py
 python3 scripts/build_chatgpt_feed.py
 python3 scripts/test_chatgpt_feed.py
 ```

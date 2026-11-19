@@ -40,9 +40,10 @@ jobs:
             git pull --rebase origin main
             python scripts/refresh_chatgpt_variant_options.py
             python scripts/refresh_chatgpt_qatar.py
+            python scripts/refresh_chatgpt_german.py
             python scripts/build_chatgpt_feed.py
             python scripts/test_chatgpt_feed.py
-            git add almighty-tools-chatgpt.csv scripts/chatgpt-variant-options.json scripts/chatgpt-qatar.xml
+            git add almighty-tools-chatgpt.csv scripts/chatgpt-variant-options.json scripts/chatgpt-qatar.xml scripts/chatgpt-german-copy.json
             if git diff --cached --quiet; then exit 0; fi
             git commit -m 'Refresh ChatGPT catalog for all Shopify markets'
             if git push origin HEAD:main; then exit 0; fi

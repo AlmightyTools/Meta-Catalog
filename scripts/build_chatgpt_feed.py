@@ -7,7 +7,7 @@ import re
 import xml.etree.ElementTree as ET
 from decimal import Decimal
 from pathlib import Path
-from urllib.parse import parse_qs, urlsplit
+from urllib.parse import parse_qs, urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 G = '{http://base.google.com/ns/1.0}'
@@ -19,6 +19,28 @@ REQUIRED = FIELDS[:9] + ['target_countries','store_country']
 AVAILABILITY = {'in stock':'in_stock','out of stock':'out_of_stock',
                 'preorder':'pre_order','pre order':'pre_order','backorder':'backorder',
                 'unknown':'unknown'}
+
+
+def localized_source(country, locale):
+    source = ROOT/('scripts/chatgpt-qatar.xml' if country == 'QA' else 'almighty-tools-gmc-'+country.lower()+'.xml')
+    if locale in {'es','fr'}:
+        source = ROOT/('almighty-tools-gmc-'+country.lower()+'-'+locale+'.xml')
+    raw = source.read_bytes()
+    if locale == 'de':
+        tree = ET.fromstring(raw)
+        copy = json.loads((ROOT/'scripts/chatgpt-german-copy.json').read_text())
+        for item in tree.findall('./channel/item'):
+            link = item.find('link')
+            parsed = urlsplit(link.text)
+            text = copy[parsed.path]
+            link.text = urlunsplit(parsed._replace(path='/de'+parsed.path))
+            for name in ['title','description']:
+                field = item.find(G+'structured_'+name+'/'+G+'content')
+                if field is None: field = item.find(G+name)
+                if field is None: field = ET.SubElement(item,G+name)
+                field.text = text[name]
+        raw = ET.tostring(tree,encoding='utf-8')
+    return raw
 
 
 def valid_gtin(value):
@@ -112,11 +134,11 @@ def build(raw, options, country='US', currency='USD'):
 
 if __name__ == '__main__':
     markets = json.loads((ROOT/'scripts/chatgpt-markets.json').read_text())
+    locales = json.loads((ROOT/'scripts/chatgpt-locales.json').read_text())
     options = json.loads((ROOT/'scripts/chatgpt-variant-options.json').read_text())
     rows, stats = [], {}
     for country,currency in sorted(markets.items()):
-        source = ROOT/('scripts/chatgpt-qatar.xml' if country == 'QA' else 'almighty-tools-gmc-'+country.lower()+'.xml')
-        part, stats[country] = build(source.read_bytes(),options,country,currency)
+        part, stats[country] = build(localized_source(country,locales.get(country)),options,country,currency)
         rows.extend(csv.DictReader(io.StringIO(part.decode())))
     if len({r['item_id'] for r in rows}) != len(rows):
         raise ValueError('Cross-market identity collision')
