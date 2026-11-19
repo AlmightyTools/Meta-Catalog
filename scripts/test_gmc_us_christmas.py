@@ -21,6 +21,8 @@ class ChristmasFeedTests(unittest.TestCase):
             self.assertEqual(new.findtext(G+'item_group_id'), 'dup_US_'+old.findtext(G+'item_group_id'))
             self.assertEqual(new.findtext(G+'custom_label_4'), 'dup')
             self.assertEqual(new.findtext(G+'custom_label_3'), 'christmas_gifts')
+            self.assertTrue(new.findtext(G+'structured_title/'+G+'content').startswith('Gift for DIYer. '))
+            self.assertTrue(new.findtext(G+'structured_description/'+G+'content').endswith('Ready to gift'))
             for field, limit in (('structured_title',150),('structured_description',5000)):
                 value = new.findtext(G+field+'/'+G+'content')
                 self.assertIn('Christmas gift', value.replace('Christmas Gift', 'Christmas gift'))
