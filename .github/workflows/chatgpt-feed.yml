@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'almighty-tools-gmc-??.xml'
+      - 'almighty-tools-gmc-*.xml'
       - 'scripts/*chatgpt*'
       - '.github/workflows/chatgpt-feed.yml'
   workflow_run:
