@@ -154,5 +154,23 @@
     "sha256": "9378838a980c50d8a03f1729163da0ba2a7887d8c69df194f2cd1a61cd4fbe07",
     "bytes": 1735106,
     "digital_source_metadata_preserved": true
+  },
+  {
+    "filename": "google-merchant-hurricane-dark-20261119-r2.png",
+    "sha256": "73ba6e6cf720113bb6439008a137b221964396c32ec8eb726ad433efc6aeb2aa",
+    "bytes": 1654702,
+    "digital_source_metadata_preserved": true
+  },
+  {
+    "filename": "google-merchant-vacuum-dark-20261119-r2.png",
+    "sha256": "8130f5b3beba08c6aeec38d5c0f7b91f5f0089567c4e8ae6c3d6602b11f74437",
+    "bytes": 1567095,
+    "digital_source_metadata_preserved": true
+  },
+  {
+    "filename": "google-merchant-gift-dark-20261119-r2.png",
+    "sha256": "0097e8fca8676aede06935b3e8e356faf68f6588ab801323482cc4fbd6de7367",
+    "bytes": 2187125,
+    "digital_source_metadata_preserved": true
   }
 ]

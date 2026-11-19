@@ -1,6 +1,6 @@
 import subprocess
 import unittest
-from apply_gmc_image_overrides import ROOT, normalize, strip_images
+from apply_gmc_image_overrides import ROOT, POLICY, normalize, strip_images
 
 
 class ImageCorrectionTests(unittest.TestCase):
@@ -20,7 +20,8 @@ class ImageCorrectionTests(unittest.TestCase):
 
     def test_future_source_refresh_and_mismatch(self):
         data = (ROOT / 'almighty-tools-gmc-us.xml').read_bytes()
-        source = data.replace(b'google-merchant-hurricane-dark-20261119.png', b'old-promotional-photo.png')
+        current_image = POLICY['50440808530216']['filename'].encode()
+        source = data.replace(current_image, b'old-promotional-photo.png')
         self.assertNotEqual(source, data)
         self.assertEqual(normalize(source)[0], data)
         broken = source.replace(b'Shopify_9720607146280_50440808530216', b'Shopify_999_50440808530216')
