@@ -60,7 +60,7 @@ def normalize(raw, locale='en'):
         if node is None or not node.text: raise ValueError('Missing original description')
         text = node.text
         if header in text:
-            if text.endswith(suffix): return original
+            if text.count(suffix)==1: return original
             raise ValueError('Unexpected existing technical suffix; preserve for review')
         new = text.rstrip()+' '+suffix
         if len(new)>5000: raise ValueError('Description too long')
