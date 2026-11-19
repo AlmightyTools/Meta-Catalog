@@ -13,11 +13,13 @@ ROOT = Path(__file__).resolve().parents[1]
 G = '{http://base.google.com/ns/1.0}'
 TARGETS = {
     '9346606301480': '3.6 V',
-    '9346621047080': None,
-    '9576205058344': None,
+    '9346621047080': '3.7 V',
+    '9576205058344': '3.7 V',
     '9811758580008': '3.7 V',
-    '9737186672936': None,
-    '10146888024360': None,
+    '9737186672936': '3.7 V',
+    '10146888024360': '3.7 V',
+    '9790950277416': '3.7 V',
+    '9864428290344': '3.7 V',
 }
 MANUAL_VARIANT = '51411044172072'
 LABELS = {
@@ -46,8 +48,10 @@ def normalize(raw, locale='en'):
         if not ids or ids[1] not in TARGETS or ids[2] == MANUAL_VARIANT: return original
         details = {d.findtext(G+'attribute_name'):d.findtext(G+'attribute_value') for d in item.findall(G+'product_detail')}
         bits = [v for k,v in details.items() if k in BIT_LABELS]
-        if len(bits)!=1 or not bits[0]: raise ValueError('Missing verified bit types for '+ident)
-        sentences = [header,bit_label+' '+bits[0]+'.']
+        if (len(bits)!=1 or not bits[0]) and ids[1] not in {'9790950277416','9864428290344'}:
+            raise ValueError('Missing verified bit types for '+ident)
+        sentences = [header]+([bit_label+' '+bits[0]+'.'] if bits else [])
+        old_suffix = ' '.join(sentences)
         voltage = TARGETS[ids[1]]
         if voltage:
             values = [v for k,v in details.items() if k in VOLT_LABELS]
@@ -61,8 +65,12 @@ def normalize(raw, locale='en'):
         text = node.text
         if header in text:
             if text.count(suffix)==1: return original
-            raise ValueError('Unexpected existing technical suffix; preserve for review')
-        new = text.rstrip()+' '+suffix
+            if text.count(old_suffix)==1 and voltage_label not in text:
+                new = text.replace(old_suffix,suffix,1)
+            else:
+                raise ValueError('Unexpected existing technical suffix; preserve for review')
+        else:
+            new = text.rstrip()+' '+suffix
         if len(new)>5000: raise ValueError('Description too long')
         if structured:
             pattern = r'(<g:structured_description>\s*(?:<g:digital_source_type>.*?</g:digital_source_type>\s*)?<g:content>).*?(</g:content>)'
