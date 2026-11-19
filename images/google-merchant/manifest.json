@@ -94,5 +94,65 @@
     "sha256": "74cb8704e277f42ed2083170e64b139c723d885b166ee4caa11817f651269cab",
     "bytes": 2432146,
     "digital_source_metadata_preserved": true
+  },
+  {
+    "filename": "google-merchant-laser-blue-dark-20261119.png",
+    "sha256": "0943095968099c76ad7ed2f880c2e68918ef2dbaddef364dafdde8f462f2b961",
+    "bytes": 1658714,
+    "digital_source_metadata_preserved": true
+  },
+  {
+    "filename": "google-merchant-pink-dark-20261119.png",
+    "sha256": "96cc650f2f0003b128d326a775261a3fdb499a2315f0b1eb22b0993fb6515f0e",
+    "bytes": 1778501,
+    "digital_source_metadata_preserved": true
+  },
+  {
+    "filename": "google-merchant-vacuum-dark-20261119.png",
+    "sha256": "82789010d702530eeaf1409ad9186e1f17406d1aae7a95911deb5f4c4da252bd",
+    "bytes": 1436950,
+    "digital_source_metadata_preserved": true
+  },
+  {
+    "filename": "google-merchant-boots-dark-20261119.png",
+    "sha256": "0933a340906277f828b90659ce84bb3aec80f9da3c20202eed4b3666bcc9584f",
+    "bytes": 2343773,
+    "digital_source_metadata_preserved": true
+  },
+  {
+    "filename": "google-merchant-hurricane-dark-20261119.png",
+    "sha256": "1360559e0d6dcc9e048b5321f80a871c7d3335d90374a5a596e3fa9292917ba5",
+    "bytes": 1498203,
+    "digital_source_metadata_preserved": true
+  },
+  {
+    "filename": "google-merchant-tape-orange-dark-20261119.png",
+    "sha256": "9c359e81c89da19b029f437cbbda63da3f0548a237c374199a97888a46dee102",
+    "bytes": 1584061,
+    "digital_source_metadata_preserved": true
+  },
+  {
+    "filename": "google-merchant-dustbuster-dark-20261119.png",
+    "sha256": "0cdf38615f1c8af63acae8a99b0b91cdfab1a91e64bbdbebe21dad0d6d5bf5f0",
+    "bytes": 1511791,
+    "digital_source_metadata_preserved": true
+  },
+  {
+    "filename": "google-merchant-level-dark-20261119.png",
+    "sha256": "fcd03e9fb41d7d21836505d3f9cd947ea3731ffeb40df84cf20ccad2682f72a4",
+    "bytes": 1847828,
+    "digital_source_metadata_preserved": true
+  },
+  {
+    "filename": "google-merchant-clamping-dark-20261119.png",
+    "sha256": "47dab990c02fc1121d581c96e76a4213534b2e68371091216e9ec8817c47499e",
+    "bytes": 1754123,
+    "digital_source_metadata_preserved": true
+  },
+  {
+    "filename": "google-merchant-gift-dark-20261119.png",
+    "sha256": "9378838a980c50d8a03f1729163da0ba2a7887d8c69df194f2cd1a61cd4fbe07",
+    "bytes": 1735106,
+    "digital_source_metadata_preserved": true
   }
 ]

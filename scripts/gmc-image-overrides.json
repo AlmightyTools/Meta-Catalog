@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "background": "#1f1f21",
+  "variants": {
+    "48877044957480": {
+      "product_id": "9346609676584",
+      "filename": "google-merchant-laser-blue-dark-20261119.png",
+      "remove_additional_images": false
+    },
+    "50796295586088": {
+      "product_id": "9346623570216",
+      "filename": "google-merchant-pink-dark-20261119.png",
+      "remove_additional_images": false
+    },
+    "48898700083496": {
+      "product_id": "9354055549224",
+      "filename": "google-merchant-vacuum-dark-20261119.png",
+      "remove_additional_images": false
+    },
+    "50292856193320": {
+      "product_id": "9685236908328",
+      "filename": "google-merchant-boots-dark-20261119.png",
+      "remove_additional_images": false
+    },
+    "50292856226088": {
+      "product_id": "9685236908328",
+      "filename": "google-merchant-boots-dark-20261119.png",
+      "remove_additional_images": false
+    },
+    "50292856258856": {
+      "product_id": "9685236908328",
+      "filename": "google-merchant-boots-dark-20261119.png",
+      "remove_additional_images": false
+    },
+    "50292856291624": {
+      "product_id": "9685236908328",
+      "filename": "google-merchant-boots-dark-20261119.png",
+      "remove_additional_images": false
+    },
+    "50292856324392": {
+      "product_id": "9685236908328",
+      "filename": "google-merchant-boots-dark-20261119.png",
+      "remove_additional_images": false
+    },
+    "50292856357160": {
+      "product_id": "9685236908328",
+      "filename": "google-merchant-boots-dark-20261119.png",
+      "remove_additional_images": false
+    },
+    "50292856389928": {
+      "product_id": "9685236908328",
+      "filename": "google-merchant-boots-dark-20261119.png",
+      "remove_additional_images": false
+    },
+    "50440808530216": {
+      "product_id": "9720607146280",
+      "filename": "google-merchant-hurricane-dark-20261119.png",
+      "remove_additional_images": false
+    },
+    "50619044987176": {
+      "product_id": "9726666768680",
+      "filename": "google-merchant-tape-orange-dark-20261119.png",
+      "remove_additional_images": false
+    },
+    "50503554728232": {
+      "product_id": "9737186607400",
+      "filename": "google-merchant-dustbuster-dark-20261119.png",
+      "remove_additional_images": false
+    },
+    "50585409945896": {
+      "product_id": "9784660853032",
+      "filename": "google-merchant-level-dark-20261119.png",
+      "remove_additional_images": true
+    },
+    "50598338167080": {
+      "product_id": "9784724422952",
+      "filename": "google-merchant-clamping-dark-20261119.png",
+      "remove_additional_images": false
+    },
+    "50821979177256": {
+      "product_id": "9843914932520",
+      "filename": "google-merchant-gift-dark-20261119.png",
+      "remove_additional_images": false
+    },
+    "50626779382056": {
+      "product_id": "9796679106856",
+      "filename": "google-merchant-pink-dark-20261119.png",
+      "remove_additional_images": false
+    }
+  }
+}
