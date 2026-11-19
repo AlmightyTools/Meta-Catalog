@@ -69,6 +69,7 @@ def refresh():
         parsed = urlsplit(link.text)
         params = parse_qs(parsed.query)
         params['country'] = ['QA']
+        params['currency'] = ['QAR']
         link.text = urlunsplit(parsed._replace(query=urlencode(params,doseq=True)))
     target = ROOT/'scripts/chatgpt-qatar.xml'
     temp = target.with_suffix('.xml.tmp')

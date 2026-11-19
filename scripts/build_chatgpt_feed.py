@@ -80,6 +80,8 @@ def build(raw, options, country='US', currency='USD'):
         query = parse_qs(parsed.query)
         if parsed.scheme != 'https' or parsed.hostname != 'almighty.tools' or query.get('variant') != [vid] or query.get('country') != [country]:
             raise ValueError('Wrong product/variant/market URL')
+        if query.get('currency') != [currency]:
+            raise ValueError('Product URL currency does not match market')
         title = item.findtext(G+'structured_title/'+G+'content') or field('title')
         description = item.findtext(G+'structured_description/'+G+'content') or field('description')
         if not 0 < len(title) <= 150 or not 0 < len(description) <= 5000:
