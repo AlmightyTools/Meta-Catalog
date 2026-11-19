@@ -48,7 +48,7 @@ def normalize(raw, locale='en'):
         if not ids or ids[1] not in TARGETS or ids[2] == MANUAL_VARIANT: return original
         details = {d.findtext(G+'attribute_name'):d.findtext(G+'attribute_value') for d in item.findall(G+'product_detail')}
         bits = [v for k,v in details.items() if k in BIT_LABELS]
-        if (len(bits)!=1 or not bits[0]) and ids[1] not in {'9790950277416','9864428290344'}:
+        if len(bits)!=1 or not bits[0]:
             raise ValueError('Missing verified bit types for '+ident)
         sentences = [header]+([bit_label+' '+bits[0]+'.'] if bits else [])
         old_suffix = ' '.join(sentences)
@@ -67,6 +67,8 @@ def normalize(raw, locale='en'):
             if text.count(suffix)==1: return original
             if text.count(old_suffix)==1 and voltage_label not in text:
                 new = text.replace(old_suffix,suffix,1)
+            elif bits and text.count(header+' '+voltage_label+' '+voltage+'.')==1 and bit_label not in text:
+                new = text.replace(header+' '+voltage_label+' '+voltage+'.',suffix,1)
             else:
                 raise ValueError('Unexpected existing technical suffix; preserve for review')
         else:
