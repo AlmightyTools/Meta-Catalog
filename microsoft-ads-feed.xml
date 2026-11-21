@@ -329,7 +329,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Screwdrivers</g:custom_label_4>
     <g:shipping_weight>455 g</g:shipping_weight>
-    <g:inventory>866</g:inventory>
+    <g:inventory>865</g:inventory>
   </item>
   <item>
     <g:id>48877287047464</g:id>
@@ -358,7 +358,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>17160</g:inventory>
+    <g:inventory>17155</g:inventory>
   </item>
   <item>
     <g:id>48877287276840</g:id>
@@ -387,7 +387,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>8026</g:inventory>
+    <g:inventory>8025</g:inventory>
   </item>
   <item>
     <g:id>48877287080232</g:id>
@@ -416,7 +416,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>0.37 kg</g:shipping_weight>
-    <g:inventory>2931</g:inventory>
+    <g:inventory>2924</g:inventory>
   </item>
   <item>
     <g:id>48877287309608</g:id>
@@ -445,7 +445,7 @@
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>3522</g:inventory>
+    <g:inventory>3517</g:inventory>
   </item>
   <item>
     <g:id>50796295553320</g:id>
@@ -2306,7 +2306,7 @@
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Other-Tools</g:custom_label_4>
     <g:shipping_weight>0.3 kg</g:shipping_weight>
-    <g:inventory>9726</g:inventory>
+    <g:inventory>9724</g:inventory>
   </item>
   <item>
     <g:id>50459601568040</g:id>
@@ -3486,7 +3486,7 @@
     <g:custom_label_0>Steam Cleaner</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Other-Tools</g:custom_label_4>
-    <g:inventory>9447</g:inventory>
+    <g:inventory>9446</g:inventory>
   </item>
   <item>
     <g:id>51567395799336</g:id>
@@ -3645,7 +3645,7 @@
     <g:custom_label_0>Camping Light</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Other-Tools</g:custom_label_4>
-    <g:inventory>9998</g:inventory>
+    <g:inventory>9997</g:inventory>
   </item>
   <item>
     <g:id>51742047371560</g:id>
@@ -3708,7 +3708,7 @@
     <g:custom_label_0>Ratchet Wrench</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Wrenches</g:custom_label_4>
-    <g:inventory>9982</g:inventory>
+    <g:inventory>9981</g:inventory>
   </item>
   <item>
     <g:id>52197493735720</g:id>
@@ -3739,7 +3739,7 @@
     <g:custom_label_0>Cutters</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Other-Tools</g:custom_label_4>
-    <g:inventory>8355</g:inventory>
+    <g:inventory>8353</g:inventory>
   </item>
   <item>
     <g:id>52197493801256</g:id>
@@ -3770,7 +3770,7 @@
     <g:custom_label_0>Cutters</g:custom_label_0>
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Other-Tools</g:custom_label_4>
-    <g:inventory>9564</g:inventory>
+    <g:inventory>9563</g:inventory>
   </item>
   <item>
     <g:id>52365153141032</g:id>
