@@ -72,7 +72,7 @@ Path('generated.txt').write_text(Path('source.txt').read_text())
         self.assertEqual(git(self.remote, 'log', '--format=%s').splitlines().count('generated output'), 1)
 
     def test_failed_generation_preserves_last_published_artifact(self):
-        self.seed("from pathlib import Path\nPath('generated.txt').write_text('invalid')\nraise ValueError('incomplete upstream source')\n")
+        self.seed("from pathlib import Path\nPath('generated.txt').write_text('invalid')\nraise SystemExit(2)\n")
         with self.assertRaises(subprocess.CalledProcessError):
             self.run_profile()
         self.assertEqual(git(self.remote, 'rev-parse', 'main'), self.initial)
