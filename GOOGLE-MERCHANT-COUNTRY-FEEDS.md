@@ -107,7 +107,7 @@ The 39 canonical GMC files use `Shopify_{productId}_{variantId}`. Two existing a
 
 These are actively used compatibility outputs, not unused backup files. Their initial bytes exactly match the preceding AU/NZ campaign input data. Only the corresponding two existing source URLs changed; labels, countries, schedules and offer identities were preserved. Both provider imports confirmed 122 updates, zero new offers and no file issues.
 
-`scripts/build_gmc_au_nz_compat.py` copies all current canonical AU/NZ data and rewrites only the ID prefix for these two existing campaign namespaces. `.github/workflows/gmc-au-nz-compat.yml` refreshes the compatibility files when the canonical AU/NZ XML changes; it has no extra cron and does not recursively trigger itself. The first production run succeeded: https://github.com/AlmightyTools/Meta-Catalog/actions/runs/40257953542 .
+`scripts/build_gmc_au_nz_compat.py` copies all current canonical AU/NZ data and rewrites only the ID prefix for these two existing campaign namespaces. The shared `catalog-feeds.yml` workflow checks for settled regional updates every 15 minutes and publishes the derived changes together. Source changes received during the build are processed on the next check.
 
 Removing these inputs or unifying their IDs requires a separate controlled migration of campaigns using `AU_NZ_OWNED`, including the shared label and country-specific landing URLs. Do not interpret canonical offer replacement as authorization to delete the active compatibility inputs.
 

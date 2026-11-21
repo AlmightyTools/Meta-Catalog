@@ -1,11 +1,12 @@
 """Refresh public Shopify variant definitions; never use this endpoint for market prices."""
 import collections
-import concurrent.futures
 import json
+import time
 import urllib.parse
-import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
+
+from catalog_http import read_json
 
 ROOT = Path(__file__).resolve().parents[1]
 G = '{http://base.google.com/ns/1.0}'
@@ -15,8 +16,7 @@ def get_options(entry):
     pid, items = entry
     if len(items) < 2: return {}
     path = urllib.parse.urlsplit(items[0].findtext('link')).path
-    with urllib.request.urlopen('https://checkout.almighty.tools'+path+'.js', timeout=30) as response:
-        product = json.load(response)
+    product = read_json('https://checkout.almighty.tools'+path+'.js', timeout=30)
     if str(product['id']) != pid: raise ValueError('Shopify product mismatch')
     names = [o['name'] for o in product['options']]
     variants = {str(v['id']):v for v in product['variants']}
@@ -36,8 +36,11 @@ if __name__ == '__main__':
     for item in ET.parse(ROOT/'almighty-tools-gmc-us.xml').findall('./channel/item'):
         groups[item.findtext(G+'item_group_id')].append(item)
     result = {}
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
-        for part in pool.map(get_options,groups.items()): result.update(part)
+    for entry in groups.items():
+        options = get_options(entry)
+        if options:
+            result.update(options)
+            time.sleep(0.2)
     target = ROOT/'scripts/chatgpt-variant-options.json'
     temp = target.with_suffix('.json.tmp')
     temp.write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n')

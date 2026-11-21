@@ -25,9 +25,10 @@ feeds; FR/BE use canonical French country feeds. The remaining countries use the
 actual English storefront. No Japanese, Hebrew, Arabic or other unsupported
 translation is invented. Country and currency parameters are retained.
 
-The workflow refreshes after canonical/image updates and every six hours. It
-publishes only the OpenAI catalog and its public-data caches. All validation and
-source refreshes must succeed before replacement; no Shopify credentials are used.
+The shared catalog workflow checks for settled regional updates every 15 minutes.
+It rebuilds the OpenAI catalog after a source change or six hours since the last
+successful refresh. OpenAI outputs and their public-data caches are replaced only
+after all OpenAI validations pass. No Shopify credentials are used.
 This refresh schedule does not guarantee the timing of Business Hub processing.
 
 Run:
