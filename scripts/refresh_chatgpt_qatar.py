@@ -6,6 +6,7 @@ Unpublished market products are omitted; truncated responses fail before replace
 import concurrent.futures
 import json
 import urllib.request
+from feed_public_json import read_json
 import xml.etree.ElementTree as ET
 from decimal import Decimal
 from pathlib import Path
@@ -21,8 +22,7 @@ def fetch(handles):
     query = 'query OpenAIMarketPrices($country:CountryCode!,' + ','.join('$h'+str(i)+':String!' for i in range(len(handles))) + ') @inContext(country:$country){' + ' '.join('p'+str(i)+':product(handle:$h'+str(i)+'){'+fields+'}' for i in range(len(handles))) + '}'
     body = {'query':query,'variables':dict(country='QA',**{'h'+str(i):h for i,h in enumerate(handles)})}
     request = urllib.request.Request('https://checkout.almighty.tools/api/2026-07/graphql.json',data=json.dumps(body).encode(),headers={'Content-Type':'application/json'},method='POST')
-    with urllib.request.urlopen(request,timeout=45) as response:
-        result = json.load(response)
+    result = read_json(request, timeout=45)
     if result.get('errors'): raise ValueError('Public contextual pricing query failed')
     variants = {}
     for key,product in result['data'].items():
@@ -43,7 +43,7 @@ def refresh():
     handles = sorted({unquote(urlsplit(i.findtext('link')).path.split('/')[-1]) for i in items})
     batches = [handles[i:i+3] for i in range(0,len(handles),3)]
     prices = {}
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as pool:
         for values in pool.map(fetch,batches): prices.update(values)
     if len(prices) < 100: raise ValueError('Incomplete Qatar catalog')
     included = 0
