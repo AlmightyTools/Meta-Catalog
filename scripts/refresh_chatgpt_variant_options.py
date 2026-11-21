@@ -4,6 +4,7 @@ import concurrent.futures
 import json
 import urllib.parse
 import urllib.request
+from feed_public_json import read_json
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -15,8 +16,7 @@ def get_options(entry):
     pid, items = entry
     if len(items) < 2: return {}
     path = urllib.parse.urlsplit(items[0].findtext('link')).path
-    with urllib.request.urlopen('https://checkout.almighty.tools'+path+'.js', timeout=30) as response:
-        product = json.load(response)
+    product = read_json('https://checkout.almighty.tools'+path+'.js', timeout=30)
     if str(product['id']) != pid: raise ValueError('Shopify product mismatch')
     names = [o['name'] for o in product['options']]
     variants = {str(v['id']):v for v in product['variants']}
@@ -36,7 +36,7 @@ if __name__ == '__main__':
     for item in ET.parse(ROOT/'almighty-tools-gmc-us.xml').findall('./channel/item'):
         groups[item.findtext(G+'item_group_id')].append(item)
     result = {}
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
         for part in pool.map(get_options,groups.items()): result.update(part)
     target = ROOT/'scripts/chatgpt-variant-options.json'
     temp = target.with_suffix('.json.tmp')
