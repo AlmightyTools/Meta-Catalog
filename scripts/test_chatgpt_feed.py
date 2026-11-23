@@ -35,28 +35,44 @@ class CatalogTests(unittest.TestCase):
 
 
 
-    def test_unorderable_steam_is_omitted_even_when_source_includes_it(self):
+    def test_regional_steam_variant_matrix_and_actual_stock(self):
         import copy
         import xml.etree.ElementTree as ET
-        options = json.loads((ROOT/"scripts/chatgpt-variant-options.json").read_text())
-        markets = json.loads((ROOT/"scripts/chatgpt-markets.json").read_text())
-        locales = json.loads((ROOT/"scripts/chatgpt-locales.json").read_text())
-        group = "{http://base.google.com/ns/1.0}item_group_id"
-        steam = next(i for i in ET.fromstring((ROOT/"almighty-tools-gmc-us.xml").read_bytes()).findall("./channel/item") if i.findtext(group)=="10180583522600")
+        from urllib.parse import urlencode
+        options = json.loads((ROOT/'scripts/chatgpt-variant-options.json').read_text())
+        markets = json.loads((ROOT/'scripts/chatgpt-markets.json').read_text())
+        locales = json.loads((ROOT/'scripts/chatgpt-locales.json').read_text())
+        matrix = {**dict.fromkeys(['US','CA','MX','CO'],'51523663364392'),
+                  **dict.fromkeys(['AU','NZ'],'68258444476712'),
+                  **dict.fromkeys(['AT','BE','DE','ES','FI','FR','GR','NL','NO','PT','SE'],'68258444509480')}
+        g='{http://base.google.com/ns/1.0}'
+        steam=next(i for i in ET.fromstring((ROOT/'almighty-tools-gmc-us.xml').read_bytes()).findall('./channel/item') if i.findtext(g+'item_group_id')=='10180583522600')
         for country,currency in markets.items():
-            raw = localized_source(country,locales.get(country))
-            if country in {"US","CA"}:
-                result,_ = build(raw,options,country,currency)
-                self.assertTrue(any(r["group_id"]==country+"_10180583522600" for r in csv.DictReader(io.StringIO(result.decode()))))
-                continue
-            baseline = ET.fromstring(raw)
-            channel = baseline.find("channel")
-            for item in list(channel.findall("item")):
-                if item.findtext(group)=="10180583522600": channel.remove(item)
-            expected,_ = build(ET.tostring(baseline),options,country,currency)
-            channel.append(copy.deepcopy(steam))
-            actual,_ = build(ET.tostring(baseline),options,country,currency)
-            self.assertEqual(actual,expected,country)
+            for stock in ['in stock','out of stock']:
+                tree=ET.fromstring(localized_source(country,locales.get(country)))
+                channel=tree.find('channel')
+                for item in list(channel.findall('item')):
+                    if item.findtext(g+'item_group_id')=='10180583522600': channel.remove(item)
+                baseline,_=build(ET.tostring(tree),options,country,currency)
+                baseline=list(csv.DictReader(io.StringIO(baseline.decode())))
+                for vid in ['51523663364392','68258444476712','68258444509480']:
+                    item=copy.deepcopy(steam)
+                    item.find(g+'id').text='Shopify_10180583522600_'+vid
+                    locale='/'+locales[country] if country in locales else ''
+                    item.find('link').text='https://almighty.tools'+locale+'/products/the-almighty-steam-cleaner?'+urlencode({'variant':vid,'country':country,'currency':currency})
+                    item.find(g+'price').text='156.50 '+currency
+                    sale=item.find(g+'sale_price')
+                    if sale is not None: sale.text='93.90 '+currency
+                    item.find(g+'availability').text=stock
+                    channel.append(item)
+                actual,_=build(ET.tostring(tree),options,country,currency)
+                rows=list(csv.DictReader(io.StringIO(actual.decode())))
+                selected=[r for r in rows if r['group_id']==country+'_10180583522600']
+                self.assertEqual([r for r in rows if r not in selected],baseline,country)
+                self.assertEqual(len(selected),int(country in matrix),country)
+                if selected:
+                    self.assertTrue(selected[0]['item_id'].endswith('_'+matrix[country]))
+                    self.assertEqual(selected[0]['availability'],stock.replace(' ','_'))
 
     def test_allowed_steam_retains_actual_out_of_stock(self):
         import xml.etree.ElementTree as ET
