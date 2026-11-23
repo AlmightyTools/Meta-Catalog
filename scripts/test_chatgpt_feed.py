@@ -34,4 +34,40 @@ class CatalogTests(unittest.TestCase):
             build((ROOT/'almighty-tools-gmc-us.xml').read_bytes(),{})
 
 
+
+    def test_unorderable_steam_is_omitted_even_when_source_includes_it(self):
+        import copy
+        import xml.etree.ElementTree as ET
+        options = json.loads((ROOT/"scripts/chatgpt-variant-options.json").read_text())
+        markets = json.loads((ROOT/"scripts/chatgpt-markets.json").read_text())
+        locales = json.loads((ROOT/"scripts/chatgpt-locales.json").read_text())
+        group = "{http://base.google.com/ns/1.0}item_group_id"
+        steam = next(i for i in ET.fromstring((ROOT/"almighty-tools-gmc-us.xml").read_bytes()).findall("./channel/item") if i.findtext(group)=="10180583522600")
+        for country,currency in markets.items():
+            raw = localized_source(country,locales.get(country))
+            if country in {"US","CA"}:
+                result,_ = build(raw,options,country,currency)
+                self.assertTrue(any(r["group_id"]==country+"_10180583522600" for r in csv.DictReader(io.StringIO(result.decode()))))
+                continue
+            baseline = ET.fromstring(raw)
+            channel = baseline.find("channel")
+            for item in list(channel.findall("item")):
+                if item.findtext(group)=="10180583522600": channel.remove(item)
+            expected,_ = build(ET.tostring(baseline),options,country,currency)
+            channel.append(copy.deepcopy(steam))
+            actual,_ = build(ET.tostring(baseline),options,country,currency)
+            self.assertEqual(actual,expected,country)
+
+    def test_allowed_steam_retains_actual_out_of_stock(self):
+        import xml.etree.ElementTree as ET
+        options = json.loads((ROOT/"scripts/chatgpt-variant-options.json").read_text())
+        raw=ET.fromstring((ROOT/"almighty-tools-gmc-us.xml").read_bytes())
+        g="{http://base.google.com/ns/1.0}"
+        steam=next(i for i in raw.findall("./channel/item") if i.findtext(g+"item_group_id")=="10180583522600")
+        steam.find(g+"availability").text="out of stock"
+        result,_=build(ET.tostring(raw),options,"US","USD")
+        row=next(r for r in csv.DictReader(io.StringIO(result.decode())) if r["group_id"]=="US_10180583522600")
+        self.assertEqual(row["availability"],"out_of_stock")
+
+
 if __name__=='__main__': unittest.main()
