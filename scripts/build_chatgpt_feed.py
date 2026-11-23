@@ -63,6 +63,9 @@ def build(raw, options, country='US', currency='USD'):
     items = ET.fromstring(raw).findall('./channel/item')
     if len(items) < 100:
         raise ValueError('Incomplete canonical catalog; retain previous CSV')
+    # Viewing an unavailable plug version does not make it a sellable offer.
+    if country not in {'US', 'CA'}:
+        items = [i for i in items if i.findtext(G+'item_group_id') != '10180583522600']
     counts = collections.Counter(i.findtext(G+'item_group_id') for i in items)
     rows, seen, combinations, omitted_gtins = [], set(), collections.defaultdict(set), []
     for item in items:
