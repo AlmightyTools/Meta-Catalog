@@ -63,9 +63,11 @@ def build(raw, options, country='US', currency='USD'):
     items = ET.fromstring(raw).findall('./channel/item')
     if len(items) < 100:
         raise ValueError('Incomplete canonical catalog; retain previous CSV')
-    # Viewing an unavailable plug version does not make it a sellable offer.
-    if country not in {'US', 'CA'}:
-        items = [i for i in items if i.findtext(G+'item_group_id') != '10180583522600']
+    # Owner-approved regional variants; actual source stock is preserved.
+    steam_variants = {'US': '51523663364392', 'CA': '51523663364392', 'MX': '51523663364392', 'CO': '51523663364392', 'AU': '68258444476712', 'NZ': '68258444476712', 'AT': '68258444509480', 'BE': '68258444509480', 'DE': '68258444509480', 'ES': '68258444509480', 'FI': '68258444509480', 'FR': '68258444509480', 'GR': '68258444509480', 'NL': '68258444509480', 'NO': '68258444509480', 'PT': '68258444509480', 'SE': '68258444509480'}
+    items = [i for i in items if i.findtext(G+'item_group_id') != '10180583522600'
+             or (country in steam_variants and i.findtext(G+'id') ==
+                 'Shopify_10180583522600_' + steam_variants[country])]
     counts = collections.Counter(i.findtext(G+'item_group_id') for i in items)
     rows, seen, combinations, omitted_gtins = [], set(), collections.defaultdict(set), []
     for item in items:
