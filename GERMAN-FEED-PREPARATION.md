@@ -1,6 +1,6 @@
 # German product feed preparation — November 24, 2026
 
-**Prepared only. No provider source, schedule, catalog or live feed was changed.**
+**Owner-authorized release. Hosted files and continuous refresh are being published; provider registration/readback is recorded separately.**
 
 The existing Google, Meta and OpenAI generators remain active. The isolated
 preparation script consumes their current canonical product identities and
@@ -109,3 +109,21 @@ before any later authorized activation.
 - [Meta localized feeds, combined URL schema and precedence](https://developers.facebook.com/documentation/ads-commerce/catalog/localized-catalog/localized-catalog-setup)
 - [OpenAI product-feed specification](https://developers.openai.com/commerce/specs/file-upload/products)
 - [Microsoft product identity and currency](https://learn.microsoft.com/en-us/advertising/shopping-content/products-resource)
+
+## Authorized production release — November 24
+
+German production pages now return index/follow; exact DE/AT/CH Ruler links return
+EUR. The refresh task checks production German pages and exact country/variant
+quotes on every generation, retains existing approved primary variant photos,
+and preserves other-language and commercial country layers. It publishes three
+Google XML files, German Meta language and combined URL files, and updates only
+DE/AT/CH rows of the existing OpenAI catalog. Microsoft candidates remain optional
+and unregistered until the target catalogs are verified.
+
+Steam is restored for AU/NZ with AU variant 68258444476712 at USD93.90, and MX/CO
+with US variant 51523663364392 at MXN1691/COP348000. US/CA stay unchanged. EU/GB/BR
+remain excluded; German pages do not authorize EU stock. Meta Steam stays unchanged.
+The existing country workflow's fresh no-store Steam quotes are accepted only
+when HTTP200, state fresh, actual quote age at most five minutes, matching country
+and handle; stored, old, future, failed and expired quotes still fail closed.
+No synthetic cache expiry is introduced.

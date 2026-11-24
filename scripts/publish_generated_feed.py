@@ -13,6 +13,7 @@ import tempfile
 import time
 
 PROFILES = {
+    'german': (['test_prepare_german_feeds.py', 'refresh_german_feeds.py'], ['almighty-tools-gmc-*-de.xml', 'meta-language-de.csv', 'meta-language-country-de.csv', 'almighty-tools-chatgpt.csv'], 'Refresh authorized German product feeds'),
     'images': (['apply_gmc_image_overrides.py', 'apply_screwdriver_voltage_confirmation.py', 'apply_screwdriver_bit_profiles.py', 'enrich_gmc_screwdriver_descriptions.py'], ['almighty-tools-gmc-*.xml'], 'Restore verified product images and screwdriver description details'),
     'compat': (['build_gmc_au_nz_compat.py'], ['almighty-tools-gmc-au-nz-au-compat.xml', 'almighty-tools-gmc-au-nz-nz-compat.xml'], 'Refresh AU NZ campaign compatibility feeds'),
     'christmas': (['test_gmc_us_christmas.py', 'build_gmc_us_christmas.py'], ['almighty-tools-gmc-us-dup.xml'], 'Refresh US Christmas gift feed from current US catalog'),
