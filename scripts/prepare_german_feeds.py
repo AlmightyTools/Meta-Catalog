@@ -131,6 +131,14 @@ def build_country(raw, country, pages, quotes, image_mapping=None):
     return ET.tostring(tree, encoding='utf-8', xml_declaration=True), exclusions, image_review
 
 
+def meta_country_language(by_id):
+    # Meta's documented combined layer is URL-only; commercial attributes
+    # remain exclusively in the existing country source.
+    return [{'id': ident.rsplit('_',1)[-1], 'override': 'de_XX|'+country,
+             'url': item.findtext('link')}
+            for country, items in by_id.items() for ident, item in items.items()]
+
+
 def prepare(evidence, output):
     evidence, output = Path(evidence), Path(output).resolve()
     if output == ROOT or ROOT in output.parents:
@@ -162,7 +170,7 @@ def prepare(evidence, output):
                              'products': len({i.findtext(G+'item_group_id') for i in items}),
                              'exclusions': excluded, 'image_review': review}
     # Stage a separate German language overlay, keeping the existing ES/FR
-    # source untouched. Do not guess country/language link override precedence.
+    # source untouched. Exact landing URLs use a separate documented combined layer.
     originals = rows((ROOT/'language-feed.csv').read_bytes())
     language = []
     for ident, item in by_id['DE'].items():
@@ -170,6 +178,8 @@ def prepare(evidence, output):
                          'title': copy_field(item,'title'), 'description': copy_field(item,'description'),
                          'image_link':item.findtext(G+'image_link')})
     artifacts['meta-language-de-candidate.csv'] = csv_bytes(language, ['id','override','title','description','image_link'])
+    combined = meta_country_language(by_id)
+    artifacts['meta-language-country-de-candidate.csv'] = csv_bytes(combined, ['id','override','url'])
     discovery = rows((ROOT/'almighty-tools-chatgpt.csv').read_bytes())
     fields = list(discovery[0])
     staged, changed, omitted = [], 0, []
@@ -195,12 +205,12 @@ def prepare(evidence, output):
     blockers = ['German index release not verified; source pages currently noindex',
                 'German landing and checkout market/language/price readback required',
                 'Localized exact-variant images require policy and identity review',
-                'Meta country/language link and image precedence must be verified before registration',
+                'Meta combined language/country source needs registration and effective URL readback; existing country overlay is not applied for audited Austria variant',
                 'Microsoft DE/AT/CH catalog targets not independently confirmed']
     summary = {'status': 'PREPARED_NOT_ACTIVATED', 'activation_ready': False,
                'evidence_collected_at': json.loads((evidence/'collection-proof.json').read_text())['checked_at_utc'],
                'countries': manifest, 'blockers': blockers,
-               'meta': {'existing_language_rows_preserved':len(originals), 'german_rows':len(language), 'country_feed_unchanged':True, 'stock_not_overridden':True, 'language_url_override':'not emitted until country/language precedence is verified'},
+               'meta': {'existing_language_rows_preserved':len(originals), 'german_rows':len(language), 'country_feed_unchanged':True, 'stock_not_overridden':True, 'language_url_override':'separate URL-only LANGUAGE_AND_COUNTRY candidate', 'combined_url_rows':len(combined), 'combined_source_registered':False},
                'openai': {'total_rows':len(staged), 'changed_german_rows':changed, 'omitted':omitted, 'other_country_rows_unchanged':True},
                'excluded_systems': {'Axon':'Current catalog explicitly US/USD; no approved German catalog scope', 'Reviews':'Not a product-offer export; no invented translated reviews'},
                'files': {name:hashlib.sha256(raw).hexdigest() for name,raw in artifacts.items()}}

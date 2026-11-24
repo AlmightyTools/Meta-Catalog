@@ -15,6 +15,7 @@ must follow the separately managed storefront index release and the gates below.
 | Google | `almighty-tools-gmc-at-de.xml` | de / AT / EUR | New language source; preserve current English AT source and IDs |
 | Google | `almighty-tools-gmc-ch-de.xml` | de / CH / EUR | New language source; Shopify-backed market uses EUR, not invented CHF conversion |
 | Meta | `meta-language-de-candidate.csv` | de_XX / existing global catalog | Candidate secondary language source, same numeric variant IDs; preserve existing ES/FR and country sources |
+| Meta | `meta-language-country-de-candidate.csv` | de_XX combined with DE/AT/CH | URL-only candidate; preserve commercial country attributes |
 | OpenAI | `almighty-tools-chatgpt-german-candidate.csv` | Existing all-market CSV; de rows only for DE/AT/CH | Replacement candidate for the existing single hosted catalog, not a second overlapping upload |
 | Microsoft | `microsoft-ads-{de,at,ch}-de.xml` | de / DE, AT, CH / EUR | Three optional target-specific candidates, numeric variant IDs; merchant catalog targeting must be verified first |
 
@@ -64,11 +65,18 @@ their purpose, IDs and language.
 3. Review localized primary images under each channel's image policy. A source
    translation mapping or HTTP 200 is not Google/Meta image approval. Finish
    the exact localized image mapping for the remaining variants.
-4. Resolve Meta country-versus-language link/image override precedence. The
-   current country feed contains English-path links with country/currency.
-   The staged German overlay intentionally does not guess a global link that
-   could lose those values. Prove the effective German landing link and correct
-   currency for DE/AT/CH before connecting this candidate.
+4. Meta documents combined language/country precedence above language and country
+   overlays. A separate `meta-language-country-de-candidate.csv` stages 363 URL-only
+   rows (`id,override,url`, e.g. `de_XX|DE`) with exact country, currency and variant.
+   Registering LANGUAGE_AND_COUNTRY requires API setup; nothing is registered here.
+   Keep price/availability exclusively in the country feed. Provider readback is
+   still required: authenticated Commerce Manager showed variant 48877287047464
+   with Austria selected but US/USD price and US link; its country coverage table
+   showed AR/CL/CO/MX only despite the country source reporting 3.4K successful rows
+   and zero issues. Do not treat successful upload as effective country coverage.
+   Existing language rows have no URL field (1830 European country rows use English
+   paths; 122 use Spanish). This is a verified discrepancy requiring investigation,
+   not permission to replace or re-register a live source.
 5. Verify current Microsoft Merchant Center catalogs, supported target markets
    and effective currency before enabling those optional sources. No campaign,
    budget or import setting was changed.
@@ -98,6 +106,6 @@ before any later authorized activation.
 
 - [Google supported languages and currencies](https://support.google.com/merchants/answer/160637?hl=en)
 - [Google consistent feed, landing and checkout language](https://support.google.com/merchants/answer/10248086?hl=en)
-- [Meta primary/secondary country and language feeds](https://developers.facebook.com/docs/graph-api/reference/product-feed/)
+- [Meta localized feeds, combined URL schema and precedence](https://developers.facebook.com/documentation/ads-commerce/catalog/localized-catalog/localized-catalog-setup)
 - [OpenAI product-feed specification](https://developers.openai.com/commerce/specs/file-upload/products)
 - [Microsoft product identity and currency](https://learn.microsoft.com/en-us/advertising/shopping-content/products-resource)

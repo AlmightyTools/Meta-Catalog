@@ -1,7 +1,7 @@
 """Safety and country/variant correctness of isolated German preparation."""
 import unittest
 import xml.etree.ElementTree as ET
-from prepare_german_feeds import build_country, german_link, quote_fields, G
+from prepare_german_feeds import build_country, german_link, quote_fields, meta_country_language, G
 
 
 class PreparationTests(unittest.TestCase):
@@ -32,6 +32,22 @@ class PreparationTests(unittest.TestCase):
         self.assertEqual(item.findtext(G+'image_link'),'https://almighty.tools/original-blue.jpg')
         self.assertEqual(len(review),1)
         self.assertEqual(excluded,[])
+
+    def test_combined_meta_urls_keep_country_variant_without_overriding_stock(self):
+        raw,pages,quotes=self.fixture()
+        catalogs={}
+        for country in ('DE','AT','CH'):
+            prepared,_,_=build_country(raw,country,pages,quotes)
+            item=ET.fromstring(prepared).find('./channel/item')
+            catalogs[country]={'Shopify_42_7':item}
+        combined=meta_country_language(catalogs)
+        self.assertEqual(len(combined),3)
+        for row,country in zip(combined,('DE','AT','CH')):
+            self.assertEqual(set(row),{'id','override','url'})
+            self.assertEqual(row['id'],'7')
+            self.assertEqual(row['override'],'de_XX|'+country)
+            self.assertIn('variant=7&country='+country+'&currency=EUR',row['url'])
+            self.assertIn('/de/products/test?',row['url'])
 
     def test_steam_is_never_invented_as_available(self):
         raw,pages,quotes=self.fixture('10180583522600')
