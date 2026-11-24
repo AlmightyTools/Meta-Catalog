@@ -93,6 +93,9 @@ def normalize(raw, locale='en'):
 def main():
     candidates, stats = {}, {}
     for path in sorted(ROOT.glob('almighty-tools-gmc-*.xml')):
+        # German copy is generated from verified German production pages.
+        if path.stem.endswith('-de'):
+            continue
         locale = 'es' if path.stem.endswith('-es') else 'fr' if path.stem.endswith('-fr') else 'en'
         raw = path.read_bytes()
         output,count = normalize(raw,locale)

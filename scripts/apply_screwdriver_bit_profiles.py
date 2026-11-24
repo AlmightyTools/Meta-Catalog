@@ -61,6 +61,9 @@ if __name__=='__main__':
     candidates={}
     total=0
     for path in ROOT.glob('almighty-tools-gmc-*.xml'):
+        # German copy is generated from verified German production pages.
+        if path.stem.endswith('-de'):
+            continue
         locale='es' if path.stem.endswith('-es') else 'fr' if path.stem.endswith('-fr') else 'en'
         raw=path.read_bytes();result,count=normalize(raw,locale);total+=count
         if result!=raw:candidates[path]=result
