@@ -424,7 +424,7 @@ Key features
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>16647</g:inventory>
+    <g:inventory>16644</g:inventory>
   </item>
   <item>
     <g:id>48877287276840</g:id>
@@ -459,7 +459,7 @@ Key features
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>7822</g:inventory>
+    <g:inventory>7817</g:inventory>
   </item>
   <item>
     <g:id>48877287080232</g:id>
@@ -494,7 +494,7 @@ Key features
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>0.37 kg</g:shipping_weight>
-    <g:inventory>2592</g:inventory>
+    <g:inventory>2589</g:inventory>
   </item>
   <item>
     <g:id>48877287309608</g:id>
@@ -599,7 +599,7 @@ Key features
     <g:custom_label_2>bestseller</g:custom_label_2>
     <g:custom_label_4>Cat-All-Tools,Cat-Rangefinders,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>370 g</g:shipping_weight>
-    <g:inventory>1328</g:inventory>
+    <g:inventory>1326</g:inventory>
   </item>
   <item>
     <g:id>48877316210984</g:id>
@@ -966,6 +966,38 @@ Key features
     <g:inventory>560</g:inventory>
   </item>
   <item>
+    <g:id>49937880252712</g:id>
+    <g:item_group_id>9482682532136</g:item_group_id>
+    <title>The Almighty DIYers Essentials Bundle™</title>
+    <description>Tired of Chaos and Inefficiency in Your Projects?Messy workspaces, misplaced tools, and endless frustration can turn even the simplest tasks into a headache. Without the right tools, precision suffers, time is wasted, and results fall short. That’s why we’ve crafted The Almighty Essentials Bundle™—the perfect solution for streamlined organization, accurate measurements, and effortless cleaning. The Almighty Ruler™ – This 3-in-1 measuring marvel combines a tape measure, laser rangefinder, and cross-marking laser. Say goodbye to guesswork and hello to perfect measurements every time. The Almighty Tools Organizer Bag™ – No more digging through cluttered toolboxes. This durable roll-up bag keeps your tools neatly arranged and ready for action. The Almighty Vacuum™ – Your cleaning superhero! With its 4-in-1 design, this powerful vacuum tackles crumbs, dust, and debris in seconds, making cleanup a breeze. With The Almighty Essentials Bundle™, you can work smarter, not harder—every tool you need, exactly when you need it.</description>
+    <link>https://almighty.tools/products/the-almighty-diyers-essentials-bundle?variant=49937880252712&amp;country=US&amp;currency=USD</link>
+    <g:condition>new</g:condition>
+    <g:availability>in stock</g:availability>
+    <g:price>299.84 USD</g:price>
+    <g:sale_price>179.90 USD</g:sale_price>
+    <g:image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_DIYers_Essentials_Bundle_001.webp?v=1742200687</g:image_link>
+    <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_DIYers_Essentials_Bundle_002.webp?v=1742200697</g:additional_image_link>
+    <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_DIYers_Essentials_Bundle_003.webp?v=1742200705</g:additional_image_link>
+    <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_DIYers_Essentials_Bundle_004.webp?v=1742200720</g:additional_image_link>
+    <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_DIYers_Essentials_Bundle_005.webp?v=1742200728</g:additional_image_link>
+    <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_DIYers_Essentials_Bundle_006.webp?v=1742200734</g:additional_image_link>
+    <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_DIYers_Essentials_Bundle_007.webp?v=1742200741</g:additional_image_link>
+    <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_DIYers_Essentials_Bundle_008.webp?v=1742200748</g:additional_image_link>
+    <g:brand>The Almighty Tools®</g:brand>
+    <g:mpn>The_Almighty_DIYers_Essentials_Bundle</g:mpn>
+    <g:product_type>Tool Sets</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Tool Sets</g:google_product_category>
+    <g:age_group>adult</g:age_group>
+    <g:gender>unisex</g:gender>
+    <g:return_policy_days>30</g:return_policy_days>
+    <g:custom_label_0>Tool Sets</g:custom_label_0>
+    <g:custom_label_1>sale</g:custom_label_1>
+    <g:custom_label_3>bundle</g:custom_label_3>
+    <g:custom_label_4>Cat-All-Tools,Cat-Bundles</g:custom_label_4>
+    <g:shipping_weight>1.6 kg</g:shipping_weight>
+    <g:inventory>560</g:inventory>
+  </item>
+  <item>
     <g:id>49865190965544</g:id>
     <g:item_group_id>9576205058344</g:item_group_id>
     <title>The Almighty Screwdriver™ Precision Electric Set 68 in 1</title>
@@ -1283,6 +1315,38 @@ Key features
     <g:custom_label_4>Cat-All-Tools,Cat-Other-Tools</g:custom_label_4>
     <g:shipping_weight>800 g</g:shipping_weight>
     <g:inventory>9975</g:inventory>
+  </item>
+  <item>
+    <g:id>49937896407336</g:id>
+    <g:item_group_id>9597025550632</g:item_group_id>
+    <title>The Almighty Bundle for DIYers™</title>
+    <description>Struggling with Messy Workspaces and Inefficient Tools? DIY projects can be a hassle when you&apos;re constantly searching for the right tool, dealing with inaccurate measurements, or cleaning up after the mess. Bulky toolboxes take up space, weak vacuums leave dust behind, and inefficient tools slow you down. That’s why we created The Almighty Bundle for DIYers™—a complete set of high-performance tools designed to make every project faster, easier, and more precise. The Almighty Cordless Screwdriver™ - Lightweight, powerful, and built for effortless assembly. The Almighty Precision Electric Screwdriver 68 in 1™ - Ultimate precision tool with 68 interchangeable bits, a powerful motor, and an ergonomic grip. The Almighty Vacuum™ - 12,000PA suction power for quick cleanup of dust, dirt, and debris. The Almighty Ruler™ - Laser precision, tape measure &amp; cross-marking tool in one device. The Almighty Tools Organizer Bag™ - Compact roll-up design keeps your tools organized and easy to carry. The Almighty Socket™ - Adapts to any nut or bolt, replacing over 200 wrenches.</description>
+    <link>https://almighty.tools/products/the-almighty-bundle-for-diyers?variant=49937896407336&amp;country=US&amp;currency=USD</link>
+    <g:condition>new</g:condition>
+    <g:availability>in stock</g:availability>
+    <g:price>533.16 USD</g:price>
+    <g:sale_price>319.90 USD</g:sale_price>
+    <g:image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_Bundle_for_DIYers_001.webp?v=1742200362</g:image_link>
+    <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_Bundle_for_DIYers_002.webp?v=1742200362</g:additional_image_link>
+    <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_Bundle_for_DIYers_003.webp?v=1742200362</g:additional_image_link>
+    <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_Bundle_for_DIYers_004.webp?v=1742200362</g:additional_image_link>
+    <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_Bundle_for_DIYers_005.webp?v=1742200362</g:additional_image_link>
+    <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_Bundle_for_DIYers_006.webp?v=1742200362</g:additional_image_link>
+    <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_Bundle_for_DIYers_007.webp?v=1742200362</g:additional_image_link>
+    <g:additional_image_link>https://cdn.shopify.com/s/files/1/0846/4433/1816/files/The_Almighty_Bundle_for_DIYers_008.webp?v=1742200362</g:additional_image_link>
+    <g:brand>The Almighty Tools®</g:brand>
+    <g:mpn>The_Almighty_Bundle_for_DIYers</g:mpn>
+    <g:product_type>Tool Sets</g:product_type>
+    <g:google_product_category>Hardware &gt; Tools &gt; Tool Sets</g:google_product_category>
+    <g:age_group>adult</g:age_group>
+    <g:gender>unisex</g:gender>
+    <g:return_policy_days>30</g:return_policy_days>
+    <g:custom_label_0>Tool Sets</g:custom_label_0>
+    <g:custom_label_1>sale</g:custom_label_1>
+    <g:custom_label_3>bundle</g:custom_label_3>
+    <g:custom_label_4>Cat-All-Tools,Cat-Bundles</g:custom_label_4>
+    <g:shipping_weight>2.1 kg</g:shipping_weight>
+    <g:inventory>560</g:inventory>
   </item>
   <item>
     <g:id>49964524994856</g:id>
@@ -2014,7 +2078,7 @@ Key features
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Power-Bank</g:custom_label_4>
     <g:shipping_weight>0.25 kg</g:shipping_weight>
-    <g:inventory>1700</g:inventory>
+    <g:inventory>1699</g:inventory>
   </item>
   <item>
     <g:id>50147771253032</g:id>
@@ -2047,7 +2111,7 @@ Key features
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Power-Bank</g:custom_label_4>
     <g:shipping_weight>0.25 kg</g:shipping_weight>
-    <g:inventory>552</g:inventory>
+    <g:inventory>551</g:inventory>
   </item>
   <item>
     <g:id>50143662866728</g:id>
@@ -2121,7 +2185,7 @@ Key features
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Tape-Measures</g:custom_label_4>
     <g:shipping_weight>0.4 kg</g:shipping_weight>
-    <g:inventory>9861</g:inventory>
+    <g:inventory>9860</g:inventory>
   </item>
   <item>
     <g:id>50287180874024</g:id>
@@ -2812,7 +2876,7 @@ Key features
     <g:custom_label_1>sale</g:custom_label_1>
     <g:custom_label_4>Cat-All-Tools,Cat-Wrenches</g:custom_label_4>
     <g:shipping_weight>0.4 kg</g:shipping_weight>
-    <g:inventory>9758</g:inventory>
+    <g:inventory>9755</g:inventory>
   </item>
   <item>
     <g:id>50641515905320</g:id>
