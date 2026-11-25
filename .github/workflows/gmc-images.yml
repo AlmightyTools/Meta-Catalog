@@ -19,12 +19,13 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
-concurrency:
-  group: gmc-clean-product-images
-  cancel-in-progress: true
 jobs:
   build:
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    # Skipped upstream runs never enter this group or cancel a real repair.
+    concurrency:
+      group: gmc-clean-product-images
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
