@@ -3,33 +3,21 @@ on:
   push:
     branches: [main]
     paths:
-      - scripts/publish_generated_feed.py
-      - scripts/test_feed_publication.py
-      - scripts/feed_public_json.py
       - 'scripts/*chatgpt*'
       - '.github/workflows/chatgpt-feed.yml'
-  workflow_run:
-    workflows: [Preserve clean GMC product images]
-    types: [completed]
-    branches: [main]
   schedule:
-    - cron: '23 */6 * * *'
+    - cron: '23 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
 concurrency:
   group: chatgpt-all-market-feed
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   build:
-    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      # Coalesce a source batch; a newer run safely supersedes this waiting run.
-      - name: Wait for the source batch to settle
-        if: ${{ github.event_name != 'workflow_dispatch' }}
-        run: sleep 15
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           ref: main

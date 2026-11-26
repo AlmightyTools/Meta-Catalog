@@ -3,36 +3,26 @@ on:
   push:
     branches: [main]
     paths:
-      - scripts/publish_generated_feed.py
-      - scripts/test_feed_publication.py
-      - 'almighty-tools-gmc-*.xml'
       - scripts/apply_gmc_image_overrides.py
       - scripts/gmc-image-overrides.json
       - scripts/enrich_gmc_screwdriver_descriptions.py
       - scripts/apply_screwdriver_voltage_confirmation.py
       - scripts/apply_screwdriver_bit_profiles.py
       - .github/workflows/gmc-images.yml
-  workflow_run:
-    workflows: [Preserve AU NZ campaign feed identities, Refresh US Christmas gift feed]
-    types: [completed]
-    branches: [main]
+  # The market refresh pushes separate files in a batch around :45–:50 UTC.
+  schedule:
+    - cron: '55 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
 jobs:
   build:
-    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
-    # Skipped upstream runs never enter this group or cancel a real repair.
     concurrency:
       group: gmc-clean-product-images
       cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      # Coalesce a source batch; a newer run safely supersedes this waiting run.
-      - name: Wait for the source batch to settle
-        if: ${{ github.event_name != 'workflow_dispatch' }}
-        run: sleep 90
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           ref: main

@@ -15,19 +15,26 @@ class ChristmasFeedTests(unittest.TestCase):
         target = ET.fromstring(output).findall('./channel/item')
         self.assertEqual(len(source), len(target))
         self.assertTrue(set(i.findtext(G+'id') for i in source).isdisjoint(i.findtext(G+'id') for i in target))
-        mutable = {'id', 'item_group_id', 'structured_title', 'structured_description', 'custom_label_3', 'custom_label_4'}
+        mutable = {'id', 'item_group_id', 'title', 'description', 'structured_title', 'structured_description', 'custom_label_3', 'custom_label_4'}
         for old, new in zip(source, target):
             self.assertEqual(new.findtext(G+'id'), old.findtext(G+'id').replace('Shopify_', 'dup_US_', 1))
             self.assertEqual(new.findtext(G+'item_group_id'), 'dup_US_'+old.findtext(G+'item_group_id'))
             self.assertEqual(new.findtext(G+'custom_label_4'), 'dup')
             self.assertEqual(new.findtext(G+'custom_label_3'), 'christmas_gifts')
-            self.assertTrue(new.findtext(G+'structured_title/'+G+'content').startswith('Gift for DIYer. '))
-            self.assertTrue(new.findtext(G+'structured_description/'+G+'content').endswith('Ready to gift'))
-            for field, limit in (('structured_title',150),('structured_description',5000)):
-                value = new.findtext(G+field+'/'+G+'content')
+            for field, limit in (('title',150),('description',5000)):
+                paths = (G+'structured_'+field+'/'+G+'content', G+field, field)
+                path = next(p for p in paths if old.find(p) is not None)
+                value = new.findtext(path)
+                if field == 'title':
+                    self.assertTrue(value.startswith('Gift for DIYer. '))
+                else:
+                    self.assertTrue(value.endswith('Ready to gift'))
                 self.assertIn('Christmas gift', value.replace('Christmas Gift', 'Christmas gift'))
                 self.assertLessEqual(len(value), limit)
-                self.assertIn(old.findtext(G+field+'/'+G+'content'), value)
+                self.assertIn(old.findtext(path), value)
+                if path == paths[0]:
+                    provenance = G+'structured_'+field+'/'+G+'digital_source_type'
+                    self.assertEqual(new.findtext(provenance), old.findtext(provenance))
             def immutable(item):
                 return [ET.tostring(e) for e in item if e.tag.removeprefix(G) not in mutable]
             self.assertEqual(immutable(old), immutable(new))
