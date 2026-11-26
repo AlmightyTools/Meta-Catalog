@@ -89,10 +89,11 @@ def build(raw, options, country='US', currency='USD'):
             raise ValueError('Product URL currency does not match market')
         query['currency'] = [currency]
         url = urlunsplit(parsed._replace(query=urlencode(query,doseq=True)))
-        title = item.findtext(G+'structured_title/'+G+'content') or field('title')
-        description = item.findtext(G+'structured_description/'+G+'content') or field('description')
-        if not 0 < len(title) <= 150 or not 0 < len(description) <= 5000:
-            raise ValueError('Missing or excessive product copy')
+        title = item.findtext(G+'structured_title/'+G+'content') or field('title') or item.findtext('title') or ''
+        description = item.findtext(G+'structured_description/'+G+'content') or field('description') or item.findtext('description') or ''
+        for name, value, limit in [('title', title, 150), ('description', description, 5000)]:
+            if not value.strip() or len(value) > limit:
+                raise ValueError(f'{country} {ident}: invalid {name} length {len(value)} (limit {limit})')
         image = field('image_link')
         if urlsplit(image).scheme != 'https' or not urlsplit(image).hostname:
             raise ValueError('Invalid main image URL')

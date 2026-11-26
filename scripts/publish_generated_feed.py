@@ -1,7 +1,7 @@
 """Publish whitelisted generated files from a fresh disposable source snapshot.
 
-Never rebase a generated artifact onto newer inputs. A rejected normal push
-discards only this helper's temporary worktree and regenerates from origin/main.
+After a competing push, regenerate if a declared input or output changed.
+Reuse a validated result only when those files are identical on the new base.
 The CLI is restricted to the existing GitHub Actions checkout.
 """
 import fnmatch
@@ -21,9 +21,31 @@ PROFILES = {
     'axon': (['test_axon_feed.py', 'build_axon_feed.py'], ['almighty-tools-axon-us.csv', 'scripts/axon-image-cache.json', 'scripts/axon-source-images.json', 'images/axon/*'], 'Refresh Axon US catalog from owned US feed'),
 }
 
+# All scripts are inputs, including shared helpers, fixtures and metadata.
+# Include output paths too: another writer's new results must not be overwritten
+# by a candidate produced before that writer ran.
+INPUTS = {
+    'german': ['almighty-tools-gmc-de.xml', 'almighty-tools-gmc-at.xml', 'almighty-tools-gmc-ch.xml', 'language-feed.csv'],
+    'images': ['images/google-merchant/*'],
+    'compat': ['almighty-tools-gmc-au.xml', 'almighty-tools-gmc-nz.xml'],
+    'christmas': ['almighty-tools-gmc-us.xml'],
+    'chatgpt': ['almighty-tools-gmc-*.xml'],
+    'axon': ['almighty-tools-gmc-us.xml'],
+}
+
 
 def git(repo, *args, check=True):
     return subprocess.run(['git', '-C', str(repo), *args], capture_output=True, text=True, check=check, timeout=90)
+
+
+def protected_files_changed(repo, profile, outputs, old, new):
+    if old == new:
+        return False
+    if profile not in INPUTS or git(repo, 'merge-base', '--is-ancestor', old, new, check=False).returncode:
+        return True
+    patterns = ['scripts/*', *INPUTS[profile], *outputs]
+    paths = git(repo, 'diff', '--no-renames', '--name-only', '-z', old, new).stdout.split('\0')
+    return any(fnmatch.fnmatchcase(path, pattern) for path in paths for pattern in patterns)
 
 
 def publish(repo, profile, *, temporary_root=None, attempts=5, sleep=time.sleep):
@@ -31,6 +53,7 @@ def publish(repo, profile, *, temporary_root=None, attempts=5, sleep=time.sleep)
     repo = Path(repo).resolve()
     if git(repo, 'status', '--porcelain', '--untracked-files=no').stdout.strip():
         raise RuntimeError('Tracked checkout edits exist; refuse publication')
+    candidate = None
     for attempt in range(attempts):
         git(repo, 'fetch', 'origin', 'main')
         base = git(repo, 'rev-parse', 'FETCH_HEAD').stdout.strip()
@@ -38,19 +61,25 @@ def publish(repo, profile, *, temporary_root=None, attempts=5, sleep=time.sleep)
             snapshot = Path(temp) / 'snapshot'
             git(repo, 'worktree', 'add', '--detach', str(snapshot), base)
             try:
-                env = dict(os.environ, PYTHONDONTWRITEBYTECODE='1')
-                for script in commands:
-                    subprocess.run([sys.executable, 'scripts/' + script], cwd=snapshot, env=env, check=True, timeout=300)
-                tracked = git(snapshot, 'diff', '--name-only', 'HEAD').stdout.splitlines()
-                untracked = git(snapshot, 'ls-files', '--others', '--exclude-standard').stdout.splitlines()
-                changed = tracked + [p for p in untracked if '__pycache__' not in Path(p).parts]
-                if any(not any(fnmatch.fnmatchcase(p, rule) for rule in outputs) for p in changed):
-                    raise RuntimeError('Generator changed a file outside its publication manifest')
-                if not changed:
-                    print('Generated outputs already current; no publication required', flush=True)
-                    return {'status': 'unchanged', 'attempts': attempt + 1, 'source': base}
-                git(snapshot, 'add', '--', *outputs)
-                git(snapshot, '-c', 'user.name=github-actions[bot]', '-c', 'user.email=41898282+github-actions[bot]@users.noreply.github.com', 'commit', '-m', message)
+                author = ['-c', 'user.name=github-actions[bot]', '-c', 'user.email=41898282+github-actions[bot]@users.noreply.github.com']
+                if candidate and not protected_files_changed(repo, profile, outputs, candidate[0], base):
+                    git(snapshot, *author, 'cherry-pick', candidate[1])
+                    print('Reused validated output; inputs and publication paths are unchanged', flush=True)
+                else:
+                    env = dict(os.environ, PYTHONDONTWRITEBYTECODE='1')
+                    for script in commands:
+                        subprocess.run([sys.executable, 'scripts/' + script], cwd=snapshot, env=env, check=True, timeout=300)
+                    tracked = git(snapshot, 'diff', '--name-only', 'HEAD').stdout.splitlines()
+                    untracked = git(snapshot, 'ls-files', '--others', '--exclude-standard').stdout.splitlines()
+                    changed = tracked + [p for p in untracked if '__pycache__' not in Path(p).parts]
+                    if any(not any(fnmatch.fnmatchcase(p, rule) for rule in outputs) for p in changed):
+                        raise RuntimeError('Generator changed a file outside its publication manifest')
+                    if not changed:
+                        print('Generated outputs already current; no publication required', flush=True)
+                        return {'status': 'unchanged', 'attempts': attempt + 1, 'source': base}
+                    git(snapshot, 'add', '--', *changed)
+                    git(snapshot, *author, 'commit', '-m', message)
+                    candidate = (base, git(snapshot, 'rev-parse', 'HEAD').stdout.strip())
                 pushed = git(snapshot, 'push', 'origin', 'HEAD:main', check=False)
                 if pushed.returncode == 0:
                     commit = git(snapshot, 'rev-parse', 'HEAD').stdout.strip()
@@ -61,7 +90,7 @@ def publish(repo, profile, *, temporary_root=None, attempts=5, sleep=time.sleep)
                 error = pushed.stdout + pushed.stderr
                 if not any(term in error for term in ['fetch first', 'non-fast-forward', 'cannot lock ref', 'stale info']):
                     raise RuntimeError('Git publication failed for a non-concurrency reason')
-                print('Source advanced during generation; discard temporary result and regenerate', flush=True)
+                print('Branch advanced; will recheck the candidate against the latest inputs and output paths', flush=True)
             finally:
                 git(repo, 'worktree', 'remove', '--force', str(snapshot))
         if attempt + 1 < attempts:

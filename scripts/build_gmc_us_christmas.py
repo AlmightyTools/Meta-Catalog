@@ -14,7 +14,8 @@ OUTPUT = ROOT / 'almighty-tools-gmc-us-dup.xml'
 
 def gift_description(item):
     category = (item.findtext(G + 'product_type') or '').lower()
-    if 'gift card' in category or 'gift card' in (item.findtext(G + 'structured_title/' + G + 'content') or '').lower():
+    title = item.findtext(G + 'structured_title/' + G + 'content') or item.findtext(G + 'title') or item.findtext('title') or ''
+    if 'gift card' in category or 'gift card' in title.lower():
         return 'A Christmas gift option that lets the recipient choose their own items.'
     if any(word in category for word in ('camping', 'outdoor', 'carabiner')):
         return 'A Christmas gift idea for someone who enjoys outdoor activities.'
@@ -48,26 +49,36 @@ def build(raw):
             raise ValueError('Unexpected US landing page')
         if not (item.findtext(G + 'price') or '').endswith(' USD'):
             raise ValueError('Unexpected currency')
-        if any(item.find(G + name) is not None for name in ('title', 'description', 'custom_label_3', 'custom_label_4')):
-            raise ValueError('Ambiguous copy or occupied campaign labels')
+        if any(item.find(G + name) is not None for name in ('custom_label_3', 'custom_label_4')):
+            raise ValueError(f'{identity}: occupied campaign labels')
         result = original.replace('<g:id>' + identity + '</g:id>', '<g:id>dup_US_' + product + '_' + variant + '</g:id>', 1)
         result = result.replace('<g:item_group_id>' + product + '</g:item_group_id>', '<g:item_group_id>dup_US_' + product + '</g:item_group_id>', 1)
         if len('dup_US_' + product + '_' + variant) > 50:
             raise ValueError('Duplicate ID exceeds 50 characters')
-        for field, limit in (('structured_title', 150), ('structured_description', 5000)):
-            element = item.find(G + field)
-            if element is None or element.findtext(G + 'digital_source_type') != 'trained_algorithmic_media':
-                raise ValueError('Expected marked structured source copy')
-            content = element.findtext(G + 'content') or ''
+        for field, limit in (('title', 150), ('description', 5000)):
+            source_tags = (G + 'structured_' + field, G + field, field)
+            elements = [node for node in item if node.tag in source_tags]
+            if len(elements) != 1:
+                raise ValueError(f'{identity}: missing or ambiguous {field}')
+            element = elements[0]
+            if element.tag == source_tags[0]:
+                if element.findtext(G + 'digital_source_type') != 'trained_algorithmic_media':
+                    raise ValueError(f'{identity}: expected marked structured {field}')
+                content = element.findtext(G + 'content') or ''
+                structured = 'g:structured_' + field
+                pattern = rf'(<{structured}>.*?<g:content>).*?(</g:content>.*?</{structured}>)'
+            else:
+                content = element.text or ''
+                tag = ('g:' if element.tag == source_tags[1] else '') + field
+                pattern = rf'(<{tag}>).*?(</{tag}>)'
             if not content.strip():
-                raise ValueError('Empty source copy')
-            new = 'Gift for DIYer. Christmas Gift - ' + content if field == 'structured_title' else gift_description(item) + ' ' + content + ' Ready to gift'
+                raise ValueError(f'{identity}: empty {field}')
+            new = 'Gift for DIYer. Christmas Gift - ' + content if field == 'title' else gift_description(item) + ' ' + content + ' Ready to gift'
             if len(new) > limit:
-                raise ValueError('Christmas copy exceeds Google field limit; preserve variant details')
-            pattern = r'(<g:' + field + r'>.*?<g:content>).*?(</g:content>.*?</g:' + field + r'>)'
+                raise ValueError(f'{identity}: Christmas {field} exceeds {limit} characters')
             result, count = re.subn(pattern, lambda m: m[1] + escape(new) + m[2], result, flags=re.S)
             if count != 1:
-                raise ValueError('Ambiguous structured field')
+                raise ValueError(f'{identity}: unexpected {field} serialization')
         return result.replace('</item>', '<g:custom_label_3>christmas_gifts</g:custom_label_3><g:custom_label_4>dup</g:custom_label_4></item>')
     output, count = re.subn(r'<item>.*?</item>', convert, text, flags=re.S)
     if count != len(items):

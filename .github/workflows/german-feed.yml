@@ -3,17 +3,12 @@ on:
   push:
     branches: [main]
     paths:
-      - almighty-tools-gmc-de.xml
-      - almighty-tools-gmc-at.xml
-      - almighty-tools-gmc-ch.xml
       - scripts/prepare_german_feeds.py
       - scripts/refresh_german_feeds.py
       - scripts/test_prepare_german_feeds.py
       - .github/workflows/german-feed.yml
-  workflow_run:
-    workflows: [Refresh ChatGPT all-market catalog]
-    types: [completed]
-    branches: [main]
+  schedule:
+    - cron: '12 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -22,7 +17,6 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
-    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:

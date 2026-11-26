@@ -47,7 +47,8 @@ class PublicationTests(unittest.TestCase):
         git(self.other, 'config', 'user.email', 'competitor@example.invalid')
 
     def run_profile(self):
-        with patch.dict(publisher.PROFILES, {'fixture': (['generate.py'], ['generated.txt'], 'generated output')}):
+        with patch.dict(publisher.PROFILES, {'fixture': (['generate.py'], ['generated.txt'], 'generated output')}), \
+             patch.dict(publisher.INPUTS, {'fixture': ['source.txt']}):
             return publisher.publish(self.repo, 'fixture', temporary_root=self.root, sleep=lambda _: None)
 
     def test_rejected_push_regenerates_against_competing_source(self):
@@ -70,6 +71,24 @@ Path('generated.txt').write_text(Path('source.txt').read_text())
         self.assertEqual(git(self.repo, 'rev-parse', 'HEAD'), self.initial)
         self.assertFalse(git(self.repo, 'status', '--porcelain'))
         self.assertEqual(git(self.remote, 'log', '--format=%s').splitlines().count('generated output'), 1)
+
+    def test_unrelated_commit_does_not_repeat_generation(self):
+        self.seed("""from pathlib import Path
+import subprocess
+other=Path(%r)
+marker=Path(%r)
+assert not marker.exists(), 'generator ran again'
+(other/'unrelated.txt').write_text('keep me')
+subprocess.run(['git','-C',str(other),'add','unrelated.txt'],check=True)
+subprocess.run(['git','-C',str(other),'commit','-m','unrelated update'],check=True,capture_output=True)
+subprocess.run(['git','-C',str(other),'push','origin','main'],check=True,capture_output=True)
+marker.touch()
+Path('generated.txt').write_text(Path('source.txt').read_text())
+""" % (str(self.other), str(self.marker)))
+        result = self.run_profile()
+        self.assertEqual(result['attempts'], 2)
+        self.assertEqual(git(self.remote, 'show', 'main:generated.txt'), 'first')
+        self.assertEqual(git(self.remote, 'show', 'main:unrelated.txt'), 'keep me')
 
     def test_failed_generation_preserves_last_published_artifact(self):
         self.seed("from pathlib import Path\nPath('generated.txt').write_text('invalid')\nraise SystemExit(2)\n")
